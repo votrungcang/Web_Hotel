@@ -1,0 +1,54 @@
+.amenities 
+    .container
+        .section-title.wow.zoomIn
+            h1.name-title Hotel Amenities
+        .swiper.amenities-Swiper 
+            .swiper-wrapper
+                .swiper-slide.wow.fadeInDown 
+                    .inner_1
+                        img.box-icon(src="./images/home/services/icon.png", alt="")
+                        h3.box-title Pick Up & Drop 
+                        .box-text We’ll pick up from airport while you comfy on your ride.
+                .swiper-slide.wow.fadeInDown
+                    .inner_2
+                        img.box-icon(src="./images/home/services/icon.png", alt="")
+                        h3.box-title Pick Up & Drop 
+                        .box-text We’ll pick up from airport while you comfy on your ride.
+                .swiper-slide.wow.fadeInDown
+                    .inner_1
+                        img.box-icon(src="./images/home/services/icon.png", alt="")
+                        h3.box-title Pick Up & Drop 
+                        .box-text We’ll pick up from airport while you comfy on your ride.
+                .swiper-slide.wow.fadeInDown
+                    .inner_2
+                        img.box-icon(src="./images/home/services/icon.png", alt="")
+                        h3.box-title Pick Up & Drop 
+                        .box-text We’ll pick up from airport while you comfy on your ride.  
+                        
+            .swiper-pagination
+
+    script(src="./js/swiper.js")
+    script.
+        var swiper = new Swiper(".amenities-Swiper", {
+            slidesPerView: 1,
+            loop: true,
+            grabCursor: true,
+            pagination: {
+            el: ".swiper-pagination",
+            dynamicBullets: true,
+            clickable: true,
+            },
+            breakpoints: {
+                640: {
+                slidesPerView: 1,
+                
+                },
+                768: {
+                slidesPerView: 2,
+                
+                },
+                1024: {
+                slidesPerView: 4,
+                },
+            },
+        });

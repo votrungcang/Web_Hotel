@@ -1,0 +1,85 @@
+.amenities{
+    padding: 0 0 100px;
+    background-color: #edebe5;
+    overflow: hidden;
+    .container{
+        margin: auto;
+        max-width: 1300px;
+        padding: 0 15px ;
+        .section-title{
+            text-align: center;
+            color: black;
+            margin-bottom: 45px;
+            .name-title{
+                font-size: 30px;
+                letter-spacing: -1.25px;
+                color: currentColor;
+                font-family: DM Sans;
+                font-weight: 700;
+                line-height: 60px;
+                text-transform: capitalize;
+            }
+
+        }
+        .swiper{
+            .swiper-wrapper{
+                .swiper-slide{
+                    .inner_1{
+                        padding: 55px 20px 60px ;
+                        text-align: center;
+                        margin: 0 15px;
+                        .box-icon{
+                            width: 40px;
+                            height: 45px;
+                        }
+                        .box-title{
+                            margin-bottom: 0.5rem;
+                            font-family: DM Sans;
+                            font-size: 18px;
+                            font-weight: 700;
+                            line-height: 21.6px;
+                            color: black;
+                        }
+                        transform: translateY(0);
+                        transition: transform 0.3s ease;
+                        transition: all 0.3s linear 0ms;
+                        &:hover{
+                            background-color: white;
+                            transform: translateY(-10px);
+                            transition: all 0.3s linear 0ms;
+                        }
+                    }
+                    .inner_2{
+                        margin: 0 15px;
+                        padding: 55px 20px 60px ;
+                        text-align: center;
+                            
+                        background-color: white;
+                        .box-icon{
+                            width: 40px;
+                            height: 45px;
+                        }
+                        .box-title{
+                            margin-bottom: 0.5rem;
+                            font-family: DM Sans;
+                            font-size: 18px;
+                            font-weight: 700;
+                            line-height: 21.6px;
+                            color: black;
+                        }
+                        &:hover{
+                            background-color: white;
+                            transform: translateY(-10px);
+                        }
+                        transform: translateY(0);
+                        transition: transform 0.3s ease;
+                        &:hover{
+                            background-color: white;
+                            transform: translateY(-10px);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

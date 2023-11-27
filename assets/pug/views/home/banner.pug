@@ -1,0 +1,39 @@
+.banner
+  .swiper.mySwiper 
+    .swiper-wrapper
+      .swiper-slide
+        img.img-slide(src="./images/home/banner/background.jpg", alt="banner")
+        .menu
+          img.img-text(src="./images/home/banner/slide.png", alt="slide")
+          a.btn(href="#") view our room
+      .swiper-slide
+        img.img-slide(src="./images/home/banner/background_2.jpg", alt="banner")
+        .menu
+          img.img-text(src="./images/home/banner/slide_2.png", alt="slide")
+          a.btn(href="#") view our room
+      .swiper-slide
+        img.img-slide(src="./images/home/banner/background_1.jpg", alt="banner")
+        .menu
+          img.img-text(src="./images/home/banner/slide_1.png", alt="slide")
+          a.btn(href="#") view our room
+    .swiper-pagination
+    
+  script(src="./js/swiper.js")  
+  script.
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        loop: true,
+        grabCursor: true,
+        effect: "fade",
+        autoplay: {
+          delay: 4000,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          dynamicBullets: true,
+          clickable: true,
+        },
+      });
+    
+    

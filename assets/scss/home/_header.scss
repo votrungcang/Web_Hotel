@@ -1,0 +1,86 @@
+.header{
+    padding: 15px;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.1));
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    .container{
+        display: flex;
+        justify-content: space-between ;
+        align-items: center;
+        font-weight: 700;
+        max-width: 1300px;
+        margin: auto;
+        padding: 0 15px;
+        .image{
+            max-width: 100%;
+            height: 67px;
+        }
+        .menu{
+            margin: 0;
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 35px; 
+            .menu-item{
+                padding: 10px 0;
+                text-decoration: none;
+                text-transform: uppercase;
+                color: white;
+                font-size: 12px;
+                letter-spacing: 2.4px;
+                
+                &::after{
+                    content: "";
+                    display: block;
+                    width: 0;
+                    height: 2px;
+                    background-color: white;
+                    transition: width 1s ease;
+                }
+                &:hover::after{
+                    width: 100%;
+                    
+                }
+            }
+        }
+        .link-btn{
+            cursor: pointer;
+            .btn{
+                padding: 0.813rem 3.2rem;
+                display: inline-block;
+                text-decoration: none;
+                text-transform: uppercase;
+                color: white;
+                font-family: DM Sans;
+                font-size: 12px;  
+                border-radius: 30px;
+                background-color: #e4a853;
+                line-height: 22.5px;
+                transition: all 0.3s linear 0ms;
+                &:hover{
+                    background-color: #dd9127;
+                    color: white;
+                    transition: all 0.3s linear 0ms;
+                }
+            }
+        }
+        .dropdown{
+            display: none
+        }
+    }
+}
+@import '../mobile/home/headerMobile';
+ 
+
+
+
+
+

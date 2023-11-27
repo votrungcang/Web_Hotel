@@ -1,0 +1,27 @@
+@media(max-width: 991px){
+    .activity{
+        .container{
+            
+            .section-title{
+                .title-name{
+                    font-size: 33px;
+                    letter-spacing: -1px;
+                }
+            }
+            .content{
+                .row{
+                    .col-md-6{
+                        .inner-content{
+                            padding: 50px;
+                            .btn{
+                                .link{
+                                    padding: 10px 16px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

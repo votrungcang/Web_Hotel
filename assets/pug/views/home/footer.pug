@@ -1,0 +1,38 @@
+.footer 
+    .container 
+        .footer-top 
+            h2.title-name Sign Up For Exclusive
+                            br
+                            | Offers From Us
+            .row.align-item-center
+                .col-md-4 
+                    input.name(type="text" placeholder=" your name")
+                .col-md-4
+                    input.email(type="text" placeholder="email")
+                .col-md-4
+                    a.link(href="#") subscribe now
+        .row
+            .list-img
+                img.logo(src="./images/logo.png", alt="logo")
+            .list
+                .item 
+                    .footer-title address 
+                    .footer-content 4th Floor, 147 Mai Dien, Cau Giay, Hanoi
+            .list
+                .item 
+                    .footer-title phone 
+                    .footer-content (024) 2242 0777
+            .list
+                .item 
+                    .footer-title RESERVATIONS 
+                    .footer-content info@webhotel.com.vn
+            .list
+                .social 
+                    .footer-title follow us 
+                    .icon   
+                        +render_icon('Fb')
+                        +render_icon('instagram')
+                        +render_icon('twitter')
+                        +render_icon('youtube')
+
+            

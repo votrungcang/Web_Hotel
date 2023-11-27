@@ -1,0 +1,44 @@
+.header
+    .container 
+        img.image(src="./images/logo.png", alt="logo")
+        ul#nav.menu
+            li.menu-list 
+                a.menu-item(href="/index.html" title="home" ) home
+            li.menu-list 
+                a.menu-item(href="/about.html" title="about") about
+            li.menu-list 
+                a.menu-item(href="#") rooms
+            li.menu-list 
+                a.menu-item(href="#") service
+            li.menu-list 
+                a.menu-item(href="#") blogs
+            li.menu-list 
+                a.menu-item(href="#") gallery
+            li.menu-list 
+                a.menu-item(href="#") page
+            li.menu-list 
+                a.menu-item(href="#") contact 
+        .link-btn 
+            a.btn(href="#") book your stay 
+            
+        
+        .dropdown
+            button.btn.btn-secondary(type="button", data-bs-toggle="dropdown", aria-expanded="false") 
+                +render_icon('bar-c')
+            ul.dropdown-menu
+                li
+                    a.dropdown-item(href="/index.html" title="home" ) home
+                li
+                    a.dropdown-item(href="/index.html" title="home" ) about
+                li
+                    a.dropdown-item(href="/index.html" title="home" ) rooms
+                li
+                    a.dropdown-item(href="/index.html" title="home" ) service
+                li
+                    a.dropdown-item(href="/index.html" title="home" ) blogs
+                li
+                    a.dropdown-item(href="/index.html" title="home" ) gallery
+                li
+                    a.dropdown-item(href="/index.html" title="home" ) page
+                li
+                    a.dropdown-item(href="/index.html" title="home" ) contact

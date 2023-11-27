@@ -1,0 +1,1052 @@
+{
+    "general": {
+        "title_website": "Vietnam International Yacht Show",
+        "description_website": "Cho thuê du thuyền, Tổ chức Yacht Show Quốc Tế, Tổ chức tiệc cưới,sinh nhật, tiệc trên du thuyền, Cho thuê địa điểm chụp hình cưới tại khuôn viên Bến Du Thuyền và trên du thuyền",
+        "keywords_website": "Cho thuê du thuyền, Tổ chức Yacht Show Quốc Tế, Tổ chức tiệc cưới,sinh nhật, tiệc trên du thuyền, Cho thuê địa điểm chụp hình cưới tại khuôn viên Bến Du Thuyền và trên du thuyền",
+        "share": "https://demo.sweetsoft.vn/vietnam-international-yacht-show/share.jpg",
+        "url_favicon": "images/brand/favicon.png",
+        "url_website": "https://demo.sweetsoft.vn/vietnam-international-yacht-show/",
+        "created_website": "2022-06-06",
+        "position_website": "12.288247, 109.205426",
+        "placename_website": "Nha Trang, Khanh Hoa, Viet Nam",
+        "country_website": "VN",
+        "region_website": "VN-65",
+        "hreflang_website": "vi, en"
+    },
+    "contact_info": [
+        {
+            "icon": {
+                "view": "0 0 384 512",
+                "data": "M304 0h-224c-35.35 0-64 28.65-64 64v384c0 35.35 28.65 64 64 64h224c35.35 0 64-28.65 64-64V64C368 28.65 339.3 0 304 0zM192 480c-17.75 0-32-14.25-32-32s14.25-32 32-32s32 14.25 32 32S209.8 480 192 480zM304 64v320h-224V64H304z"
+            },
+            "link": "tel:0388178468",
+            "target": false,
+            "title": "038 817 8468",
+            "text": "Hotline"
+        },
+        {
+            "icon": {
+                "view": "0 0 512 512",
+                "data": "M464 64C490.5 64 512 85.49 512 112C512 127.1 504.9 141.3 492.8 150.4L275.2 313.6C263.8 322.1 248.2 322.1 236.8 313.6L19.2 150.4C7.113 141.3 0 127.1 0 112C0 85.49 21.49 64 48 64H464zM217.6 339.2C240.4 356.3 271.6 356.3 294.4 339.2L512 176V384C512 419.3 483.3 448 448 448H64C28.65 448 0 419.3 0 384V176L217.6 339.2z"
+            },
+            "link": "mailto:info@viys.vn",
+            "target": false,
+            "title": "info@viys.vn",
+            "text": "Email"
+        },
+        {
+            "icon": {
+                "view": "0 0 512 512",
+                "data": "M480 0C497.7 0 512 14.33 512 32C512 49.67 497.7 64 480 64V448C497.7 448 512 462.3 512 480C512 497.7 497.7 512 480 512H304V448H208V512H32C14.33 512 0 497.7 0 480C0 462.3 14.33 448 32 448V64C14.33 64 0 49.67 0 32C0 14.33 14.33 0 32 0H480zM112 96C103.2 96 96 103.2 96 112V144C96 152.8 103.2 160 112 160H144C152.8 160 160 152.8 160 144V112C160 103.2 152.8 96 144 96H112zM224 144C224 152.8 231.2 160 240 160H272C280.8 160 288 152.8 288 144V112C288 103.2 280.8 96 272 96H240C231.2 96 224 103.2 224 112V144zM368 96C359.2 96 352 103.2 352 112V144C352 152.8 359.2 160 368 160H400C408.8 160 416 152.8 416 144V112C416 103.2 408.8 96 400 96H368zM96 240C96 248.8 103.2 256 112 256H144C152.8 256 160 248.8 160 240V208C160 199.2 152.8 192 144 192H112C103.2 192 96 199.2 96 208V240zM240 192C231.2 192 224 199.2 224 208V240C224 248.8 231.2 256 240 256H272C280.8 256 288 248.8 288 240V208C288 199.2 280.8 192 272 192H240zM352 240C352 248.8 359.2 256 368 256H400C408.8 256 416 248.8 416 240V208C416 199.2 408.8 192 400 192H368C359.2 192 352 199.2 352 208V240zM256 288C211.2 288 173.5 318.7 162.1 360.2C159.7 373.1 170.7 384 184 384H328C341.3 384 352.3 373.1 349 360.2C338.5 318.7 300.8 288 256 288z"
+            },
+            "link": "https://www.google.com/maps/place/VIYS+-+Vietnam+International+Yacht+Show/@12.2942197,109.2157527,15z/data=!4m2!3m1!1s0x0:0x1d0e1880ffce6f62?sa=X&ved=2ahUKEwj7--Pw67D4AhVnl1YBHT4wCCsQ_BJ6BAgtEAU",
+            "target": true,
+            "title": "14 Phạm Văn Đồng, phường Vĩnh Hòa, TP Nha Trang, tỉnh Khánh Hòa",
+            "text": "Địa chỉ"
+        }
+    ],
+    "contact_fix": [
+        {
+            "icon": "images/icons/facebook-messenger.png",
+            "title": "facebook",
+            "link": "javascript:void(0);"
+        },
+        {
+            "icon": "images/icons/zalo.png",
+            "title": "zalo",
+            "link": "javascript:void(0);"
+        },
+        {
+            "icon": {
+                "view": "0 0 448 512",
+                "data": "M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"
+            },
+            "title": "whatsapp",
+            "link": "javascript:void(0);"
+        }
+    ],
+    "header": {
+        "logo": "images/brand/vietnam-international-yacht-show-logo-header.png",
+        "language": [
+            {
+                "url_img": "images/language/vi.jpg",
+                "title": "Việt Nam"
+            },
+            {
+                "url_img": "images/language/en.jpg",
+                "title": "English"
+            }
+        ],
+        "menu": [
+            {
+                "title": "Trang chủ",
+                "link": "index.html"
+            },
+            {
+                "title": "Giới thiệu",
+                "link": "gioi-thieu.html",
+                "children": [                    
+                    {
+                        "title": "Thông tin du thuyền",
+                        "link": "ds-du-thuyen.html"
+                    },
+                    {
+                        "title": "Dịch vụ du thuyền",
+                        "link": "ds-dich-vu.html"
+                    },
+                    {
+                        "title": "Lịch Sử Công Ty",
+                        "link": "javascript:void(0);"
+                    },
+                    {
+                        "title": "Giá Trị  Cốt Lõi & Tầm Nhìn",
+                        "link": "javascript:void(0);"
+                    },
+                    {
+                        "title": "Đội Ngũ Công Ty",
+                        "link": "javascript:void(0);"
+                    },
+                    {
+                        "title": "Ban Cố Vấn",
+                        "link": "ban-co-van.html"
+                    }
+                ]
+            },
+            {
+                "title": "Triển lãm du thuyền",
+                "link": "ds-tin-tuc.html",
+                "children": [
+                    {
+                        "title": "Địa Điểm Tổ Chức",
+                        "link": "ds-tin-tuc.html"
+                    },
+                    {
+                        "title": "Lý do triển lãm?",
+                        "link": "ds-tin-tuc.html"
+                    },
+                    {
+                        "title": "Lý do tham quan?",
+                        "link": "ds-tin-tuc.html"
+                    },
+                    {
+                        "title": "Đối tác & Tài Trợ? ",
+                        "link": "ds-tin-tuc.html"
+                    },
+                    {
+                        "title": "Tài Liệu Triển Lãm",
+                        "link": "ds-tin-tuc.html"
+                    },
+                    {
+                        "title": "Tổng Kết Triễn Lãm",
+                        "link": "ds-tin-tuc.html"
+                    },
+                    {
+                        "title": "Tin Tức & Cập Nhật",
+                        "link": "ds-tin-tuc.html"
+                    }
+                ]
+            },
+            {
+                "title": "Sự kiện",
+                "link": "ds-su-kien.html"
+            },
+            {
+                "title": "Thư viện",
+                "link": "javascript:void(0);",
+                "children": [
+                    {
+                        "title": "Hình ảnh",
+                        "link": "ds-hinh-anh.html"
+                    },
+                    {
+                        "title": "Videos",
+                        "link": "ds-video.html"
+                    }
+                ]
+            },
+            {
+                "title": "Đăng ký",
+                "link": "dang-ky.html",
+                "children": [
+                    {
+                        "title": "Triển Lãm",
+                        "link": "javascript:void(0);"
+                    },
+                    {
+                        "title": "Tham Quan",
+                        "link": "javascript:void(0);"
+                    },
+                    {
+                        "title": "Đối Tác & Tài Trợ",
+                        "link": "javascript:void(0);"
+                    }
+                ]
+            },
+            {
+                "title": "Liên hệ ",
+                "link": "lien-he.html"
+            }
+        ]
+    },
+    "footer": {
+        "logo": "images/brand/vietnam-international-yacht-show-logo-footer.jpg",
+        "social": [
+            {
+                "icon": {
+                    "view": "0 0 320 512",
+                    "data": "M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"
+                },
+                "link": "https://www.facebook.com/VietnamYachtShow",
+                "title": "Facebook"
+            },
+            {
+                "icon": {
+                    "view": "0 0 576 512",
+                    "data": "M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"
+                },
+                "link": "javascript:void(0);",
+                "title": "Youtube"
+            },
+            {
+                "icon": {
+                    "view": "0 0 448 512",
+                    "data": "M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                },
+                "link": "javascript:void(0);",
+                "title": "Instagram"
+            }
+        ],
+        "menu_1": [
+            {
+                "title": "Lịch Sử Công Ty",
+                "link": "javascript:void(0);"
+            },
+            {
+                "title": "Giá Trị  Cốt Lõi & Tầm Nhìn",
+                "link": "javascript:void(0);"
+            },
+            {
+                "title": "Đội Ngũ Công Ty",
+                "link": "javascript:void(0);"
+            },
+            {
+                "title": "Ban Cố Vấn",
+                "link": "javascript:void(0);"
+            }
+        ],
+        "menu_2": [
+            {
+                "title": "Địa Điểm Tổ Chức",
+                "link": "javascript:void(0);"
+            },
+            {
+                "title": "Lý do triển lãm?",
+                "link": "javascript:void(0);"
+            },
+            {
+                "title": "Lý do tham quan?",
+                "link": "javascript:void(0);"
+            },
+            {
+                "title": "Đối tác & Tài Trợ? ",
+                "link": "javascript:void(0);"
+            },
+            {
+                "title": "Tài Liệu Triển Lãm",
+                "link": "javascript:void(0);"
+            },
+            {
+                "title": "Tổng Kết Triễn Lãm",
+                "link": "javascript:void(0);"
+            },
+            {
+                "title": "Tin Tức & Cập Nhật",
+                "link": "javascript:void(0);"
+            }
+        ],
+        "menu_3": [
+            {
+                "title": "Hình ảnh",
+                "link": "javascript:void(0);"
+            },
+            {
+                "title": "Videos",
+                "link": "javascript:void(0);"
+            }
+        ],
+        "menu_4": [
+            {
+                "title": "Triển Lãm",
+                "link": "javascript:void(0);"
+            },
+            {
+                "title": "Tham Quan",
+                "link": "javascript:void(0);"
+            },
+            {
+                "title": "Đối Tác & Tài Trợ",
+                "link": "javascript:void(0);"
+            }
+        ],
+        "contact": [
+            {
+                "icon": {
+                    "view": "0 0 384 512",
+                    "data": "M304 0h-224c-35.35 0-64 28.65-64 64v384c0 35.35 28.65 64 64 64h224c35.35 0 64-28.65 64-64V64C368 28.65 339.3 0 304 0zM192 480c-17.75 0-32-14.25-32-32s14.25-32 32-32s32 14.25 32 32S209.8 480 192 480zM304 64v320h-224V64H304z"
+                },
+                "link": "tel:0388178468",
+                "target": false,
+                "title": "038 817 8468",
+                "text": "Hotline"
+            },
+            {
+                "icon": {
+                    "view": "0 0 512 512",
+                    "data": "M464 64C490.5 64 512 85.49 512 112C512 127.1 504.9 141.3 492.8 150.4L275.2 313.6C263.8 322.1 248.2 322.1 236.8 313.6L19.2 150.4C7.113 141.3 0 127.1 0 112C0 85.49 21.49 64 48 64H464zM217.6 339.2C240.4 356.3 271.6 356.3 294.4 339.2L512 176V384C512 419.3 483.3 448 448 448H64C28.65 448 0 419.3 0 384V176L217.6 339.2z"
+                },
+                "link": "mailto:info@viys.vn",
+                "target": false,
+                "title": "info@viys.vn",
+                "text": "Email"
+            },
+            {
+                "icon": {
+                    "view": "0 0 512 512",
+                    "data": "M480 0C497.7 0 512 14.33 512 32C512 49.67 497.7 64 480 64V448C497.7 448 512 462.3 512 480C512 497.7 497.7 512 480 512H304V448H208V512H32C14.33 512 0 497.7 0 480C0 462.3 14.33 448 32 448V64C14.33 64 0 49.67 0 32C0 14.33 14.33 0 32 0H480zM112 96C103.2 96 96 103.2 96 112V144C96 152.8 103.2 160 112 160H144C152.8 160 160 152.8 160 144V112C160 103.2 152.8 96 144 96H112zM224 144C224 152.8 231.2 160 240 160H272C280.8 160 288 152.8 288 144V112C288 103.2 280.8 96 272 96H240C231.2 96 224 103.2 224 112V144zM368 96C359.2 96 352 103.2 352 112V144C352 152.8 359.2 160 368 160H400C408.8 160 416 152.8 416 144V112C416 103.2 408.8 96 400 96H368zM96 240C96 248.8 103.2 256 112 256H144C152.8 256 160 248.8 160 240V208C160 199.2 152.8 192 144 192H112C103.2 192 96 199.2 96 208V240zM240 192C231.2 192 224 199.2 224 208V240C224 248.8 231.2 256 240 256H272C280.8 256 288 248.8 288 240V208C288 199.2 280.8 192 272 192H240zM352 240C352 248.8 359.2 256 368 256H400C408.8 256 416 248.8 416 240V208C416 199.2 408.8 192 400 192H368C359.2 192 352 199.2 352 208V240zM256 288C211.2 288 173.5 318.7 162.1 360.2C159.7 373.1 170.7 384 184 384H328C341.3 384 352.3 373.1 349 360.2C338.5 318.7 300.8 288 256 288z"
+                },
+                "link": "https://www.google.com/maps/place/VIYS+-+Vietnam+International+Yacht+Show/@12.2942197,109.2157527,15z/data=!4m2!3m1!1s0x0:0x1d0e1880ffce6f62?sa=X&ved=2ahUKEwj7--Pw67D4AhVnl1YBHT4wCCsQ_BJ6BAgtEAU",
+                "target": true,
+                "title": "Toà nhà số 2, Bến du thuyền quốc tế Ana Marina Nha Trang, Đường Nguyễn Cơ Thạch, Phường Vĩnh Hoà, TP. Nha Trang, Tỉnh Khánh Hoà",
+                "text": "Địa chỉ"
+            }
+        ]
+    },
+    "product": [
+        {
+            "images": [
+                "images/product/1.jpg",
+                "images/product/2.jpg",
+                "images/product/3.jpg",
+                "images/product/4.jpg",
+                "images/product/8.jpg"
+            ],
+            "title": "Ana Bella",
+            "sumary": "Thưởng ngoạn vẻ đẹp đầy rung động của vịnh Nha Trang trong ánh chiều tà cùng với người thương, bạn bè trên thuyền Ana Bella",
+            "link": "du-thuyen.html",
+            "price_curent": "2.300.000",
+            "price_old": "2.700.000"
+        },
+        {
+            "images": [
+                "images/product/7.jpg",
+                "images/product/6.jpg",
+                "images/product/3.jpg",
+                "images/product/8.jpg",
+                "images/product/2.jpg"
+            ],
+            "title": "Ana Sonata",
+            "sumary": "Thưởng ngoạn vẻ đẹp đầy rung động của vịnh Nha Trang trong ánh chiều tà cùng với người thương, bạn bè trên thuyền Ana Sonata",
+            "link": "du-thuyen.html",
+            "price_curent": "2.800.000",
+            "price_old": "3.000.000"
+        },
+        {
+            "images": [
+                "images/product/8.jpg",
+                "images/product/10.jpg",
+                "images/product/11.jpg",
+                "images/product/12.jpg",
+                "images/product/9.jpg"
+            ],
+            "title": "Catamaran",
+            "sumary": "Thưởng ngoạn vẻ đẹp đầy rung động của vịnh Nha Trang trong ánh chiều tà cùng với người thương, bạn bè trên thuyền Ana Julia",
+            "link": "du-thuyen.html",
+            "price_curent": "3.000.000",
+            "price_old": "3.300.000"
+        }
+    ],
+    "service": [
+        {
+            "img": "images/service/1.jpg",
+            "title": "Tiệc cưới trong mơ",
+            "link": "dich-vu.html",
+            "summary": "Cùng lắng nghe âm thanh cây lá reo vui  hòa chung tiếng sóng vỗ rì rầm  và để cho màu hồng  duyên dáng này gợi mở những ước mơ về một bữa tiệc cưới đầy dư vị ngọt ngào nhé."
+        },
+        {
+            "img": "images/service/2.jpg",
+            "title": "Lặng biển",
+            "link": "dich-vu.html",
+            "summary": "Lặn biển Nha Trang là trải nghiệm cực hấp dẫn mà bạn nhất định nên thử một lần trong đời."
+        },
+        {
+            "img": "images/service/3.jpg",
+            "title": "Câu cá",
+            "link": "dich-vu.html",
+            "summary": "Khởi hành chuyến du ngoạn, các bạn sẽ từ từ đắm chìm vào biển trời Nha Trang xinh đẹp với những phong cảnh hoang sơ. Quý khách thử tài câu cá và tự do bơi."
+        },
+        {
+            "img": "images/service/4.jpg",
+            "title": "Chụp ảnh cưới du thuyền",
+            "link": "dich-vu.html",
+            "summary": "Bộ ảnh cưới với ý tưởng mới mẻ được thực hiện tại du thuyền 𝐕𝐈𝐘𝐒 với mức giá vô cùng “bất ngờ” như 1 món quà chung vui gửi đến quý khách."
+        }
+    ],
+    "service_special": [
+        {
+            "img": "images/icons/bed.png",
+            "title": "Giường đôi và Tivi",
+            "text": "Du thuyền của chúng tôi đều được trang bị tiện nghi với giường đôi và được trang bị truyền hình vệ tinh."
+        },
+        {
+            "img": "images/icons/bath.png",
+            "title": "Phòng tắm lớn",
+            "text": "Phòng tắm rộng rãi, ấm cúng và đầy phong cách cho phép bạn thư giãn và có thời gian tuyệt vời."
+        },
+        {
+            "img": "images/icons/air.png",
+            "title": "Điều hòa nhiệt độ",
+            "text": "Hãy tận hưởng không gian thoải mái dưới mọi thời tiết nhờ hệ thống điều hòa không khí hàng đầu."
+        },
+        {
+            "img": "images/icons/catering.png",
+            "title": "Dịch vụ ăn uống",
+            "text": "Chúng tôi thường xuyên phục vụ các món ăn tươi sống và thay đổi liên tục để có trải nghiệm ẩm thực tốt hơn."
+        }
+    ],
+    "event": [
+        {
+            "url_img": "images/event/1.jpg",
+            "title": "Wedding Yacht Show",
+            "link": "su-kien.html"
+        },
+        {
+            "url_img": "images/event/2.jpg",
+            "title": "Khiêu vũ với biển",
+            "link": "su-kien.html"
+        },
+        {
+            "url_img": "images/event/3.jpg",
+            "title": "Flyboard",
+            "link": "su-kien.html"
+        },
+        {
+            "url_img": "images/event/4.jpg",
+            "title": "Săn lùng kho báu",
+            "link": "su-kien.html"
+        }
+    ],
+    "news": [
+        {
+            "img": "images/news/1.jpg",
+            "title": "Khánh Hòa ban hành quy định mô hình quản lý khu du lịch cấp tỉnh",
+            "link": "tin-tuc.html",
+            "summary": "Nội dung quản lý công tác quy hoạch và đầu tư phát triển. Quản lý hoạt động kinh doanh dịch vụ du lịch, hoạt động của hướng dẫn viên du lịch; Quản lý việc đầu tư, khai thác và bảo vệ tài nguyên du lịch, bảo đảm an toàn cho khách du lịch, bảo đảm trật tự, an toàn xã hội, bảo vệ môi trường trong khu du lịch."
+        },
+        {
+            "img": "images/news/2.jpg",
+            "title": "Sở Du lịch chuẩn bị tổ chức “Liên hoan du lịch biển Nha Trang 2022” vào tháng 6/2022",
+            "link": "tin-tuc.html",
+            "summary": "Theo đó nội dung công văn, UBND tỉnh đồng ý về chủ trương tổ chức chương trình và Sở Du lịch có trách nhiệm làm việc với các Sở, ban, ngành, các cơ quan chức năng và thành phố Nha Trang để đảm bảo việc tổ chức các chương trình không làm ảnh hưởng đến các chương trình sự kiện cùng thời điểm. Đảm bảo an ninh, an toàn phòng chống dịch Covid-19."
+        },
+        {
+            "img": "images/news/3.jpg",
+            "title": "Triển khai hướng dẫn thí điểm đón khách du lịch quốc tế trong giai đoạn 02",
+            "link": "tin-tuc.html",
+            "summary": "Triển khai thực hiện Công văn số 1443/UBND-KGVX của UBND tỉnh Khánh Hòa, ngày 23/02 Sở Du lịch tỉnh Khánh Hòa có văn bản số 326/SDL-QLDL thông tin đến các Doanh nghiệp kinh doanh du lịch tham gia thí điểm đón khách du lịch quốc tế đến Khánh Hòa giai đoạn 02 đến ngày 14/3/2022."
+        },
+        {
+            "img": "images/news/4.jpg",
+            "title": "Bến du thuyền ngay tại Nha Trang mà hội nhà giàu check in ầm ầm",
+            "link": "tin-tuc.html",
+            "summary": "Đặc biệt vào những tháng cuối năm hoặc đầu năm, du thuyền trở thành “trend” được hưởng ứng bởi người nổi tiếng, hot girl, rich kid… Trái với suy nghĩ của nhiều người, du thuyền 2022 không còn là thú chơi gì đó quá đắt đỏ mà đã có mức giá đa dạng hơn, phù hợp với nhu cầu của từng đối tượng."
+        },
+        {
+            "img": "images/news/5.jpg",
+            "title": "Ana Marina Nha Trang – Bến Du Thuyền “Chất Quốc Tế” Duy Nhất tại Việt Nam",
+            "link": "tin-tuc.html",
+            "summary": "Ana Marina là một dự án bến du thuyền đúng chuẩn quốc tế đầu tiên và duy nhất tại Việt Nam, Có công năng phục vụ tối đa lên đến 220 du thuyền (bao gồm từ thuyền buồn cho đến siêu du thuyền). Bến duy thuyền Ana Marina"
+        },
+        {
+            "img": "images/news/6.jpg",
+            "title": "Cẩm nang du lịch Bến du thuyền Nha Trang hữu ích và đầy đủ cho bạn",
+            "link": "tin-tuc.html",
+            "summary": "Bến du thuyền Nha Trang là một trong những địa điểm du lịch lãng mạn, thơ mộng và rất được ưa chuộng khi du khách tới với Nha Trang. Với những ai yêu thích chụp ảnh thì đây sẽ là địa điểm mà bạn không nên bỏ qua."
+        }
+    ],
+    "gallery": [
+        {
+            "img": "images/gallery/1.jpg"
+        },
+        {
+            "img": "images/gallery/2.jpg"
+        },
+        {
+            "img": "images/gallery/3.jpg"
+        },
+        {
+            "img": "images/gallery/4.jpg"
+        },
+        {
+            "img": "images/gallery/5.jpg"
+        },
+        {
+            "img": "images/gallery/6.jpg"
+        }
+    ],
+    "page_home": {
+        "title_page": "Trang Chủ",
+        "css": [
+            "lib",
+            "fonts",
+            "home"
+        ],
+        "js": [
+            "lib",
+            "home"
+        ],
+        "slide_main": [
+            {
+                "url_img": "images/slide-main/3.jpg"
+            },
+            {
+                "url_img": "images/slide-main/2.jpg"
+            },
+            {
+                "url_img": "images/slide-main/1.jpg"
+            }
+        ],
+        "testimonial": [
+            {
+                "img": "images/testimonial/1.jpg",
+                "title": "Amanda Luis",
+                "job": "Diễn Viên"
+            },
+            {
+                "img": "images/testimonial/2.jpg",
+                "title": "Lara Lee",
+                "job": "Người Mẫu"
+            },
+            {
+                "img": "images/testimonial/3.jpg",
+                "title": "Emma Roberts",
+                "job": "Ca Sĩ"
+            }
+        ],
+        "partner": [
+            {
+                "url_img": "images/partner/1.jpg"
+            },
+            {
+                "url_img": "images/partner/1.jpg"
+            },
+            {
+                "url_img": "images/partner/1.jpg"
+            },
+            {
+                "url_img": "images/partner/1.jpg"
+            },
+            {
+                "url_img": "images/partner/1.jpg"
+            },
+            {
+                "url_img": "images/partner/1.jpg"
+            }
+        ],
+        "why_choose": [
+            {
+                "img": "images/icons/sun.jpg",
+                "title": "Địa điểm thú vị",
+                "text": "Hòa mình vào lòng mẹ thiên nhiên, tận hưởng thế giới riêng vô cùng yên bình nhưng đầy đủ tiện nghi"
+            },
+            {
+                "img": "images/icons/boat.jpg",
+                "title": "Du thuyền hạng sang",
+                "text": "Không chỉ đơn thuần là một chuyến đi, bạn sẽ được đến những vùng đất mới với nhiều trải nghiệm thú vị"
+            },
+            {
+                "img": "images/icons/captain.jpg",
+                "title": "Tận tâm hết mình",
+                "text": "Đội ngũ nhân viên chuyên nghiệp, được đào tạo chuyên sâu và tậng tâm với công việc..."
+            }
+        ]
+    },
+    "page_event_list": {
+        "title_page": "Sự Kiện",
+        "css": [
+            "lib",
+            "fonts",
+            "event-list"
+        ],
+        "js": [
+            "lib"
+        ],
+        "breadcrumb": {
+            "url_img": "images/banner/breadcrumb-3.jpg",
+            "menu": []
+        }
+    },
+    "page_event_detail": {
+        "title_page": "Wedding Yacht Show",
+        "css": [
+            "lib",
+            "fonts",
+            "event-detail"
+        ],
+        "js": [
+            "lib"
+        ],
+        "breadcrumb": {
+            "url_img": "images/banner/breadcrumb-2.jpg",
+            "menu": [
+                {
+                    "title": "Sự Kiện",
+                    "link": "ds-su-kien.html"
+                }
+            ]
+        }
+    },
+    "page_news_list": {
+        "title_page": "Tin Tức & Cập Nhật",
+        "css": [
+            "lib",
+            "fonts",
+            "news-list"
+        ],
+        "js": [
+            "lib"
+        ],
+        "breadcrumb": {
+            "url_img": "images/banner/breadcrumb-3.jpg",
+            "menu": [
+                {
+                    "title": "Triển Lãm Du Thuyền",
+                    "link": "ds-tin-tuc.html"
+                }
+            ]
+        }
+    },
+    "page_news_detail": {
+        "title_page": "Cẩm nang du lịch Bến du thuyền Nha Trang hữu ích và đầy đủ cho bạn",
+        "css": [
+            "lib",
+            "fonts",
+            "news-detail"
+        ],
+        "js": [
+            "lib"
+        ],
+        "breadcrumb": {
+            "url_img": "images/banner/breadcrumb-2.jpg",
+            "menu": [
+                {
+                    "title": "Triển Lãm Du Thuyền",
+                    "link": "ds-tin-tuc.html"
+                },
+                {
+                    "title": "Tin Tức & Cập Nhật",
+                    "link": "ds-tin-tuc.html"
+                }
+            ]
+        }
+    },
+    "page_about": {
+        "title_page": "Giới Thiệu",
+        "css": [
+            "lib",
+            "fonts",
+            "about"
+        ],
+        "js": [
+            "lib",
+            "about"
+        ],
+        "breadcrumb": {
+            "url_img": "images/banner/breadcrumb-1.jpg",
+            "menu": []
+        }
+    },
+    "page_product_list": {
+        "title_page": "Thông tin du thuyền",
+        "css": [
+            "lib",
+            "fonts",
+            "product-list"
+        ],
+        "js": [
+            "lib",
+            "product-list"
+        ],
+        "breadcrumb": {
+            "url_img": "images/banner/breadcrumb-3.jpg",
+            "menu": [
+                {
+                    "title": "Giới thiệu",
+                    "link": "gioi-thieu.html"
+                }
+            ]
+        }
+    },
+    "page_product_detail": {
+        "title_page": "ANA BELLA",
+        "css": [
+            "lib",
+            "fonts",
+            "product-detail"
+        ],
+        "js": [
+            "lib",
+            "product-detail"
+        ],
+        "breadcrumb": {
+            "url_img": "images/banner/breadcrumb-3.jpg",
+            "menu": [
+                {
+                    "title": "Giới thiệu",
+                    "link": "gioi-thieu.html"
+                },
+                {
+                    "title": "Thông tin du thuyền",
+                    "link": "ds-du-thuyen.html"
+                }
+            ]
+        },
+        "slide": [
+            "images/product/1.jpg",
+            "images/product/2.jpg",
+            "images/product/3.jpg",
+            "images/product/4.jpg",
+            "images/product/5.jpg",
+            "images/product/6.jpg",
+            "images/product/7.jpg",
+            "images/product/8.jpg"
+        ],
+        "info": [
+            {
+                "title": "Sức chứa",
+                "text": "10",
+                "icon": {
+                    "view": "0 0 640 512",
+                    "data": "M223.8 176C223.8 202.5 202.3 224 175.8 224C149.3 224 127.8 202.5 127.8 176C127.8 149.5 149.3 128 175.8 128C202.3 128 223.8 149.5 223.8 176zM96 309.3C96 279.9 119.9 256 149.3 256H218.7C227.8 256 236.5 258.3 244 262.4C211.6 274.3 186.8 301.9 178.8 336H122.7C107.9 336 96 324.1 96 309.3H96zM395.1 262.4C403.5 258.3 412.2 256 421.3 256H490.7C520.1 256 544 279.9 544 309.3C544 324.1 532.1 336 517.3 336H461.2C453.2 301.9 428.4 274.3 395.1 262.4H395.1zM372 288.1C398 293.4 419.3 311.7 427.9 336C430.6 343.5 432 351.6 432 360C432 373.3 421.3 384 408 384H232C218.7 384 208 373.3 208 360C208 351.6 209.4 343.5 212.1 336C220.7 311.7 241.1 293.4 267.1 288.1C271.9 288.3 275.9 288 280 288H360C364.1 288 368.1 288.3 372 288.1V288.1zM512 176C512 202.5 490.5 224 464 224C437.5 224 416 202.5 416 176C416 149.5 437.5 128 464 128C490.5 128 512 149.5 512 176zM256 192C256 156.7 284.7 128 320 128C355.3 128 384 156.7 384 192C384 227.3 355.3 256 320 256C284.7 256 256 227.3 256 192zM544 0C597 0 640 42.98 640 96V416C640 469 597 512 544 512H96C42.98 512 0 469 0 416V96C0 42.98 42.98 0 96 0H544zM64 416C64 433.7 78.33 448 96 448H544C561.7 448 576 433.7 576 416V96C576 78.33 561.7 64 544 64H96C78.33 64 64 78.33 64 96V416z"
+                }
+            },
+            {
+                "title": "Khoang thuyền",
+                "text": "5",
+                "icon": {
+                    "view": "0 0 512 512",
+                    "data": "M448 32C483.3 32 512 60.65 512 96V416C512 451.3 483.3 480 448 480H64C28.65 480 0 451.3 0 416V96C0 60.65 28.65 32 64 32H448zM448 96H288V224H448V96zM448 288H288V416H448V288zM224 224V96H64V224H224zM64 416H224V288H64V416z"
+                }
+            },
+            {
+                "title": "Phi hành đoàn",
+                "text": "5",
+                "icon": {
+                    "view": "0 0 640 512",
+                    "data": "M184 88C184 118.9 158.9 144 128 144C97.07 144 72 118.9 72 88C72 57.07 97.07 32 128 32C158.9 32 184 57.07 184 88zM208.4 196.3C178.7 222.7 160 261.2 160 304C160 338.3 171.1 369.8 192 394.5V416C192 433.7 177.7 448 160 448H96C78.33 448 64 433.7 64 416V389.2C26.16 371.2 0 332.7 0 288C0 226.1 50.14 176 112 176H144C167.1 176 190.2 183.5 208.4 196.3V196.3zM64 245.7C54.04 256.9 48 271.8 48 288C48 304.2 54.04 319.1 64 330.3V245.7zM448 416V394.5C468 369.8 480 338.3 480 304C480 261.2 461.3 222.7 431.6 196.3C449.8 183.5 472 176 496 176H528C589.9 176 640 226.1 640 288C640 332.7 613.8 371.2 576 389.2V416C576 433.7 561.7 448 544 448H480C462.3 448 448 433.7 448 416zM576 330.3C585.1 319.1 592 304.2 592 288C592 271.8 585.1 256.9 576 245.7V330.3zM568 88C568 118.9 542.9 144 512 144C481.1 144 456 118.9 456 88C456 57.07 481.1 32 512 32C542.9 32 568 57.07 568 88zM256 96C256 60.65 284.7 32 320 32C355.3 32 384 60.65 384 96C384 131.3 355.3 160 320 160C284.7 160 256 131.3 256 96zM448 304C448 348.7 421.8 387.2 384 405.2V448C384 465.7 369.7 480 352 480H288C270.3 480 256 465.7 256 448V405.2C218.2 387.2 192 348.7 192 304C192 242.1 242.1 192 304 192H336C397.9 192 448 242.1 448 304zM256 346.3V261.7C246 272.9 240 287.8 240 304C240 320.2 246 335.1 256 346.3zM384 261.7V346.3C393.1 335 400 320.2 400 304C400 287.8 393.1 272.9 384 261.7z"
+                }
+            }
+        ],
+        "utilities": [
+            {
+                "title": "Tivi",
+                "icon": "images/icons/tivi.png"
+            },
+            {
+                "title": "Mini Bar",
+                "icon": "images/icons/mini-bar.png"
+            },
+            {
+                "title": "Telephone",
+                "icon": "images/icons/phone.png"
+            },
+            {
+                "title": "Air Conditioning",
+                "icon": "images/icons/air-conditioning.png"
+            },
+            {
+                "title": "Bathrobe",
+                "icon": "images/icons/bathrobe.png"
+            },
+            {
+                "title": "Bathtub",
+                "icon": "images/icons/bathtub.png"
+            },
+            {
+                "title": "Desk",
+                "icon": "images/icons/desk.png"
+            },
+            {
+                "title": "Hairdryer",
+                "icon": "images/icons/hairdryer.png"
+            },
+            {
+                "title": "Hot Water Heater.png",
+                "icon": "images/icons/hot-water-heater.png"
+            },
+            {
+                "title": "Safe",
+                "icon": "images/icons/safe.png"
+            },
+            {
+                "title": "Sandal",
+                "icon": "images/icons/sandal.png"
+            },
+            {
+                "title": "Wardrobe",
+                "icon": "images/icons/wardrobe.png"
+            },
+            {
+                "title": "Wifi",
+                "icon": "images/icons/wifi.png"
+            },
+            {
+                "title": "Tivi",
+                "icon": "images/icons/tivi.png"
+            }
+        ],
+        "product_tab": [
+            {
+                "title": "Thông tin chi tiết",
+                "name": "info-detail-product"
+            },
+            {
+                "title": "Xem Video",
+                "name": "videos-list-product"
+            }
+        ]
+    },
+    "page_service_list": {
+        "title_page": "Dịch Vụ Du Thuyền",
+        "css": [
+            "lib",
+            "fonts",
+            "service-list"
+        ],
+        "js": [
+            "lib"
+        ],
+        "breadcrumb": {
+            "url_img": "images/banner/breadcrumb-3.jpg",
+            "menu": [
+                {
+                    "title": "Giới thiệu",
+                    "link": "gioi-thieu.html"
+                }
+            ]
+        }
+    },
+    "page_service_detail": {
+        "title_page": "Ảnh Cưới Du Thuyền",
+        "css": [
+            "lib",
+            "fonts",
+            "service-detail"
+        ],
+        "js": [
+            "lib",
+            "service-detail"
+        ],
+        "breadcrumb": {
+            "url_img": "images/banner/breadcrumb-3.jpg",
+            "menu": [
+                {
+                    "title": "Giới thiệu",
+                    "link": "gioi-thieu.html"
+                },
+                {
+                    "title": "Dịch vụ du thuyền",
+                    "link": "ds-dich-vu.html"
+                }
+            ]
+        },
+        "slide": [
+            "images/service/4.jpg",
+            "images/service/5.jpg",
+            "images/service/6.jpg",
+            "images/service/7.jpg",
+            "images/service/8.jpg",
+            "images/service/9.jpg"
+        ]
+    },
+    "page_image_list": {
+        "title_page": "Hình Ảnh",
+        "css": [
+            "lib",
+            "fonts",
+            "image-list"
+        ],
+        "js": [
+            "lib"
+        ],
+        "breadcrumb": {
+            "url_img": "images/banner/breadcrumb-3.jpg",
+            "menu": [
+                {
+                    "title": "Thư viện",
+                    "link": "javascript:void(0);"
+                }
+            ]
+        }
+    },
+    "page_image_detail": {
+        "title_page": "Wedding Yacht Show",
+        "css": [
+            "lib",
+            "fonts",
+            "image-detail"
+        ],
+        "js": [
+            "lib",
+            "image-detail"
+        ],
+        "breadcrumb": {
+            "url_img": "images/banner/breadcrumb-3.jpg",
+            "menu": [
+                {
+                    "title": "Thư viện",
+                    "link": "javascript:void(0);"
+                },
+                {
+                    "title": "Hình Ảnh",
+                    "link": "ds-hinh-anh.html"
+                }
+            ]
+        },
+        "list": [
+            "images/gallery/7.jpg",
+            "images/gallery/8.jpg",
+            "images/gallery/9.jpg",
+            "images/gallery/10.jpg",
+            "images/gallery/11.jpg",
+            "images/gallery/12.jpg",
+            "images/gallery/13.jpg",
+            "images/gallery/14.jpg",
+            "images/gallery/15.jpg",
+            "images/gallery/16.jpg",
+            "images/gallery/17.jpg",
+            "images/gallery/18.jpg"
+        ]
+    },
+    "page_video_list": {
+        "title_page": "Videos",
+        "css": [
+            "lib",
+            "fonts",
+            "video-list"
+        ],
+        "js": [
+            "lib"
+        ],
+        "breadcrumb": {
+            "url_img": "images/banner/breadcrumb-3.jpg",
+            "menu": [
+                {
+                    "title": "Thư viện",
+                    "link": "javascript:void(0);"
+                }
+            ]
+        }
+    },
+    "page_video_detail": {
+        "title_page": "Wedding Yacht Show",
+        "css": [
+            "lib",
+            "fonts",
+            "video-detail"
+        ],
+        "js": [
+            "lib",
+            "video-detail"
+        ],
+        "breadcrumb": {
+            "url_img": "images/banner/breadcrumb-3.jpg",
+            "menu": [
+                {
+                    "title": "Thư viện",
+                    "link": "javascript:void(0);"
+                },
+                {
+                    "title": "Videos",
+                    "link": "ds-video.html"
+                }
+            ]
+        },
+        "list": [
+            "images/gallery/7.jpg",
+            "images/gallery/8.jpg",
+            "images/gallery/9.jpg",
+            "images/gallery/10.jpg",
+            "images/gallery/11.jpg",
+            "images/gallery/12.jpg",
+            "images/gallery/13.jpg",
+            "images/gallery/14.jpg",
+            "images/gallery/15.jpg",
+            "images/gallery/16.jpg",
+            "images/gallery/17.jpg",
+            "images/gallery/18.jpg"
+        ]
+    },
+    "page_contact": {
+        "title_page": "Liên Hệ",
+        "css": [
+            "lib",
+            "fonts",
+            "contact"
+        ],
+        "js": [
+            "lib"
+        ],
+        "breadcrumb": {
+            "url_img": "images/banner/breadcrumb-1.jpg",
+            "menu": []
+        }
+    },
+    "page_register": {
+        "title_page": "Đăng Ký",
+        "css": [
+            "lib",
+            "fonts",
+            "register"
+        ],
+        "js": [
+            "lib",
+            "register"
+        ],
+        "breadcrumb": {
+            "url_img": "images/banner/breadcrumb-1.jpg",
+            "menu": []
+        }
+    },
+    "page_team": {
+        "title_page": "Ban Cố Vấn",
+        "css": [
+            "lib",
+            "fonts",
+            "team"
+        ],
+        "js": [
+            "lib"
+        ],
+        "breadcrumb": {
+            "url_img": "images/banner/breadcrumb-1.jpg",
+            "menu": []
+        },
+        "list": [
+            {
+                "img": "images/team/2.jpg",
+                "title": "Nguyễn Văn Ân",
+                "position": "Giám Đốc"
+            },
+            {
+                "img": "images/team/3.jpg",
+                "title": "Nguyễn Văn Xuân",
+                "position": "Phó Giám Đốc"
+            },
+            {
+                "img": "images/team/2.jpg",
+                "title": "Nguyễn Văn Tiến",
+                "position": "Quản Lý Tài Chính"
+            }
+        ]
+    }
+}

@@ -1,0 +1,89 @@
+.comment{
+    padding: 100px 0;
+    background-color: #edebe5;
+    .container{
+        max-width: 1300px;
+        margin: auto;
+        padding: 0 15px;
+        
+        .section-title{
+            text-align: center;
+            margin-bottom: 45px;
+            .logo{
+                height: 20px;
+            }
+            .sub-title{
+                font-size: 12px;
+                font-weight: 700;
+                letter-spacing: 4.8px;
+                line-height: 22.5px;
+                text-transform: uppercase;
+                color: black;
+            }
+            .title-name{
+                margin-bottom: 5px;
+                font-family: DM Sans;
+                font-size: 50px;
+                font-weight: 700;
+                letter-spacing: -1.2px;
+                line-height: 60px;
+                text-transform: capitalize;
+                color: black;
+            }
+        }
+        .swiper{
+            background-color:#fff;
+            .swiper-wrapper{
+                .swiper-slide{
+                    .inner{
+                        text-align: center;
+                        padding: 50px 0 10px;
+                        .content-title{
+                            margin-bottom: 0.5rem;
+                            font-size: 24px;
+                            font-weight: 700;
+                            color: #000;
+                        }
+                        .content-text{
+                            margin: 15px 35px;
+                            overflow: hidden;
+                            font-size: 16px;
+                            display: -webkit-box;
+                            -webkit-line-clamp: 4;
+                            -webkit-box-orient: vertical; 
+                        }
+                        .meta{
+                            .item{
+                                height: 80px;
+                                display:flex ;
+                                align-items: center;
+                                justify-content: center;
+                                gap: 30px;
+                                .image{
+                                    width: 50px;
+                                    height: 50px;
+                                    border-radius: 50%;
+                                }
+                                .name{
+                                    color: #000;
+                                    font-size: 16px;
+                                    font-weight: 700;
+                                    text-transform: capitalize;
+                                }
+                            }
+                            .rating-star{
+                                color: orange;
+                                font-size: 15px;
+                                display: flex;
+                                gap: 5px;
+                                justify-content: center;
+                                margin-bottom: 5px;
+                            }
+                        }       
+                    }
+                } 
+            }
+            
+        }
+    }
+}

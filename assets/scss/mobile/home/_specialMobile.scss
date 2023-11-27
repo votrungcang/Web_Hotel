@@ -1,0 +1,27 @@
+@media(max-width: 991px ){
+    .special{
+        padding: 50px 0;
+        .container{
+            .content{
+                .text{
+                    font-size: 36px;
+                    letter-spacing: -1px;
+                }
+            
+            }
+            .row{
+                .inner{
+                    margin-bottom: 30px;
+                    .list-content{
+                        padding: 0 15px;
+                        .link-btn{
+                            margin: 0;
+                                padding: 12px 20px;
+                            }
+                        
+                    }
+                }
+            }
+        }
+    }
+}
