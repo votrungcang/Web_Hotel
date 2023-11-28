@@ -14,7 +14,11 @@
 
 @import '../home/header';
 
-@import '../about/aboutHome';
+@import './about';
+
+@import './rooms';
+
+@import './service';
 
 @import '../home/banner';
 

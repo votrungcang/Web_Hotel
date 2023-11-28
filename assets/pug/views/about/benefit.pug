@@ -1,4 +1,49 @@
 .benefit 
     .container
-        .section-title 
+        .row
+            .col-md-4
+                .section-title 
+                    img.logo(src="./images/logo_icon.png", alt="icon")
+                    .sub-title why chooes us 
+                    .name-title top reasons to stay
+            .col-md-8
+                .swiper.benefit-Swiper 
+                    .swiper-wrapper
+                        .swiper-slide
+                            .image
+                                img(src="./images/about/benefit/image_2.jpg", alt="image")
+                            .content 
+                                h3.name Continental Breakfast
+                                .text Soy or Almond milk, gluten free toast and cereal are available upon request. Please advise us of any special requirements in advance so we can prepare to accommodate these requests.
+                        .swiper-slide
+                            .image
+                                img(src="./images/about/benefit/image_3.jpg", alt="image")
+                            .content 
+                                h3.name 24 Hour Refreshments and so much more
+                                .text Please consider the Casablanca your private club or better yet, your home away from home. Rick’s Cafe is our guests 24-hour living room where you can invite a friend or meet new friends from around the world.
+                        .swiper-slide
+                            .image
+                                img(src="./images/about/benefit/image_4.jpg", alt="image")
+                            .content 
+                                h3.name For your comfort
+                                .text When a guest of the Casablanca Hotel, our goal is to ensure you are as comfortable as possible.
+                    
+                    .swiper-button-nex
+                    .swiper-button-prev
+
+    script(src="./js/swiper.js")  
+    script.
+        var swiper = new Swiper(".benefit-Swiper", {
+            slidesPerView: 1,
+            loop: true,
+            grabCursor: true,
+            autoplay: {
+            delay: 4000,
+            disableOnInteraction: false,
+            },
             
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });

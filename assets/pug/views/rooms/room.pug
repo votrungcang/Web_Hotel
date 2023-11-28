@@ -1,0 +1,67 @@
+.room 
+    .swiper.room-Swiper 
+        .swiper-wrapper
+            .swiper-slide 
+                .inner
+                    .image.wow.fadeInDown(data-wow-duration="1s" data-wow-delay="0.5s")
+                        img(src="./images/home/rooms/room_1.jpg", alt="room")
+                        .price
+                            .price-title From 
+                            .inner
+                                .price-value $120
+                                .price-unti /Night
+                    .content.wow.fadeInLeft(data-wow-duration="1s" data-wow-delay="1s")
+                        .content-title Double Room
+                        .room-types 20 M
+                            sup 2
+            .swiper-slide  
+                .inner
+                    .image.wow.fadeInDown(data-wow-duration="1s" data-wow-delay="0.5s")
+                        img(src="./images/home/rooms/room_2.jpg", alt="room")
+                        .price
+                            .price-title From 
+                            .inner
+                                .price-value $150
+                                .price-unti /Night
+                    .content.wow.fadeInUp(data-wow-duration="1s" data-wow-delay="1s")
+                        .content-title Luxury Room
+                        .room-types 30 M
+                            sup 2
+            .swiper-slide 
+                .inner
+                    .image.wow.fadeInDown(data-wow-duration="1s" data-wow-delay="0.5s")
+                        img(src="./images/home/rooms/room_3.jpg", alt="room")
+                        .price
+                            .price-title From 
+                            .inner
+                                .price-value $170 (-10%)
+                                .price-unti /Night
+                    .content.wow.fadeInRight(data-wow-duration="1s" data-wow-delay="1s")
+                        .content-title Premium Room
+                        .room-types 50 M
+                            sup 2
+        .swiper-pagination 
+
+    script(src="./js/swiper.js") 
+    script.
+        var swiper = new Swiper(".room-Swiper", {
+            slidesPerView: 1,
+            loop: true,
+            grabCursor: true,
+            pagination: {
+            el: ".swiper-pagination",
+            dynamicBullets: true,
+            clickable: true,
+            },
+            breakpoints: {
+                640: {
+                slidesPerView: 1,
+                },
+                768: {
+                slidesPerView: 2,
+                },
+                1024: {
+                slidesPerView: 3,
+                },
+            },
+        });

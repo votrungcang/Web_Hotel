@@ -1,0 +1,69 @@
+.event{
+    background-color:#edebe5;
+    padding: 100px 0;
+    .container{
+        max-width: 1300px;
+        margin: auto;
+        padding: 0 15px;
+        .row{
+            .col-md-6{
+                .image{
+                    margin-bottom: 30px;
+                    transform: translateY(0);
+                    transition: 0.5s ease;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                }
+                .sub-title{
+                    font-size: 12px;
+                    font-weight: 700;
+                    letter-spacing: 4.8px;
+                    line-height: 22.5px;
+                    text-align: center;
+                    text-transform: uppercase;
+                }
+                .name-title{
+                    margin-bottom: 10px;
+                    font-family: DM Sans;
+                    font-size: 30px;
+                    font-weight: 700;
+                    letter-spacing: -1.25px;
+                    line-height: 36px;
+                    text-align: center;
+                }
+                .text{
+                    text-align: center;
+                    font-family: "PT Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+                    font-weight: 400;
+                    color: #686868;
+                    font-size: 1rem;
+                    line-height: 1.875;
+                }
+                .infor{
+                    font-family: PT Serif;
+                    font-weight: 700;
+                    line-height: 30px;
+                    text-align: center;
+                    color: #000;
+                    span{
+                        color: #ebbc79;
+                        display: inline;
+                        font-family: PT Serif;
+                        font-weight: 700;
+                        line-height: 30px;
+                        text-align: center;
+                    }
+                }
+                &:hover{
+                    .image{
+                        transform: translateY(-10px);
+                        transition: 0.5s ease;
+                    }
+                }
+            }
+        }
+    }
+}

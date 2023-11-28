@@ -39,26 +39,42 @@
             .btn{
                 .btn_link{
                     margin-top: 20px;
-                    background-color: #e4a853;
-                    border-color: #e4a853;
-                    border-style: solid;
-                    color: white;
                     display: inline-block;
-                    font-family: DM Sans;
+                    text-decoration: none;
+                    padding: 0.813rem 3.2rem;
                     font-size: 12px;
                     font-weight: 700;
                     line-height: 22.5px;
-                    text-align: center;
-                    text-transform: uppercase;
-                    text-decoration: none;
-                    padding: 0.813rem 3.2rem;
+                    background-image: var(--btn-gradient);
+                    color: white;
+                    border: 1px solid var(--btn-gradient);
                     border-radius: 30px;
-                    transition: all 0.3s linear 0ms;
-                    &:hover{
-                        transition: all 0.3s linear 0ms;
-                        background-color: #dd9127;
-                        color: white;
+                    user-select: none;
+                    text-transform: uppercase;
+                    font-family: "DM Sans";
+                    cursor: pointer;
+                    position: relative;
+                    isolation: isolate;
+                    overflow: hidden;
+                    &:hover::before {
+                      left: auto;
+                      right: 0;
+                      width: 100%;
                     }
+                    &::before {
+                      content: "";
+                      position: absolute;
+                      left: 0;
+                      right: auto;
+                      top: 0;
+                      height: 100%;
+                      width: 0;
+                      background-color: #fff;
+                      opacity: 0.1;
+                      z-index: -1;
+                      transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+                    }
+                    
                 }
             }
         }
