@@ -1,10 +1,28 @@
-@media(max-width: 991px ){
+@media(max-width: 1025px ){
     .scenery{
-        padding: 50px 0;
+        padding: 30px 0;
         .container{
             .content{
                 padding: 0;
                 margin: 0 0 30px;
+            }
+        }
+    }
+}
+@media(max-width: 769px ){
+    .scenery{
+        .container{
+            .content{
+                .text_name{
+                    line-height: 53px;
+                    font-size: 36px;
+                    letter-spacing: -1px;
+                    max-width: 70%;
+                    margin: auto;
+                }
+                .text{
+                    margin-top: 25px;
+                }
             }
         }
     }

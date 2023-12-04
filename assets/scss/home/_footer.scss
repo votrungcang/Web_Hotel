@@ -1,5 +1,5 @@
 .footer{
-    padding: 80px 0;
+    padding: 60px 0;
     background-color: #333239;
     .container{ 
         max-width: 1300px;
@@ -107,8 +107,14 @@
                         letter-spacing: 5px;
                     }
                     .footer-content{
+                        text-decoration: none;
                         margin-right: 50px;
                         color: #bdbdbd;
+                        transition: all 0.3s linear;
+                        &:hover{
+                            color: #e4a853;
+                            transition: all 0.3s linear;
+                        }
                     }
                 }
                 .social{
@@ -120,14 +126,20 @@
                         letter-spacing: 5px;
                     }
                     .icon{
-                        
+                        .sub_icon{
+                            color: white;
+                            font-weight: 900; 
+                            font-size: 25px;
+                            &:hover{
+                                color: #e4a853;
+                                transition: all 0.3s linear;
+                            }
+                        }
                         width: 150px;
-                        color: white;
-                        font-weight: 900; 
-                        font-size: 25px;
                         display: flex;
                         justify-content: space-between;
                         align-items: center
+                        
                     }
                 }
             }

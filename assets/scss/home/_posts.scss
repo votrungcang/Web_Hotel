@@ -1,5 +1,5 @@
 .posts{
-    padding: 0 0 100px;
+    padding: 0 0 60px;
     background-color: #edebe5;
     overflow: hidden;
     .container{
@@ -186,3 +186,5 @@
         }
     }
 }
+
+@import '../mobile/home/postsMobile';

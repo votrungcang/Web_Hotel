@@ -1,5 +1,5 @@
 .rooms{
-    padding: 100px 0;
+    padding: 60px 0;
     background-color: #edebe5;
     .container{
         max-width: 1300px;
@@ -47,39 +47,38 @@
                             background-color: #ffffff;
                             .content-title{
                                 font-family: DM Sans;
-                                font-size: 24px;
+                                font-size: 23px;
                                 font-weight: 700;
                                 line-height: 28.8px;
                                 color: black;
                             }
                             .acreage{
-                                margin-left: 10px;
                                 display: flex;
                                 align-items: center;
                                 .width{
-                                   
+                                   color: gray;
                                 }
                                 .room-types{
-                                    margin-left: 10px;
+                                    margin-left: 5px;
                                     color: #888888;
                                     font-family: DM Sans;
-                                    font-size: 14px;
+                                    font-size: 15px;
                                 }
                             }
                             .price{
                                 display: flex;
                                 .price-title{
                                     font-family: DM Sans;
-                                    font-size: 20px;
+                                    font-size: 23px;
                                     font-weight: 700;
                                     line-height: 28.8px;
                                     color: black;
                                     
                                 }
                                 .price-value{
-                                    margin-left: 10px;
+                                    margin-left: 5px;
                                     color: #e4a853;
-                                    font-size: 1.3rem;
+                                    font-size: 1.2rem;
                                     span{
                                         color: #888888;
                                         font-family: DM Sans;
@@ -116,3 +115,5 @@
         }
     }
 }
+
+@import '../mobile/home/roomsMoblile';

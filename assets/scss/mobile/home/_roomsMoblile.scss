@@ -1,0 +1,26 @@
+@media (max-width: 1025px){
+    .rooms{
+        padding: 30px 0;
+        .container{
+            .swiper{
+                .swiper-pagination-bullet {
+                    background-color: #e4a853;
+                }
+            }
+        }
+    } 
+}
+@media (max-width: 769px){
+    .rooms{
+        .container{
+            .section-title{
+                margin-bottom: 25px;
+                .title-name{
+                    font-size: 36px;
+                    letter-spacing: -1px;
+                    
+                }
+            }
+        }
+    }
+}

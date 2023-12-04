@@ -1,11 +1,13 @@
-@media (max-width: 991px){
+@media (max-width: 1025px){
     .footer{
-        padding: 60px 0;
+        padding: 30px 0;
         .container{
             .footer-top{
                 .title-name{
-                    font-size: 30px;
-                    line-height: 40px;
+                    font-family: DM Sans;
+                    font-size: 36px;
+                    line-height: 50px;
+                    letter-spacing: -1px;
                 }
                 .row{
                     .col-md-4{

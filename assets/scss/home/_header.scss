@@ -8,8 +8,7 @@
     left: 0;
     right: 0;
     z-index: 1000;
-    border-bottom-left-radius: 30px; 
-    border-bottom-right-radius: 30px;
+    transition: all 0.3s linear;
     .container{
         display: flex;
         justify-content: space-between ;
@@ -22,14 +21,14 @@
             max-width: 100%;
             height: 50px;
         }
-        .menu{
+        .nav{
             margin: 0;
             list-style: none;
             display: flex;
             justify-content: center;
             align-items: center;
             gap: 35px; 
-            .menu-item{
+            .nav-item{
                 padding: 10px 0;
                 text-decoration: none;
                 text-transform: uppercase;
@@ -54,6 +53,7 @@
         .link-btn{
             cursor: pointer;
             .btn{
+                font-family: DM Sans;
                 display: inline-block;
                 text-decoration: none;
                 padding: 0.813rem 3.2rem;
@@ -66,7 +66,6 @@
                 border-radius: 30px;
                 user-select: none;
                 text-transform: uppercase;
-                font-family: "DM Sans";
                 cursor: pointer;
                 position: relative;
                 isolation: isolate;
@@ -91,7 +90,7 @@
                 }
             }
         }
-        .dropdown{
+        .bar{
             display: none
         }
     }

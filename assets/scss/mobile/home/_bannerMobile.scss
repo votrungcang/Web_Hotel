@@ -1,10 +1,12 @@
-@media(max-width: 991px){
+@media(max-width: 769px){
     .banner{
         .swiper-wrapper{
 
             .swiper-slide{
                 .menu{
+                    max-width: 60%;
                     .btn{
+                        font-size: 12px;
                         padding: 12px 20px;
                         line-height: 28px;
                     }

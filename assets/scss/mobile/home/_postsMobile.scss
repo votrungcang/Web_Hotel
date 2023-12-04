@@ -1,7 +1,38 @@
-@media (max-width: 576px){
+@media (max-width: 1025px){
+    .posts{
+        padding: 0 0 30px;
+        .container{
+            .row{
+                .col-md-4{
+                    .inner{
+                        .thumd{
+                            padding-top: 169%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 769px){
     .posts{
         .container{
-           
+            .section-title{
+                margin-bottom: 5px;
+                .title-name{
+                    font-size: 36px;
+                    letter-spacing: -1px;
+                }
+            }
+            .row{
+                .col-md-4{
+                    .inner{
+                        .thumd{
+                            padding-top: 135%;
+                        }
+                    }
+                }
+            }
         }
     }
 }

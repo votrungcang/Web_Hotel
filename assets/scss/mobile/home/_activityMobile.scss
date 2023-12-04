@@ -1,19 +1,58 @@
-@media(max-width: 991px){
+@media (max-width: 1025px){
+    .activity{
+        .container{
+            .content{
+                .row{
+                    .col-md-6{
+                        .inner-content{
+                            padding: 39px;
+                            .title{
+                                margin-bottom: 25px;
+                                font-size: 36px;
+                            }
+                            .content{
+                                display: -webkit-box;
+                                -webkit-line-clamp: 4;
+                                -webkit-box-orient: vertical;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media(max-width: 769px){
     .activity{
         .container{
             
             .section-title{
                 .title-name{
-                    font-size: 33px;
+                    margin-bottom: 25px;
+                    font-size: 36px;
                     letter-spacing: -1px;
+                    line-height: 50px;
+                }
+                .title-text{
+                    margin-bottom: 25px;
                 }
             }
             .content{
                 .row{
                     .col-md-6{
                         .inner-content{
-                            padding: 50px;
+                            padding: 25px;
+                            .title{
+                                margin-bottom: 25px;
+                                font-size: 30px;
+                            }
+                            .content{
+                                display: -webkit-box;
+                                -webkit-line-clamp: 4;
+                                -webkit-box-orient: vertical;
+                            }
                             .btn{
+                                padding: 0;
                                 .link{
                                     padding: 10px 16px;
                                 }
