@@ -20,6 +20,11 @@
                             }
                         }
                     }
+                    &:nth-child(even){
+                        .left{
+                            order: 0;
+                        }
+                    }
                 }
             }
         }

@@ -1,20 +1,80 @@
-.dropdown
-    button.btn.btn-secondary(type="button", data-bs-toggle="dropdown", aria-expanded="false") 
-        +render_icon('bar-c')
-    ul.dropdown-menu
-        li
-        button.dropdown-item(type="button") home
-        li
-        button.dropdown-item(type="button") about
-        li
-        button.dropdown-item(type="button") rooms
-        li
-        button.dropdown-item(type="button") service
-        li
-        button.dropdown-item(type="button") blogs
-        li
-        button.dropdown-item(type="button") gallery
-        li
-        button.dropdown-item(type="button") page
-        li
-        button.dropdown-item(type="button") contact           
+.header
+    .swiper 
+        .swiper-wrapper 
+            .swiper-slide.menu
+                .container 
+                    .row
+                        .menu-list 
+                            a.menu-item(href="/index.html" title="home" ) home
+                        .menu-list 
+                            a.menu-item(href="/about.html" title="about") about
+                        .menu-list 
+                            a.menu-item(href="/rooms.html" title="rooms") rooms
+                        .menu-list 
+                            a.menu-item(href="/service.html" title="service") service
+                        .menu-list 
+                            a.menu-item(href="#") blogs
+                        .menu-list 
+                            a.menu-item(href="#") gallery
+                        .menu-list 
+                            a.menu-item(href="#") page
+                        .menu-list 
+                            a.menu-item(href="#") contact 
+            .swiper-slide.content
+                .menu-button 
+                    .bar 
+                    .bar 
+                    .bar
+                .container 
+                    img.image(src="./images/logo.png", alt="logo")
+                    .row
+                        .menu-list 
+                            a.menu-item(href="/index.html" title="home" ) home
+                        .menu-list 
+                            a.menu-item(href="/about.html" title="about") about
+                        .menu-list 
+                            a.menu-item(href="/rooms.html" title="rooms") rooms
+                        .menu-list 
+                            a.menu-item(href="/service.html" title="service") service
+                        .menu-list 
+                            a.menu-item(href="#") blogs
+                        .menu-list 
+                            a.menu-item(href="#") gallery
+                        .menu-list 
+                            a.menu-item(href="#") page
+                        .menu-list 
+                            a.menu-item(href="#") contact 
+                    .link-btn 
+                        a.btn(href="#") book your stay
+
+    script(src="./js/swiper.js")
+    script.
+        var menuButton = document.querySelector('.menu-button');
+        var openMenu = function () {
+        swiper.slidePrev();
+        };
+        var swiper = new Swiper('.swiper', {
+        slidesPerView: 'auto',
+        initialSlide: 1,
+        resistanceRatio: 0,
+        slideToClickedSlide: true,
+        on: {
+            slideChangeTransitionStart: function () {
+            var slider = this;
+            if (slider.activeIndex === 0) {
+                menuButton.classList.add('cross');
+                // required because of slideToClickedSlide
+                menuButton.removeEventListener('click', openMenu, true);
+            } else {
+                menuButton.classList.remove('cross');
+            }
+            },
+            slideChangeTransitionEnd: function () {
+            var slider = this;
+            if (slider.activeIndex === 1) {
+                menuButton.addEventListener('click', openMenu, true);
+            }
+            },
+        },
+        });
+        

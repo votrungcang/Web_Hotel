@@ -17434,13 +17434,13 @@ button.swiper-pagination-bullet {
 .header {
   padding: 15px;
   width: 100%;
-  height: 100px;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1));
+  height: 80px;
+  background: linear-gradient(#1a1a1a, rgba(0, 0, 0, 0.1));
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  z-index: 2;
+  z-index: 1000;
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
 }
@@ -17455,7 +17455,7 @@ button.swiper-pagination-bullet {
 }
 .header .container .image {
   max-width: 100%;
-  height: 67px;
+  height: 50px;
 }
 .header .container .menu {
   margin: 0;
@@ -17488,7 +17488,6 @@ button.swiper-pagination-bullet {
   cursor: pointer;
 }
 .header .container .link-btn .btn {
-  margin-top: 20px;
   display: inline-block;
   text-decoration: none;
   padding: 0.813rem 3.2rem;
@@ -18670,47 +18669,7 @@ button.swiper-pagination-bullet {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  transition: all ease-in-out 0.3s;
-}
-.rooms .container .swiper .swiper-wrapper .swiper-slide .inner .image::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1;
-  width: 100%;
-  height: 100%;
-  transition: all ease-in-out 0.3s;
-}
-.rooms .container .swiper .swiper-wrapper .swiper-slide .inner .image .price {
-  opacity: 0;
-  position: absolute;
-  top: 40px;
-  left: 40px;
-  z-index: 2;
-  transition: all ease-in-out 0.3s;
-}
-.rooms .container .swiper .swiper-wrapper .swiper-slide .inner .image .price .price-title {
-  text-transform: capitalize;
-  font-weight: 400;
-  font-size: 0.875rem;
-  font-style: italic;
-  color: white;
-}
-.rooms .container .swiper .swiper-wrapper .swiper-slide .inner .image .price .inner {
-  display: flex;
-  align-items: center;
-}
-.rooms .container .swiper .swiper-wrapper .swiper-slide .inner .image .price .inner .price-value {
-  color: #e4a853;
-  font-size: 1.5rem;
-}
-.rooms .container .swiper .swiper-wrapper .swiper-slide .inner .image .price .inner .price-unti {
-  text-transform: capitalize;
-  font-weight: 400;
-  font-size: 0.875rem;
-  font-style: italic;
-  color: white;
+  transition: all ease-in-out 0.5s;
 }
 .rooms .container .swiper .swiper-wrapper .swiper-slide .inner .content {
   padding: 25px 40px;
@@ -18723,7 +18682,33 @@ button.swiper-pagination-bullet {
   line-height: 28.8px;
   color: black;
 }
-.rooms .container .swiper .swiper-wrapper .swiper-slide .inner .content .room-types {
+.rooms .container .swiper .swiper-wrapper .swiper-slide .inner .content .acreage {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+.rooms .container .swiper .swiper-wrapper .swiper-slide .inner .content .acreage .room-types {
+  margin-left: 10px;
+  color: #888888;
+  font-family: DM Sans;
+  font-size: 14px;
+}
+.rooms .container .swiper .swiper-wrapper .swiper-slide .inner .content .price {
+  display: flex;
+}
+.rooms .container .swiper .swiper-wrapper .swiper-slide .inner .content .price .price-title {
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28.8px;
+  color: black;
+}
+.rooms .container .swiper .swiper-wrapper .swiper-slide .inner .content .price .price-value {
+  margin-left: 10px;
+  color: #e4a853;
+  font-size: 1.3rem;
+}
+.rooms .container .swiper .swiper-wrapper .swiper-slide .inner .content .price .price-value span {
   color: #888888;
   font-family: DM Sans;
   font-size: 14px;
@@ -18732,15 +18717,7 @@ button.swiper-pagination-bullet {
 }
 .rooms .container .swiper .swiper-wrapper .swiper-slide .inner:hover .image img {
   transform: scale(1.1);
-  transition: all ease-in-out 0.3s;
-}
-.rooms .container .swiper .swiper-wrapper .swiper-slide .inner:hover .image::before {
-  background-color: rgba(0, 0, 0, 0.5);
-}
-.rooms .container .swiper .swiper-wrapper .swiper-slide .inner:hover .image .price {
-  opacity: 1;
-  transform: translate(0);
-  transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.5s;
 }
 .rooms .container .swiper .swiper-pagination-bullet {
   background-color: #fff;
@@ -18793,6 +18770,7 @@ button.swiper-pagination-bullet {
   height: 45px;
 }
 .services .container .swiper .swiper-wrapper .swiper-slide .inner_1 .box-title {
+  margin-top: 10px;
   margin-bottom: 0.5rem;
   font-family: DM Sans;
   font-size: 18px;
@@ -18818,6 +18796,7 @@ button.swiper-pagination-bullet {
   height: 45px;
 }
 .services .container .swiper .swiper-wrapper .swiper-slide .inner_2 .box-title {
+  margin-top: 10px;
   margin-bottom: 0.5rem;
   font-family: DM Sans;
   font-size: 18px;
@@ -18969,6 +18948,9 @@ button.swiper-pagination-bullet {
   }
   .activity .container .content .row .col-md-6 .inner-content .btn .link {
     padding: 10px 16px;
+  }
+  .activity .container .content .row:nth-child(even) .left {
+    order: 0;
   }
 }
 .comment {
