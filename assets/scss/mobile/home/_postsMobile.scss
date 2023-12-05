@@ -19,16 +19,40 @@
         .container{
             .section-title{
                 margin-bottom: 5px;
+                .sub-title{
+                    letter-spacing: 3px;
+                }
                 .title-name{
-                    font-size: 36px;
-                    letter-spacing: -1px;
+                    font-size: 25px;
+                    letter-spacing: 1px;
+                    line-height: 30px;
                 }
             }
             .row{
                 .col-md-4{
                     .inner{
                         .thumd{
-                            padding-top: 135%;
+                            padding-top: 100%;
+                        }
+                        .item{
+                            padding: 15px 30px;
+                            .entry{
+                                .entry-item{
+                                    .entry-title{
+                                        font-size: 20px;
+                                    }
+                                }
+                                .entry-content {
+                                    .entry-text{
+                                        font-size: 14px;
+                                    }
+                                    .entry-link{
+                                        .link{
+                                            padding: 1px 10px;
+                                        }
+                                    }
+                                }
+                            }
                         }
                     }
                 }

@@ -13,16 +13,29 @@
     .scenery{
         .container{
             .content{
+                .title{
+                    margin-bottom: 5px;
+                }
                 .text_name{
-                    line-height: 53px;
-                    font-size: 36px;
+                    font-size: 25px;
                     letter-spacing: -1px;
                     max-width: 70%;
                     margin: auto;
+                    line-height: 1;
                 }
                 .text{
-                    margin-top: 25px;
+                    margin-top: 15px;
+                    font-size: 14px;
                 }
+                .btn{
+                    .btn_link{
+                        font-size: 12px;
+                        padding: 1px 10px;
+                    }
+                }
+            }
+            .thumd{
+                padding: 0;
             }
         }
     }

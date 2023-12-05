@@ -6,11 +6,37 @@
 @media (max-width: 769px){
     .services{
         .container{
+            padding: 0;
             .section-title{
                 margin-bottom: 25px;
+                .sub-title{
+                    letter-spacing: 3px;
+                }
+
                 .title{
-                    font-size: 36px;
-                    letter-spacing: -1px;
+                    font-size: 25px;
+                    letter-spacing: 1px;
+                    line-height: 35px;
+                }
+            }
+            .swiper{
+                .swiper-wrapper{
+                    .swiper-slide {
+                        .inner_1{
+                            padding: 30px 20px;
+                            background-color: #fff;
+                            .box-title{
+                                font-size: 20px;
+
+                            }
+                            .box-text{
+                                font-size: 14px;
+                            }
+                        }
+                        .inner_2{
+                            padding: 30px 20px;
+                        }
+                    }
                 }
             }
         }

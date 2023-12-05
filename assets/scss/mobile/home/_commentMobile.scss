@@ -8,17 +8,27 @@
         .container{
             .section-title{
                 margin-bottom: 25px;
+                .sub-title{
+                    letter-spacing: 3px;
+                }
                 .title-name{
                     margin: 0;
-                    font-size: 36px;
-                    letter-spacing: -1px;
+                    font-size: 25px;
+                    letter-spacing: 1px;
+                    line-height: 30px;
                 }
             }
             .swiper{
                 .swiper-wrapper{
                     .swiper-slide{
                         .inner {
-                            padding: 25px;
+                            padding: 15px;
+                            .content-title{
+                                font-size: 20px;
+                            }
+                            .content-text{
+                                font-size: 14px;
+                            }
                         }
                     }
                 }

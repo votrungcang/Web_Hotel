@@ -7,70 +7,81 @@
             }
         }
     }
+    
 }
 @media(max-width: 1025px ){
     .header{ 
+        position: static;
         height: 60px;
         padding: 10px;
         background:fixed;
         background-color: black;
         transition: all 0.3s linear;
-        .container{
-            flex-direction: row;
-            justify-content: space-between;
-            .image{
-                height: 40px;
-            }
-            .nav{
-                display: none;
-                gap: 0;
-            }
-            .link-btn{
-                display: none;
-            }
-            .bar{
-                background-color: black;
-                border: 1px solid black;
-                display: block;
-                color: white;
-                font-weight: 500;
-            }
-            .offcanvas{
-                background-color: #000;
-                .offcanvas-header{
-                    border-bottom: 1px solid gray;
-                    .name-title{
-                        margin: 0;
-                        font-weight: 600;
-                        font-size: 30px;
-                        color: #fff;
-                        text-align: center;
-                        font-family: DM Sans;
-                    }
-                    .btn-close{
-                        background-color: #fff;
-                    }
+        .fixed_top{
+            height: 60px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0; 
+            z-index: 100;
+            background-color: black;
+            .container{
+                flex-direction: row;
+                justify-content: space-between;
+                .image{
+                    height: 40px;
                 }
-                .offcanvas-body{
-                    padding: 0 20px;
-                    .menu{
-                        .list{
-                            transition: all 0.3s linear;
-                            padding: 10px;
-                            border-bottom: 1px solid gray;
-                            .link{
-                                padding: 20px 0;
-                                color: white;
-                                font-size: 1.2rem;
-                                font-weight: 600;
-                                text-transform: capitalize;
-                                text-decoration: none;
-                            }
-                            &:hover{
+                .nav{
+                    display: none;
+                    gap: 0;
+                }
+                .link-btn{
+                    display: none;
+                }
+                .bar{
+                    background-color: black;
+                    border: 1px solid black;
+                    display: block;
+                    color: white;
+                    font-weight: 500;
+                }
+                .offcanvas{
+                    background-color: #000;
+                    .offcanvas-header{
+                        border-bottom: 1px solid gray;
+                        .name-title{
+                            margin: 0;
+                            font-weight: 600;
+                            font-size: 30px;
+                            color: #fff;
+                            text-align: center;
+                            font-family: DM Sans;
+                        }
+                        .btn-close{
+                            background-color: #fff;
+                        }
+                    }
+                    .offcanvas-body{
+                        padding: 0 20px;
+                        .menu{
+                            .list{
                                 transition: all 0.3s linear;
-                                background-color: #fff;
+                                padding: 10px;
+                                border-bottom: 1px solid gray;
                                 .link{
-                                    color: #000;
+                                    padding: 20px 0;
+                                    color: white;
+                                    font-size: 1.2rem;
+                                    font-weight: 600;
+                                    text-transform: capitalize;
+                                    text-decoration: none;
+                                }
+                                &:hover{
+                                    transition: all 0.3s linear;
+                                    background-color: #fff;
+                                    .link{
+                                        color: #000;
+                                    }
                                 }
                             }
                         }
@@ -80,8 +91,4 @@
         }
     }
 }
-@media (max-width: 769px){
-    .header{
-        position: static;
-    }
-}
+

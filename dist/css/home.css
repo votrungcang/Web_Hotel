@@ -17487,7 +17487,6 @@ button.swiper-pagination-bullet {
   cursor: pointer;
 }
 .header .container .link-btn .btn {
-  font-family: DM Sans;
   display: inline-block;
   text-decoration: none;
   padding: 0.813rem 3.2rem;
@@ -17540,40 +17539,50 @@ button.swiper-pagination-bullet {
 }
 @media (max-width: 1025px) {
   .header {
+    position: static;
     height: 60px;
     padding: 10px;
     background: fixed;
     background-color: black;
     transition: all 0.3s linear;
   }
-  .header .container {
+  .header .fixed_top {
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background-color: black;
+  }
+  .header .fixed_top .container {
     flex-direction: row;
     justify-content: space-between;
   }
-  .header .container .image {
+  .header .fixed_top .container .image {
     height: 40px;
   }
-  .header .container .nav {
+  .header .fixed_top .container .nav {
     display: none;
     gap: 0;
   }
-  .header .container .link-btn {
+  .header .fixed_top .container .link-btn {
     display: none;
   }
-  .header .container .bar {
+  .header .fixed_top .container .bar {
     background-color: black;
     border: 1px solid black;
     display: block;
     color: white;
     font-weight: 500;
   }
-  .header .container .offcanvas {
+  .header .fixed_top .container .offcanvas {
     background-color: #000;
   }
-  .header .container .offcanvas .offcanvas-header {
+  .header .fixed_top .container .offcanvas .offcanvas-header {
     border-bottom: 1px solid gray;
   }
-  .header .container .offcanvas .offcanvas-header .name-title {
+  .header .fixed_top .container .offcanvas .offcanvas-header .name-title {
     margin: 0;
     font-weight: 600;
     font-size: 30px;
@@ -17581,18 +17590,18 @@ button.swiper-pagination-bullet {
     text-align: center;
     font-family: DM Sans;
   }
-  .header .container .offcanvas .offcanvas-header .btn-close {
+  .header .fixed_top .container .offcanvas .offcanvas-header .btn-close {
     background-color: #fff;
   }
-  .header .container .offcanvas .offcanvas-body {
+  .header .fixed_top .container .offcanvas .offcanvas-body {
     padding: 0 20px;
   }
-  .header .container .offcanvas .offcanvas-body .menu .list {
+  .header .fixed_top .container .offcanvas .offcanvas-body .menu .list {
     transition: all 0.3s linear;
     padding: 10px;
     border-bottom: 1px solid gray;
   }
-  .header .container .offcanvas .offcanvas-body .menu .list .link {
+  .header .fixed_top .container .offcanvas .offcanvas-body .menu .list .link {
     padding: 20px 0;
     color: white;
     font-size: 1.2rem;
@@ -17600,17 +17609,12 @@ button.swiper-pagination-bullet {
     text-transform: capitalize;
     text-decoration: none;
   }
-  .header .container .offcanvas .offcanvas-body .menu .list:hover {
+  .header .fixed_top .container .offcanvas .offcanvas-body .menu .list:hover {
     transition: all 0.3s linear;
     background-color: #fff;
   }
-  .header .container .offcanvas .offcanvas-body .menu .list:hover .link {
+  .header .fixed_top .container .offcanvas .offcanvas-body .menu .list:hover .link {
     color: #000;
-  }
-}
-@media (max-width: 769px) {
-  .header {
-    position: static;
   }
 }
 .banner {
@@ -18301,7 +18305,6 @@ button.swiper-pagination-bullet {
       -ms-user-select: none;
           user-select: none;
   text-transform: uppercase;
-  font-family: "DM Sans";
   cursor: pointer;
   position: relative;
   isolation: isolate;
@@ -18349,11 +18352,11 @@ button.swiper-pagination-bullet {
 
 @media (max-width: 769px) {
   .banner .swiper-wrapper .swiper-slide .menu {
-    max-width: 60%;
+    max-width: 45%;
   }
   .banner .swiper-wrapper .swiper-slide .menu .btn {
     font-size: 12px;
-    padding: 12px 20px;
+    padding: 1px 10px;
     line-height: 28px;
   }
 }
@@ -18414,7 +18417,6 @@ button.swiper-pagination-bullet {
       -ms-user-select: none;
           user-select: none;
   text-transform: uppercase;
-  font-family: "DM Sans";
   cursor: pointer;
   position: relative;
   isolation: isolate;
@@ -18462,15 +18464,26 @@ button.swiper-pagination-bullet {
   }
 }
 @media (max-width: 769px) {
+  .scenery .container .content .title {
+    margin-bottom: 5px;
+  }
   .scenery .container .content .text_name {
-    line-height: 53px;
-    font-size: 36px;
+    font-size: 25px;
     letter-spacing: -1px;
     max-width: 70%;
     margin: auto;
+    line-height: 1;
   }
   .scenery .container .content .text {
-    margin-top: 25px;
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  .scenery .container .content .btn .btn_link {
+    font-size: 12px;
+    padding: 1px 10px;
+  }
+  .scenery .container .thumd {
+    padding: 0;
   }
 }
 .special {
@@ -18562,7 +18575,6 @@ button.swiper-pagination-bullet {
   display: inline-block;
   background-color: white;
   color: #000;
-  font-family: DM Sans;
   text-decoration: none;
   text-transform: uppercase;
   border-radius: 50px;
@@ -18613,7 +18625,6 @@ button.swiper-pagination-bullet {
       -ms-user-select: none;
           user-select: none;
   text-transform: uppercase;
-  font-family: "DM Sans";
   cursor: pointer;
   position: relative;
   isolation: isolate;
@@ -18657,23 +18668,55 @@ button.swiper-pagination-bullet {
   }
 }
 @media (max-width: 769px) {
+  .special {
+    padding: 30px 0 5px;
+  }
   .special .container .content {
     margin-bottom: 25px;
   }
+  .special .container .content .title {
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+  }
   .special .container .content .text {
-    font-size: 36px;
-    letter-spacing: -1px;
+    font-size: 25px;
+    line-height: 5px;
+    letter-spacing: 1px;
   }
   .special .container .row .inner {
     margin-bottom: 25px;
   }
+  .special .container .row .inner .image img {
+    height: 355px;
+  }
+  .special .container .row .inner .text-content {
+    padding: 30px 40px;
+  }
+  .special .container .row .inner .text-content .special-subtitle {
+    letter-spacing: 3;
+  }
+  .special .container .row .inner .text-content .special-title {
+    font-size: 20px;
+  }
+  .special .container .row .inner .text-content .btn1 {
+    padding: 1px 10px;
+  }
   .special .container .row .inner .list-content {
     padding: 0 15px;
+  }
+  .special .container .row .inner .list-content .sub_title {
+    letter-spacing: 3px;
+  }
+  .special .container .row .inner .list-content .title {
+    font-size: 25px;
+  }
+  .special .container .row .inner .list-content .text {
+    font-size: 14px;
   }
   .special .container .row .inner .list-content .link-btn {
     margin: 0;
     font-size: 12px;
-    padding: 12px 20px;
+    padding: 1px 10px;
   }
 }
 .rooms {
@@ -18748,23 +18791,26 @@ button.swiper-pagination-bullet {
 }
 .rooms .container .swiper .swiper-wrapper .swiper-slide .inner .content .price {
   display: flex;
+  align-items: center;
 }
 .rooms .container .swiper .swiper-wrapper .swiper-slide .inner .content .price .price-title {
   font-family: DM Sans;
-  font-size: 23px;
+  font-size: 20px;
   font-weight: 700;
   line-height: 28.8px;
   color: black;
+  line-height: 2px;
 }
 .rooms .container .swiper .swiper-wrapper .swiper-slide .inner .content .price .price-value {
   margin-left: 5px;
   color: #e4a853;
-  font-size: 1.2rem;
+  font-size: 14px;
+  line-height: 2px;
 }
 .rooms .container .swiper .swiper-wrapper .swiper-slide .inner .content .price .price-value span {
   color: #888888;
   font-family: DM Sans;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 26.25px;
   margin-right: 10px;
 }
@@ -18786,12 +18832,22 @@ button.swiper-pagination-bullet {
   }
 }
 @media (max-width: 769px) {
+  .rooms .container {
+    padding: 0;
+  }
   .rooms .container .section-title {
     margin-bottom: 25px;
   }
+  .rooms .container .section-title .title {
+    letter-spacing: 3px;
+  }
   .rooms .container .section-title .title-name {
-    font-size: 36px;
+    font-size: 25px;
     letter-spacing: -1px;
+    line-height: 25px;
+  }
+  .rooms .container .swiper .swiper-wrapper .swiper-slide .inner .content {
+    padding: 15px;
   }
 }
 .services {
@@ -18892,12 +18948,32 @@ button.swiper-pagination-bullet {
   }
 }
 @media (max-width: 769px) {
+  .services .container {
+    padding: 0;
+  }
   .services .container .section-title {
     margin-bottom: 25px;
   }
+  .services .container .section-title .sub-title {
+    letter-spacing: 3px;
+  }
   .services .container .section-title .title {
-    font-size: 36px;
-    letter-spacing: -1px;
+    font-size: 25px;
+    letter-spacing: 1px;
+    line-height: 35px;
+  }
+  .services .container .swiper .swiper-wrapper .swiper-slide .inner_1 {
+    padding: 30px 20px;
+    background-color: #fff;
+  }
+  .services .container .swiper .swiper-wrapper .swiper-slide .inner_1 .box-title {
+    font-size: 20px;
+  }
+  .services .container .swiper .swiper-wrapper .swiper-slide .inner_1 .box-text {
+    font-size: 14px;
+  }
+  .services .container .swiper .swiper-wrapper .swiper-slide .inner_2 {
+    padding: 30px 20px;
   }
 }
 .activity {
@@ -18994,7 +19070,6 @@ button.swiper-pagination-bullet {
       -ms-user-select: none;
           user-select: none;
   text-transform: uppercase;
-  font-family: "DM Sans";
   cursor: pointer;
   position: relative;
   isolation: isolate;
@@ -19037,23 +19112,28 @@ button.swiper-pagination-bullet {
   }
 }
 @media (max-width: 769px) {
+  .activity .container .section-title .sub-title {
+    letter-spacing: 3px;
+  }
   .activity .container .section-title .title-name {
-    margin-bottom: 25px;
-    font-size: 36px;
+    margin-bottom: 10px;
+    font-size: 25px;
     letter-spacing: -1px;
-    line-height: 50px;
+    line-height: 30px;
   }
   .activity .container .section-title .title-text {
+    font-size: 14px;
     margin-bottom: 25px;
   }
   .activity .container .content .row .col-md-6 .inner-content {
     padding: 25px;
   }
   .activity .container .content .row .col-md-6 .inner-content .title {
-    margin-bottom: 25px;
-    font-size: 30px;
+    margin-bottom: 10px;
+    font-size: 20px;
   }
   .activity .container .content .row .col-md-6 .inner-content .content {
+    font-size: 14px;
     display: -webkit-box;
     -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
@@ -19062,7 +19142,7 @@ button.swiper-pagination-bullet {
     padding: 0;
   }
   .activity .container .content .row .col-md-6 .inner-content .btn .link {
-    padding: 10px 16px;
+    padding: 1px 10px;
   }
   .activity .container .content .row:nth-child(even) .left {
     order: 0;
@@ -19163,13 +19243,23 @@ button.swiper-pagination-bullet {
   .comment .container .section-title {
     margin-bottom: 25px;
   }
+  .comment .container .section-title .sub-title {
+    letter-spacing: 3px;
+  }
   .comment .container .section-title .title-name {
     margin: 0;
-    font-size: 36px;
-    letter-spacing: -1px;
+    font-size: 25px;
+    letter-spacing: 1px;
+    line-height: 30px;
   }
   .comment .container .swiper .swiper-wrapper .swiper-slide .inner {
-    padding: 25px;
+    padding: 15px;
+  }
+  .comment .container .swiper .swiper-wrapper .swiper-slide .inner .content-title {
+    font-size: 20px;
+  }
+  .comment .container .swiper .swiper-wrapper .swiper-slide .inner .content-text {
+    font-size: 14px;
   }
 }
 .posts {
@@ -19323,7 +19413,6 @@ button.swiper-pagination-bullet {
       -ms-user-select: none;
           user-select: none;
   text-transform: uppercase;
-  font-family: "DM Sans";
   cursor: pointer;
   position: relative;
   isolation: isolate;
@@ -19369,12 +19458,28 @@ button.swiper-pagination-bullet {
   .posts .container .section-title {
     margin-bottom: 5px;
   }
+  .posts .container .section-title .sub-title {
+    letter-spacing: 3px;
+  }
   .posts .container .section-title .title-name {
-    font-size: 36px;
-    letter-spacing: -1px;
+    font-size: 25px;
+    letter-spacing: 1px;
+    line-height: 30px;
   }
   .posts .container .row .col-md-4 .inner .thumd {
-    padding-top: 135%;
+    padding-top: 100%;
+  }
+  .posts .container .row .col-md-4 .inner .item {
+    padding: 15px 30px;
+  }
+  .posts .container .row .col-md-4 .inner .item .entry .entry-item .entry-title {
+    font-size: 20px;
+  }
+  .posts .container .row .col-md-4 .inner .item .entry .entry-content .entry-text {
+    font-size: 14px;
+  }
+  .posts .container .row .col-md-4 .inner .item .entry .entry-content .entry-link .link {
+    padding: 1px 10px;
   }
 }
 .footer {
@@ -19431,7 +19536,6 @@ button.swiper-pagination-bullet {
 .footer .container .footer-top .row .col-md-4 .link {
   margin-bottom: 1rem;
   width: 100%;
-  font-family: "DM Sans";
   padding: 16px 25px;
   display: inline-block;
   text-decoration: none;
@@ -19526,9 +19630,9 @@ button.swiper-pagination-bullet {
   }
   .footer .container .footer-top .title-name {
     font-family: DM Sans;
-    font-size: 36px;
-    line-height: 50px;
-    letter-spacing: -1px;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 1px;
   }
   .footer .container .footer-top .row .col-md-4 .email {
     margin-bottom: 30px;
