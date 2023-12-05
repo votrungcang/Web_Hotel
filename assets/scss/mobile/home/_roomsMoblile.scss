@@ -10,7 +10,7 @@
         }
     } 
 }
-@media (max-width: 769px){
+@media (max-width: 993px){
     .rooms{
         .container{
             padding: 0;
@@ -26,6 +26,7 @@
                 }
             }
             .swiper{
+                padding-bottom: 15px;
                 .swiper-wrapper{
                     .swiper-slide{
                         .inner{

@@ -22,7 +22,7 @@
         }
     }
 }
-@media(max-width: 769px){
+@media(max-width: 993px){
     .activity{
         .container{
             
@@ -60,11 +60,22 @@
                                 padding: 0;
                                 .link{
                                     font-size: 9px;
-                                    padding: 1px 10px;
+                                    padding: 5px 10px;
                                 }
                             }
                         }
                     }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 569px){
+    .activity{
+        .container{
+            .content{
+                .row{
                     &:nth-child(even){
                         .left{
                             order: 0;

@@ -17,7 +17,7 @@
         }
     }
 }
-@media(max-width: 769px ){
+@media(max-width: 993px ){
     .special{
         padding: 30px 0 5px;
         .container{
@@ -53,8 +53,9 @@
                             
                         }
                         .btn1{
+                            
                             font-size: 9px;
-                            padding: 1px 10px;
+                            padding: 5px 10px;
                         }
                     }
                     .list-content{
@@ -64,16 +65,17 @@
                             
                         }
                         .title{
-                            font-size: 25px;
+                            font-size: 20px;
 
                         }
                         .text{
+                            margin-top: 10px;
                             font-size: 14px;
                         }
                         .link-btn{
                             margin: 0;
                             font-size: 9px;
-                            padding: 1px 10px;
+                            padding: 10px 10px;
                             }
                         
                     }

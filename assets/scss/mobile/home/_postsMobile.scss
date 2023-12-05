@@ -14,7 +14,7 @@
         }
     }
 }
-@media (max-width: 769px){
+@media (max-width: 993px){
     .posts{
         .container{
             .section-title{
@@ -32,28 +32,46 @@
                 .col-md-4{
                     .inner{
                         .thumd{
-                            padding-top: 100%;
+                            padding-top: 155%;
                         }
                         .item{
                             padding: 15px 30px;
                             .entry{
                                 .entry-item{
                                     .entry-title{
-                                        font-size: 20px;
+                                        font-size: 15px;
                                     }
                                 }
                                 .entry-content {
+                                    margin: 0;
                                     .entry-text{
                                         font-size: 14px;
                                     }
                                     .entry-link{
                                         .link{
+                                            margin: 0px;
                                             font-size: 9px;
-                                            padding: 1px 10px;
+                                            padding: 5px 10px;
                                         }
                                     }
                                 }
                             }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 569px){
+    .posts{
+        .container{
+            .row{
+                .col-md-4{
+                    .inner{
+                        .thumd{
+                            padding-top: 103%;
                         }
                     }
                 }
