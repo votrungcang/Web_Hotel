@@ -18356,7 +18356,7 @@ button.swiper-pagination-bullet {
     max-width: 45%;
   }
   .banner .swiper-wrapper .swiper-slide .menu .btn {
-    font-size: 12px;
+    font-size: 8px;
     padding: 1px 10px;
     line-height: 28px;
   }
@@ -18480,7 +18480,7 @@ button.swiper-pagination-bullet {
     font-size: 14px;
   }
   .scenery .container .content .btn .btn_link {
-    font-size: 12px;
+    font-size: 9px;
     padding: 1px 10px;
   }
   .scenery .container .thumd {
@@ -18700,6 +18700,7 @@ button.swiper-pagination-bullet {
     font-size: 20px;
   }
   .special .container .row .inner .text-content .btn1 {
+    font-size: 9px;
     padding: 1px 10px;
   }
   .special .container .row .inner .list-content {
@@ -18716,7 +18717,7 @@ button.swiper-pagination-bullet {
   }
   .special .container .row .inner .list-content .link-btn {
     margin: 0;
-    font-size: 12px;
+    font-size: 9px;
     padding: 1px 10px;
   }
 }
@@ -19143,6 +19144,7 @@ button.swiper-pagination-bullet {
     padding: 0;
   }
   .activity .container .content .row .col-md-6 .inner-content .btn .link {
+    font-size: 9px;
     padding: 1px 10px;
   }
   .activity .container .content .row:nth-child(even) .left {
@@ -19480,6 +19482,7 @@ button.swiper-pagination-bullet {
     font-size: 14px;
   }
   .posts .container .row .col-md-4 .inner .item .entry .entry-content .entry-link .link {
+    font-size: 9px;
     padding: 1px 10px;
   }
 }
@@ -19677,6 +19680,7 @@ button.swiper-pagination-bullet {
     padding: 10px 10px;
   }
   .footer .container .footer-top .row .col-md-4 .link {
+    font-size: 12px;
     padding: 10px 15px;
     margin-bottom: 25px;
   }
