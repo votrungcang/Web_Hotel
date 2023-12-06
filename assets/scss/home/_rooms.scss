@@ -8,6 +8,10 @@
         .section-title{
             text-align: center;
             margin-bottom: 45px;
+            img{
+                height: 20px;
+                margin-bottom: 5px;
+            }
             .title{
                 font-size: 12px;
                 font-weight: 700;
@@ -16,7 +20,6 @@
                 color: black;
             }
             .title-name{
-                font-family: DM Sans;
                 font-size: 50px;
                 font-weight: 700;
                 letter-spacing: -1.2px;
@@ -53,40 +56,35 @@
                                 color: black;
                             }
                             .acreage{
+                                margin-top: 5px;
                                 display: flex;
                                 align-items: center;
+                                gap: 10px;
                                 .width{
                                    color: gray;
                                 }
                                 .room-types{
-                                    margin-left: 5px;
                                     color: #888888;
                                     font-family: DM Sans;
                                     font-size: 15px;
                                 }
-                            }
-                            .price{
-                                display: flex;
-                                align-items: center;
-                                .price-title{
-                                    font-family: DM Sans;
-                                    font-size: 20px;
-                                    font-weight: 700;
-                                    line-height: 28.8px;
-                                    color: black;
-                                    line-height: 2px;
-                                }
-                                .price-value{
-                                    margin-left: 5px;
-                                    color: #e4a853;
-                                    font-size: 14px;
-                                    line-height: 2px;
-                                    span{
-                                        color: #888888;
-                                        font-family: DM Sans;
-                                        font-size: 12px;
-                                        line-height: 26.25px;
-                                        margin-right: 10px;
+                                .price{
+                                    display: flex;
+                                    align-items: flex-end;
+                                    .price-title{
+                                        font-size: 20px;
+                                        font-weight: 700;
+                                        color: black;
+                                    }
+                                    .price-value{
+                                        margin-left: 10px;
+                                        color: #e4a853;
+                                        font-size: 14px;
+                                        span{
+                                            color: #888888;
+                                            font-size: 12px;
+                                            margin-right: 10px;
+                                        }
                                     }
                                 }
                             }
