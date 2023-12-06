@@ -44,7 +44,7 @@
                         }
                     }
                     .text-content{
-                        padding: 30px 40px;
+                        padding: 15px;
                         .special-subtitle{
                             letter-spacing: 3;
                         }
@@ -53,7 +53,10 @@
                             
                         }
                         .btn1{
-                            
+                            margin-bottom: 15px !important;
+                            margin-top: 15px;
+                            visibility: visible;
+                            opacity: 1;
                             font-size: 12px;
                             padding: 5px 15px;
                         }
@@ -78,6 +81,13 @@
                             padding: 10px 15px;
                             }
                         
+                    }
+                    &:hover{
+                        .text-content{
+                            .btn1{
+
+                            }
+                        }
                     }
                 }
             }

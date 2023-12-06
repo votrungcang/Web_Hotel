@@ -1,0 +1,66 @@
+@media (max-width: 1025px) {
+  .special {
+    padding: 30px 0;
+  }
+  .special .container .row .col-md-4 .inner .list-content .sub_title {
+    margin-top: 60px;
+  }
+}
+@media (max-width: 993px) {
+  .special {
+    padding: 30px 0 5px;
+  }
+  .special .container .content {
+    margin-bottom: 25px;
+  }
+  .special .container .content .title {
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+  }
+  .special .container .content .text {
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 1px;
+  }
+  .special .container .row .inner {
+    margin-bottom: 25px;
+  }
+  .special .container .row .inner .image img {
+    height: 355px;
+  }
+  .special .container .row .inner .text-content {
+    padding: 15px;
+  }
+  .special .container .row .inner .text-content .special-subtitle {
+    letter-spacing: 3;
+  }
+  .special .container .row .inner .text-content .special-title {
+    font-size: 20px;
+  }
+  .special .container .row .inner .text-content .btn1 {
+    margin-bottom: 15px !important;
+    margin-top: 15px;
+    visibility: visible;
+    opacity: 1;
+    font-size: 12px;
+    padding: 5px 15px;
+  }
+  .special .container .row .inner .list-content {
+    padding: 0 15px;
+  }
+  .special .container .row .inner .list-content .sub_title {
+    letter-spacing: 3px;
+  }
+  .special .container .row .inner .list-content .title {
+    font-size: 20px;
+  }
+  .special .container .row .inner .list-content .text {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  .special .container .row .inner .list-content .link-btn {
+    margin: 0;
+    font-size: 12px;
+    padding: 10px 15px;
+  }
+}

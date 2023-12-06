@@ -33,9 +33,17 @@
                             .box-text{
                                 font-size: 14px;
                             }
+                            &:hover{
+                                transform: translateY(10px);
+                                
+                            }
                         }
                         .inner_2{
                             padding: 30px 20px;
+                            &:hover{
+                                transform: translateY(0);
+                                
+                            }
                         }
                     }
                 }

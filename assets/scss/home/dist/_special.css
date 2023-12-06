@@ -1,0 +1,229 @@
+.special {
+  padding: 60px 0;
+  width: 100%;
+  background-image: url("../../images/home/special/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.special .container {
+  margin: auto;
+  max-width: 1300px;
+  padding: 0 15px;
+}
+.special .container .content {
+  text-align: center;
+  margin-bottom: 45px;
+}
+.special .container .content img {
+  height: 20px;
+  margin-bottom: 5px;
+}
+.special .container .content .title {
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2.8px;
+  line-height: 22.5px;
+  text-transform: uppercase;
+}
+.special .container .content .text {
+  font-family: "EB Garamond", serif;
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: -1.2px;
+  line-height: 60px;
+  text-transform: capitalize;
+}
+.special .container .row .inner {
+  position: relative;
+  overflow: hidden;
+}
+.special .container .row .inner .image img {
+  width: 100%;
+  height: 520px;
+  object-fit: cover;
+}
+.special .container .row .inner .list-content {
+  padding: 0 40px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-weight: 700;
+}
+.special .container .row .inner .list-content .sub_title {
+  margin-top: 100px;
+  color: #fff;
+  font-size: 12px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2.8px;
+  display: inline-block;
+}
+.special .container .row .inner .list-content .title {
+  font-family: "EB Garamond", serif;
+  font-size: 30px;
+  line-height: 36px;
+  color: black;
+  text-transform: capitalize;
+}
+.special .container .row .inner .list-content .text {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-weight: 400;
+  color: #686868;
+  font-size: 1rem;
+}
+.special .container .row .inner .list-content .link-btn {
+  margin-top: 30px;
+  padding: 1rem 3.5rem;
+  display: inline-block;
+  background-color: white;
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 50px;
+}
+.special .container .row .inner .text-content {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  padding: 30px 40px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.special .container .row .inner .text-content .special-subtitle {
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.8px;
+  color: white;
+}
+.special .container .row .inner .text-content .special-title {
+  font-family: "EB Garamond", serif;
+  text-transform: capitalize;
+  font-size: 30px;
+  line-height: 1.2em;
+  letter-spacing: -0.75px;
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.special .container .row .inner .text-content .btn1 {
+  display: inline-block;
+  opacity: 0;
+  visibility: hidden;
+  margin-bottom: -30px;
+  margin-top: 20px;
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.813rem 3.2rem;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 22.5px;
+  background-image: var(--btn-gradient);
+  color: white;
+  border: 1px solid var(--btn-gradient);
+  border-radius: 30px;
+  user-select: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  transition: all 0.3s linear;
+}
+.special .container .row .inner .text-content .btn1:hover::before {
+  left: auto;
+  right: 0;
+  width: 100%;
+}
+.special .container .row .inner .text-content .btn1::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: auto;
+  top: 0;
+  height: 100%;
+  width: 0;
+  background-color: #fff;
+  opacity: 0.1;
+  z-index: -1;
+  transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.special .container .row .inner:hover .text-content .btn1 {
+  margin-bottom: 0;
+  visibility: visible;
+  opacity: 1;
+  max-height: fit-content;
+  transition: all 0.3s linear;
+}
+
+@media (max-width: 1025px) {
+  .special {
+    padding: 30px 0;
+  }
+  .special .container .row .col-md-4 .inner .list-content .sub_title {
+    margin-top: 60px;
+  }
+}
+@media (min-width: 1px) and (max-width: 993px) {
+  .special {
+    padding: 30px 0 5px;
+  }
+  .special .container .content {
+    margin-bottom: 25px;
+  }
+  .special .container .content .title {
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+  }
+  .special .container .content .text {
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 1px;
+  }
+  .special .container .row .inner {
+    margin-bottom: 25px;
+  }
+  .special .container .row .inner .image img {
+    height: 355px;
+  }
+  .special .container .row .inner .text-content {
+    padding: 30px 40px;
+  }
+  .special .container .row .inner .text-content .special-subtitle {
+    letter-spacing: 3;
+  }
+  .special .container .row .inner .text-content .special-title {
+    font-size: 20px;
+  }
+  .special .container .row .inner .text-content .btn1 {
+    font-size: 12px;
+    padding: 5px 15px;
+  }
+  .special .container .row .inner .list-content {
+    padding: 0 15px;
+  }
+  .special .container .row .inner .list-content .sub_title {
+    letter-spacing: 3px;
+  }
+  .special .container .row .inner .list-content .title {
+    font-size: 20px;
+  }
+  .special .container .row .inner .list-content .text {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  .special .container .row .inner .list-content .link-btn {
+    margin: 0;
+    font-size: 12px;
+    padding: 10px 15px;
+  }
+}

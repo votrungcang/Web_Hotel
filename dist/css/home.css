@@ -18474,9 +18474,7 @@ body {
   .scenery .container .content .text_name {
     font-size: 25px;
     letter-spacing: -1px;
-    max-width: 70%;
     margin: auto;
-    line-height: 1.4;
   }
   .scenery .container .content .text {
     margin-top: 15px;
@@ -18588,7 +18586,7 @@ body {
   bottom: 0;
   right: 0;
   text-align: center;
-  padding: 56px 40px;
+  padding: 30px 40px;
   background-color: rgba(0, 0, 0, 0.8);
 }
 .special .container .row .inner .text-content .special-subtitle {
@@ -18694,7 +18692,7 @@ body {
     height: 355px;
   }
   .special .container .row .inner .text-content {
-    padding: 30px 40px;
+    padding: 15px;
   }
   .special .container .row .inner .text-content .special-subtitle {
     letter-spacing: 3;
@@ -18703,6 +18701,10 @@ body {
     font-size: 20px;
   }
   .special .container .row .inner .text-content .btn1 {
+    margin-bottom: 15px !important;
+    margin-top: 15px;
+    visibility: visible;
+    opacity: 1;
     font-size: 12px;
     padding: 5px 15px;
   }
@@ -18931,9 +18933,9 @@ body {
   height: 45px;
 }
 .services .container .swiper .swiper-wrapper .swiper-slide .inner_2 .box-title {
+  font-family: "EB Garamond", serif;
   margin-top: 10px;
   margin-bottom: 0.5rem;
-  font-family: DM Sans;
   font-size: 18px;
   font-weight: 700;
   line-height: 21.6px;
@@ -18984,8 +18986,14 @@ body {
   .services .container .swiper .swiper-wrapper .swiper-slide .inner_1 .box-text {
     font-size: 14px;
   }
+  .services .container .swiper .swiper-wrapper .swiper-slide .inner_1:hover {
+    transform: translateY(10px);
+  }
   .services .container .swiper .swiper-wrapper .swiper-slide .inner_2 {
     padding: 30px 20px;
+  }
+  .services .container .swiper .swiper-wrapper .swiper-slide .inner_2:hover {
+    transform: translateY(0);
   }
   .services .container .swiper .swiper-pagination-bullet {
     background-color: #e4a853;
@@ -19679,7 +19687,7 @@ body {
     margin-bottom: 65px;
   }
   .footer .container .row {
-    padding: 35px 30px 0;
+    padding: 5px 30px 0;
     justify-content: center;
   }
   .footer .container .row .list-img {
@@ -19693,7 +19701,7 @@ body {
     width: 100%;
   }
   .footer .container .row .list .item .footer-title {
-    margin-bottom: 12px;
+    margin-bottom: 5px;
   }
   .footer .container .row .list .item .footer-content {
     font-size: 12px;
@@ -19715,7 +19723,7 @@ body {
   }
   .footer .container .footer-top .row .col-md-4 .link {
     font-size: 12px;
-    padding: 10px 15px;
+    padding: 12px 15px;
     margin-bottom: 25px;
   }
 }
