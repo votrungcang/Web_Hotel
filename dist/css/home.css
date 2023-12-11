@@ -18909,7 +18909,6 @@ body {
   font-family: "EB Garamond", serif;
   margin-top: 10px;
   margin-bottom: 0.5rem;
-  font-family: DM Sans;
   font-size: 18px;
   font-weight: 700;
   line-height: 21.6px;
@@ -18987,10 +18986,16 @@ body {
     font-size: 14px;
   }
   .services .container .swiper .swiper-wrapper .swiper-slide .inner_1:hover {
-    transform: translateY(10px);
+    transform: translateY(0);
   }
   .services .container .swiper .swiper-wrapper .swiper-slide .inner_2 {
     padding: 30px 20px;
+  }
+  .services .container .swiper .swiper-wrapper .swiper-slide .inner_2 .box-title {
+    font-size: 20px;
+  }
+  .services .container .swiper .swiper-wrapper .swiper-slide .inner_2 .box-text {
+    font-size: 14px;
   }
   .services .container .swiper .swiper-wrapper .swiper-slide .inner_2:hover {
     transform: translateY(0);

@@ -32,10 +32,16 @@
     font-size: 14px;
   }
   .services .container .swiper .swiper-wrapper .swiper-slide .inner_1:hover {
-    transform: translateY(10px);
+    transform: translateY(0);
   }
   .services .container .swiper .swiper-wrapper .swiper-slide .inner_2 {
     padding: 30px 20px;
+  }
+  .services .container .swiper .swiper-wrapper .swiper-slide .inner_2 .box-title {
+    font-size: 20px;
+  }
+  .services .container .swiper .swiper-wrapper .swiper-slide .inner_2 .box-text {
+    font-size: 14px;
   }
   .services .container .swiper .swiper-wrapper .swiper-slide .inner_2:hover {
     transform: translateY(0);
