@@ -1,0 +1,61 @@
+.event {
+  background-color: #edebe5;
+  padding: 60px 0;
+}
+.event .container {
+  max-width: 1300px;
+  margin: auto;
+  padding: 0 15px;
+}
+.event .container .row .col-md-6 .image {
+  margin-bottom: 30px;
+  transform: translateY(0);
+  transition: 0.5s ease;
+}
+.event .container .row .col-md-6 .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.event .container .row .col-md-6 .sub-title {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 4.8px;
+  line-height: 22.5px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.event .container .row .col-md-6 .name-title {
+  font-family: "EB Garamond", serif;
+  color: #000;
+  margin-bottom: 10px;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: -1.25px;
+  line-height: 36px;
+  text-align: center;
+}
+.event .container .row .col-md-6 .text {
+  text-align: center;
+  font-weight: 400;
+  color: #686868;
+  font-size: 1rem;
+  line-height: 1.875;
+}
+.event .container .row .col-md-6 .infor {
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center;
+  color: #000;
+}
+.event .container .row .col-md-6 .infor span {
+  color: #ebbc79;
+  display: inline;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center;
+}
+.event .container .row .col-md-6:hover .image {
+  transform: translateY(-10px);
+  transition: 0.5s ease;
+}

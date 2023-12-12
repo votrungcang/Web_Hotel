@@ -28,8 +28,8 @@
                                 h3.name For your comfort
                                 .text When a guest of the Casablanca Hotel, our goal is to ensure you are as comfortable as possible.
                     
-                    .swiper-button-nex
-                    .swiper-button-prev
+                    .swiper-pagination
+                    
 
     script(src="./js/swiper.js")  
     script.
@@ -41,9 +41,9 @@
             delay: 4000,
             disableOnInteraction: false,
             },
-            
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
+            pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
             },
+            
         });

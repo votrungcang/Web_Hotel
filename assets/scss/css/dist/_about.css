@@ -1,0 +1,333 @@
+.banner-about {
+  position: relative;
+  overflow: hidden;
+}
+.banner-about .image {
+  width: 100%;
+  height: 100%;
+}
+.banner-about .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.banner-about .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.banner-about .content .name-title {
+  margin: 0.2em 0 0.2em;
+  padding: 0;
+  text-align: center;
+  line-height: 1.4;
+  color: #fff;
+  font-size: 60px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.top {
+  padding: 100px 0;
+  background-color: #edebe5;
+}
+.top .container {
+  max-width: 1016px;
+  margin: auto;
+}
+.top .container .title {
+  max-width: 450px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+.top .container .title .name-title {
+  font-family: "EB Garamond", serif;
+  text-align: center;
+  color: black;
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: -1.2px;
+  line-height: 60px;
+  text-transform: capitalize;
+}
+.top .container .text-content {
+  text-align: center;
+  font-weight: 400;
+  color: #686868;
+  font-size: 1rem;
+  line-height: 1.875;
+}
+
+.amenities {
+  padding: 0 0 100px;
+  background-color: #edebe5;
+  overflow: hidden;
+}
+.amenities .container {
+  margin: auto;
+  max-width: 1300px;
+  padding: 0 15px;
+}
+.amenities .container .section-title {
+  text-align: center;
+  color: black;
+  margin-bottom: 45px;
+}
+.amenities .container .section-title .name-title {
+  font-family: "EB Garamond", serif;
+  font-size: 50px;
+  letter-spacing: -1.25px;
+  color: currentColor;
+  font-weight: 700;
+  line-height: 60px;
+  text-transform: capitalize;
+}
+.amenities .container .swiper .swiper-wrapper .swiper-slide .inner_1 {
+  padding: 55px 20px 60px;
+  text-align: center;
+  margin: 0 15px;
+  transform: translateY(0);
+  transition: transform 0.3s ease;
+  transition: all 0.3s linear 0ms;
+}
+.amenities .container .swiper .swiper-wrapper .swiper-slide .inner_1 .box-icon {
+  width: 40px;
+  height: 45px;
+}
+.amenities .container .swiper .swiper-wrapper .swiper-slide .inner_1 .box-title {
+  font-family: "EB Garamond", serif;
+  margin-top: 10px;
+  margin-bottom: 0.5rem;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.6px;
+  color: black;
+}
+.amenities .container .swiper .swiper-wrapper .swiper-slide .inner_1:hover {
+  background-color: white;
+  transform: translateY(-10px);
+  transition: all 0.3s linear 0ms;
+}
+.amenities .container .swiper .swiper-wrapper .swiper-slide .inner_2 {
+  margin: 0 15px;
+  padding: 55px 20px 60px;
+  text-align: center;
+  background-color: white;
+  transform: translateY(0);
+  transition: transform 0.3s ease;
+}
+.amenities .container .swiper .swiper-wrapper .swiper-slide .inner_2 .box-icon {
+  width: 40px;
+  height: 45px;
+}
+.amenities .container .swiper .swiper-wrapper .swiper-slide .inner_2 .box-title {
+  font-family: "EB Garamond", serif;
+  margin-top: 10px;
+  margin-bottom: 0.5rem;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.6px;
+  color: black;
+}
+.amenities .container .swiper .swiper-wrapper .swiper-slide .inner_2:hover {
+  background-color: white;
+  transform: translateY(-10px);
+}
+.amenities .container .swiper .swiper-wrapper .swiper-slide .inner_2:hover {
+  background-color: white;
+  transform: translateY(-10px);
+}
+.amenities .container .swiper .swiper-pagination-bullet {
+  background-color: #fff;
+}
+
+.benefit {
+  background: url("../../images/about/benefit/image_1.jpg");
+}
+.benefit .container {
+  max-width: 1300px;
+  margin: auto;
+  padding: 0 15px;
+}
+.benefit .container .row {
+  align-items: center;
+  text-align: center;
+}
+.benefit .container .row .section-title .logo {
+  height: 20px;
+  margin-bottom: 5px;
+}
+.benefit .container .row .section-title .sub-title {
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 4.8px;
+  line-height: 22.5px;
+  text-transform: uppercase;
+}
+.benefit .container .row .section-title .name-title {
+  font-family: "EB Garamond", serif;
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: -1.2px;
+  line-height: 60px;
+  text-transform: capitalize;
+}
+.benefit .container .row .swiper .swiper-wrapper .swiper-slide {
+  position: relative;
+}
+.benefit .container .row .swiper .swiper-wrapper .swiper-slide .image {
+  height: 500px;
+}
+.benefit .container .row .swiper .swiper-wrapper .swiper-slide .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.benefit .container .row .swiper .swiper-wrapper .swiper-slide .content {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: white;
+  max-width: 550px;
+  padding: 50px;
+  border-color: #686868;
+}
+.benefit .container .row .swiper .swiper-wrapper .swiper-slide .content .name {
+  font-family: "EB Garamond", serif;
+  font-size: 25px;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #000;
+}
+.benefit .container .row .swiper .swiper-wrapper .swiper-slide .content .text {
+  color: #686868;
+  font-size: 16px;
+}
+.benefit .container .row .swiper .swiper-pagination-bullet {
+  background-color: #e4a853;
+}
+
+.event {
+  background-color: #edebe5;
+  padding: 100px 0;
+}
+.event .container {
+  max-width: 1300px;
+  margin: auto;
+  padding: 0 15px;
+}
+.event .container .row .col-md-6 .image {
+  margin-bottom: 30px;
+  transform: translateY(0);
+  transition: 0.5s ease;
+}
+.event .container .row .col-md-6 .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.event .container .row .col-md-6 .sub-title {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 4.8px;
+  line-height: 22.5px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.event .container .row .col-md-6 .name-title {
+  font-family: "EB Garamond", serif;
+  color: #000;
+  margin-bottom: 10px;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: -1.25px;
+  line-height: 36px;
+  text-align: center;
+}
+.event .container .row .col-md-6 .text {
+  text-align: center;
+  font-weight: 400;
+  color: #686868;
+  font-size: 1rem;
+  line-height: 1.875;
+}
+.event .container .row .col-md-6 .infor {
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center;
+  color: #000;
+}
+.event .container .row .col-md-6 .infor span {
+  color: #ebbc79;
+  display: inline;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center;
+}
+.event .container .row .col-md-6:hover .image {
+  transform: translateY(-10px);
+  transition: 0.5s ease;
+}
+
+.judge {
+  padding: 0 0 100px;
+  background-color: #edebe5;
+}
+.judge .swiper {
+  max-width: 1300px;
+  margin: auto;
+  padding: 0 15px;
+}
+.judge .swiper .swiper-wrapper .swiper-slide .inner {
+  background-color: #fff;
+  text-align: center;
+  padding: 30px 0;
+}
+.judge .swiper .swiper-wrapper .swiper-slide .inner .content-title {
+  font-family: "EB Garamond", serif;
+  margin-bottom: 0.5rem;
+  font-size: 24px;
+  font-weight: 700;
+  color: #000;
+}
+.judge .swiper .swiper-wrapper .swiper-slide .inner .content-text {
+  margin: 15px 35px;
+  overflow: hidden;
+  font-size: 16px;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+.judge .swiper .swiper-wrapper .swiper-slide .inner .meta .item {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.judge .swiper .swiper-wrapper .swiper-slide .inner .meta .item .image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.judge .swiper .swiper-wrapper .swiper-slide .inner .meta .item .name {
+  color: #000;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.judge .swiper .swiper-wrapper .swiper-slide .inner .meta .rating-star {
+  color: orange;
+  font-size: 15px;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+.judge .swiper .swiper-pagination-bullet {
+  background-color: #e4a853;
+}

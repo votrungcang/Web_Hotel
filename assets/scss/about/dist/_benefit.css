@@ -1,0 +1,68 @@
+.benefit {
+  background: url("../../images/about/benefit/image_1.jpg");
+}
+.benefit .container {
+  max-width: 1300px;
+  margin: auto;
+  padding: 0 15px;
+}
+.benefit .container .row {
+  align-items: center;
+  text-align: center;
+}
+.benefit .container .row .section-title .logo {
+  height: 20px;
+  margin-bottom: 5px;
+}
+.benefit .container .row .section-title .sub-title {
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 4.8px;
+  line-height: 22.5px;
+  text-transform: uppercase;
+}
+.benefit .container .row .section-title .name-title {
+  font-family: "EB Garamond", serif;
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: -1.2px;
+  line-height: 60px;
+  text-transform: capitalize;
+}
+.benefit .container .row .swiper .swiper-wrapper .swiper-slide {
+  position: relative;
+}
+.benefit .container .row .swiper .swiper-wrapper .swiper-slide .image {
+  height: 500px;
+}
+.benefit .container .row .swiper .swiper-wrapper .swiper-slide .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.benefit .container .row .swiper .swiper-wrapper .swiper-slide .content {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: white;
+  max-width: 550px;
+  padding: 50px;
+  border-color: #686868;
+}
+.benefit .container .row .swiper .swiper-wrapper .swiper-slide .content .name {
+  font-family: "EB Garamond", serif;
+  font-size: 25px;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #000;
+}
+.benefit .container .row .swiper .swiper-wrapper .swiper-slide .content .text {
+  color: #686868;
+  font-size: 16px;
+}
+.benefit .container .row .swiper .swiper-pagination-bullet {
+  background-color: #e4a853;
+}

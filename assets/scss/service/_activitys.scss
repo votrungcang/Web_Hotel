@@ -5,88 +5,86 @@
         margin: auto;
         padding: 0;
         background-color: #fff;
-            .row{
+        .row{
+            margin: 0;
+            .col-md-6{
+                padding: 0;
                 margin: 0;
-                .col-md-6{
-                    padding: 0;
-                    margin: 0;
-                    .left{
-                        
-                        .image{
-                            width: 100%;
-                            height: 100%;
-                            object-fit: cover;
-                        }
-                    }
-                    .right{
-                        .inner-content{
-                            padding: 50px 100px;
-                            width: 100%;
-                            
-                            .title{
-                                margin-bottom: 20px;
-                                font-size: 42px;
-                                color: #000;
-                                font-weight: 700;
-                                letter-spacing: -0.75px;
-                                
-                            }
-                            .content{
-                                color: rgb(104, 104, 104);
-                                font-size: 16px;
-                            }
-                            .btn{
-                                .link{
-                                    margin-top: 20px;
-                                    display: inline-block;
-                                    text-decoration: none;
-                                    padding: 0.813rem 3.2rem;
-                                    font-size: 12px;
-                                    font-weight: 700;
-                                    line-height: 22.5px;
-                                    background-image: var(--btn-gradient);
-                                    color: white;
-                                    border: 1px solid var(--btn-gradient);
-                                    border-radius: 30px;
-                                    user-select: none;
-                                    text-transform: uppercase;
-                                    font-family: "DM Sans";
-                                    cursor: pointer;
-                                    position: relative;
-                                    isolation: isolate;
-                                    overflow: hidden;
-                                    &:hover::before {
-                                      left: auto;
-                                      right: 0;
-                                      width: 100%;
-                                    }
-                                    &::before {
-                                      content: "";
-                                      position: absolute;
-                                      left: 0;
-                                      right: auto;
-                                      top: 0;
-                                      height: 100%;
-                                      width: 0;
-                                      background-color: #fff;
-                                      opacity: 0.1;
-                                      z-index: -1;
-                                      transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
-                                    }
-                                }
-                            }
-                        }
-                        
-                    }
-                     
-                    
+                .left{
+                    order: 2;
                 }
-                &:nth-child(even){
-                    .left{
-                        order: 2;
+                .right{
+                    order: 1;
+                }
+                .image{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+                .inner-content{
+                    padding: 50px 100px;
+                    width: 100%;
+                    
+                    .title{
+                        font-family: 'EB Garamond', serif;
+                        margin-bottom: 20px;
+                        font-size: 42px;
+                        color: #000;
+                        font-weight: 700;
+                        letter-spacing: -0.75px;
                     }
+                    .content{
+                        font-size: 16px;
+                    }
+                    .btn{
+                        .link{
+                            margin-top: 20px;
+                            display: inline-block;
+                            text-decoration: none;
+                            padding: 0.813rem 3.2rem;
+                            font-size: 12px;
+                            font-weight: 700;
+                            line-height: 22.5px;
+                            background-image: var(--btn-gradient);
+                            color: white;
+                            border: 1px solid var(--btn-gradient);
+                            border-radius: 30px;
+                            user-select: none;
+                            text-transform: uppercase;
+                            cursor: pointer;
+                            position: relative;
+                            isolation: isolate;
+                            overflow: hidden;
+                            &:hover::before {
+                              left: auto;
+                              right: 0;
+                              width: 100%;
+                            }
+                            &::before {
+                              content: "";
+                              position: absolute;
+                              left: 0;
+                              right: auto;
+                              top: 0;
+                              height: 100%;
+                              width: 0;
+                              background-color: #fff;
+                              opacity: 0.1;
+                              z-index: -1;
+                              transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+                            }
+                        }
+                    }
+                }
+                    
+                
+            }
+            &:nth-child(even){
+                .left{
+                    order: 2;
                 }
             }
+        }
         
     }
 }

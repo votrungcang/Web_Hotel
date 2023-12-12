@@ -1,10 +1,10 @@
 .room{
-    padding: 100px 0;
+    padding: 60px 0;
     background-color: #edebe5;
     .swiper{
         max-width: 1300px;
         padding: 0 15px;
-        margin: auto;
+        margin: auto; 
         .swiper-wrapper{
             .swiper-slide{
                 margin-right: 0;
@@ -18,90 +18,77 @@
                             width: 100%;
                             height: 100%;
                             object-fit: cover;   
-                            transition: all ease-in-out 0.3s;
+                            transition: all ease-in-out 0.5s;
                         }
-                        &::before{
-                            content: "";
-                            position: absolute;
-                            top: 0;
-                            left: 0;
-                            z-index: 1;
-                            width: 100%;
-                            height: 100%;
-                            transition: all ease-in-out 0.3s;
-                        }
-                        .price{
-                            opacity: 0;
-                            position: absolute;
-                            top: 40px;
-                            left: 40px;
-                            z-index: 2;
-                            transition: all ease-in-out 0.3s;
-                            .price-title{
-                                text-transform: capitalize;
-                                font-weight: 400;
-                                font-size: 0.875rem;
-                                font-style: italic;
-                                color: white;
-                            }
-                            .inner{
-                                display: flex;
-                                align-items: center;
-                                .price-value{
-                                    color: #e4a853;
-                                    font-size: 1.5rem;
-                                }
-                                .price-unti{
-                                    text-transform: capitalize;
-                                    font-weight: 400;
-                                    font-size: 0.875rem;
-                                    font-style: italic;
-                                    color: white;
-                                }
-                            }
-                        }
-                        
-                        
                         
                     }
                     .content{
                         padding: 25px 40px;
                         background-color: #ffffff;
                         .content-title{
-                            font-family: DM Sans;
-                            font-size: 24px;
+                            font-family: 'EB Garamond', serif;
+                            font-size: 23px;
                             font-weight: 700;
                             line-height: 28.8px;
                             color: black;
                         }
-                        .room-types{
-                            color: #888888;
-                            font-family: DM Sans;
-                            font-size: 14px;
-                            line-height: 26.25px;
-                            margin-right: 10px;
+                        .acreage{
+                            margin-top: 5px;
+                            display: flex;
+                            align-items: flex-end;
+                            gap: 10px;
+                            .width{
+                               color: gray;
+                            }
+                            .room-types{
+                                color: #888888;
+                                font-size: 15px;
+                            }
+                            .price{
+                                display: flex;
+                                align-items: flex-end;
+                                .price-title{
+                                    font-size: 16px;
+                                    font-weight: 700;
+                                    color: black;
+                                }
+                                .price-value{
+                                    margin-left: 10px;
+                                    color: #e4a853;
+                                    font-size: 14px;
+                                    span{
+                                        color: #888888;
+                                        font-size: 12px;
+                                        margin-right: 10px;
+                                    }
+                                }
+                            }
                         }
                     }
                     &:hover{
                         .image{
                             img{
                                 transform: scale(1.1);
-                                transition: all ease-in-out 0.3s;
+                                transition: all ease-in-out 0.5s;
                             }
-                            &::before{
-                                background-color: rgba(0, 0, 0, 0.5);
-                            }
-                            .price{
-                                opacity: 1;
-                                transform: translate(0);
-                                transition: all ease-in-out 0.3s;
-                            }
+                            // &::before{
+                            //     background-color: rgba(0, 0, 0, 0.5);
+                            // }
+                            // .price{
+                            //     opacity: 1;
+                            //     transform: translate(0);
+                            //     transition: all ease-in-out 0.3s;
+                            // }
                         }
                     }
                 }
             }
         }
+        .swiper-pagination-bullet{
+            background-color: #fff;
+            margin-top: 20px;
+           }
     }
 }
 
-@import '../mobile/rooms/roomsMobile';
+@import '../mobile/rooms/roomMobile';

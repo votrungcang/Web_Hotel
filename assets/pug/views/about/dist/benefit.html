@@ -1,0 +1,58 @@
+
+<div class="benefit"> 
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="section-title"> <img class="logo" src="./images/logo_icon.png" alt="icon"/>
+          <div class="sub-title">why chooes us </div>
+          <div class="name-title">top reasons to stay</div>
+        </div>
+      </div>
+      <div class="col-md-8">
+        <div class="swiper benefit-Swiper"> 
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="image"><img src="./images/about/benefit/image_2.jpg" alt="image"/></div>
+              <div class="content"> 
+                <h3 class="name">Continental Breakfast</h3>
+                <div class="text">Soy or Almond milk, gluten free toast and cereal are available upon request. Please advise us of any special requirements in advance so we can prepare to accommodate these requests.</div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="image"><img src="./images/about/benefit/image_3.jpg" alt="image"/></div>
+              <div class="content"> 
+                <h3 class="name">24 Hour Refreshments and so much more</h3>
+                <div class="text">Please consider the Casablanca your private club or better yet, your home away from home. Rick’s Cafe is our guests 24-hour living room where you can invite a friend or meet new friends from around the world.</div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="image"><img src="./images/about/benefit/image_4.jpg" alt="image"/></div>
+              <div class="content"> 
+                <h3 class="name">For your comfort</h3>
+                <div class="text">When a guest of the Casablanca Hotel, our goal is to ensure you are as comfortable as possible.</div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./js/swiper.js"> </script>
+  <script>
+    var swiper = new Swiper(".benefit-Swiper", {
+        slidesPerView: 1,
+        loop: true,
+        grabCursor: true,
+        autoplay: {
+        delay: 4000,
+        disableOnInteraction: false,
+        },
+        pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        },
+        
+    });
+  </script>
+</div>

@@ -1,0 +1,26 @@
+@media (max-width: 1025px){
+    .room{
+        padding: 30px 0;
+            .swiper{
+                .swiper-pagination-bullet {
+                    background-color: #e4a853;
+                }
+            }
+        
+    } 
+}
+@media (max-width: 993px){
+    .room{
+        .swiper{
+            padding: 0 0 15px;
+            .swiper-wrapper{
+                .swiper-slide{
+                    .inner{
+                        .content{
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

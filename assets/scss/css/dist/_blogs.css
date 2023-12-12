@@ -1,0 +1,178 @@
+.banner-blogs {
+  position: relative;
+  overflow: hidden;
+}
+.banner-blogs .image {
+  position: relative;
+  padding-top: 393.66px;
+}
+.banner-blogs .image .thumd {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.banner-blogs .image .thumd img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.banner-blogs .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.banner-blogs .content .name-title {
+  margin: 0.2em 0 0.2em;
+  padding: 0;
+  text-align: center;
+  line-height: 1.4;
+  color: #fff;
+  font-size: 60px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.blogs-2 .row .col-lg-8 .inner {
+  position: relative;
+  overflow: hidden;
+  margin-top: 20px;
+}
+.blogs-2 .row .col-lg-8 .inner .thumd {
+  padding-top: 126.835%;
+  position: relative;
+  overflow: hidden;
+}
+.blogs-2 .row .col-lg-8 .inner .thumd .wind {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.blogs-2 .row .col-lg-8 .inner .thumd .wind::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-image: -webkit-linear-gradient(90deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%);
+  transition: all 0.4s ease;
+  opacity: 1;
+  z-index: 0;
+}
+.blogs-2 .row .col-lg-8 .inner .thumd .wind .image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.blogs-2 .row .col-lg-8 .inner .item {
+  padding: 15px 40px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.blogs-2 .row .col-lg-8 .inner .item .entry {
+  position: relative;
+}
+.blogs-2 .row .col-lg-8 .inner .item .entry .entry-item {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: all 0.5s ease;
+}
+.blogs-2 .row .col-lg-8 .inner .item .entry .entry-item .meta {
+  margin-bottom: 1em;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  z-index: 2;
+}
+.blogs-2 .row .col-lg-8 .inner .item .entry .entry-item .meta .meta-text {
+  color: white;
+  font-size: 0.625rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+.blogs-2 .row .col-lg-8 .inner .item .entry .entry-item .meta .meta-day {
+  color: #bdbdbd;
+  font-size: 0.625rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+.blogs-2 .row .col-lg-8 .inner .item .entry .entry-item .entry-title {
+  font-family: "EB Garamond", serif;
+  color: white;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.25;
+  margin-bottom: 22px;
+  z-index: 2;
+}
+.blogs-2 .row .col-lg-8 .inner .item .entry .entry-content {
+  transform: translateY(300%);
+  opacity: 0;
+  transition: all 0.5s ease;
+  margin-bottom: 25px;
+}
+.blogs-2 .row .col-lg-8 .inner .item .entry .entry-content .entry-text {
+  color: #bdbdbd;
+  line-height: 1.5;
+}
+.blogs-2 .row .col-lg-8 .inner .item .entry .entry-content .entry-link {
+  margin-top: 25px;
+}
+.blogs-2 .row .col-lg-8 .inner .item .entry .entry-content .entry-link .link {
+  margin-top: 20px;
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.813rem 3.2rem;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 22.5px;
+  background-image: var(--btn-gradient);
+  color: white;
+  border: 1px solid var(--btn-gradient);
+  border-radius: 30px;
+  user-select: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+}
+.blogs-2 .row .col-lg-8 .inner .item .entry .entry-content .entry-link .link:hover::before {
+  left: auto;
+  right: 0;
+  width: 100%;
+}
+.blogs-2 .row .col-lg-8 .inner .item .entry .entry-content .entry-link .link::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: auto;
+  top: 0;
+  height: 100%;
+  width: 0;
+  background-color: #fff;
+  opacity: 0.1;
+  z-index: -1;
+  transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.blogs-2 .row .col-lg-8 .inner:hover .item .entry .entry-item {
+  bottom: 100%;
+  transition: all 0.5s ease;
+}
+.blogs-2 .row .col-lg-8 .inner:hover .item .entry .entry-content {
+  transform: translateY(0%);
+  opacity: 1;
+  transition: all 0.5s ease;
+}

@@ -1,0 +1,13 @@
+@media (max-width: 1025px) {
+  .room {
+    padding: 30px 0;
+  }
+  .room .swiper .swiper-pagination-bullet {
+    background-color: #e4a853;
+  }
+}
+@media (max-width: 993px) {
+  .room .swiper {
+    padding: 0 0 15px;
+  }
+}
