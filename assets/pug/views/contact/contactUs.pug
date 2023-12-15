@@ -1,0 +1,52 @@
+.contact_us 
+    .container
+        .row 
+            .col-lg-4 
+                .title contact us 
+                .text If you need any help, please contact us or send us an email or go to our forum We are sure that you can receive our reply as soon as possible.
+            .col-lg-8
+                .inner
+                    .row 
+                        .col-md-4 
+                            .item
+                                .icon
+                                    +render_icon('phone')
+                                .sub-title phone
+                                .box + (025) 5688 8821
+                        .col-md-4 
+                            .item
+                                .icon
+                                    +render_icon('address')
+                                .sub-title address
+                                .box 4th Floor, 147 Mai Dien, Cau Giay, Hanoi
+                        .col-md-4 
+                            .item
+                                .icon
+                                    +render_icon('email')
+                                .sub-title email
+                                .box info@webhotel.com.vn
+        .row 
+            .col-md-5 
+                .name-title Feedback Form
+                .text If you have any question. Please don’t hesitate to send us a message
+                .row 
+                    .col-lg-12 
+                        select(name="on")
+                            option(value="Mr") Mr
+                            option(value="Mrs") Mrs
+                    .col-lg-12 
+                        input(type="text" placeholder="Your Name")
+                    .col-lg-12 
+                        input(type="text" placeholder="Your Email")
+                    .col-lg-12 
+                        .col-md-6 
+                            input(type="text" placeholder="Phone Number")
+                        .col-md-6 
+                            input(type="text" placeholder="Subject(Opitional)")
+                    .col-lg-12 
+                        textarea(name="on", cols="30", rows="10", placeholder="here goes your message")  
+                    .col-lg-12 
+                        .btn_1 send message
+            .col-md-7
+                .map 
+                    iframe(src="https://www.google.com/maps/place/Tr%C6%B0%E1%BB%9Dng+Cao+%C4%91%E1%BA%B3ng+K%E1%BB%B9+Thu%E1%BA%ADt+C%C3%B4ng+Ngh%E1%BB%87+Nha+Trang/@12.2005269,109.1657932,14z/data=!4m14!1m7!3m6!1s0x3170674637000ac9:0x51fd8a017075f390!2zVHLGsOG7nW5nIENhbyDEkeG6s25nIEvhu7kgVGh14bqtdCBDw7RuZyBOZ2jhu4cgTmhhIFRyYW5n!8m2!3d12.2012715!4d109.1731425!16s%2Fg%2F1tp0b4t1!3m5!1s0x3170674637000ac9:0x51fd8a017075f390!8m2!3d12.2012715!4d109.1731425!16s%2Fg%2F1tp0b4t1?hl=vi-VN&entry=ttu", frameborder="0", width="600px", height="450px") 

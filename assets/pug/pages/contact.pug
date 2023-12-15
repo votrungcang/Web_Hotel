@@ -1,0 +1,38 @@
+include ../mixin/mixin
+
+- var data_page = data.page_home
+
+doctype html
+html(lang='vi')
+    head
+        +head_setting(data_page)
+
+    body
+        |
+        include ../layout/header/header 
+        |
+        .wrapper_rooms 
+            include ../views/contact/banner
+            |
+            include ../views/contact/contactUs
+            |
+            include ../views/home/footer
+
+        script(src="./js/jQuery.js")
+        | 
+        script(src="./js/bootstrap.js") 
+        |
+        script(src="./js/swiper.js") 
+        |
+        script(src="./js/owlCarousel.js")
+        | 
+        script(src="./js/fontAwesome.js") 
+        |
+        script(src="./js/wow.js")
+        script.
+            new WOW().init();
+        
+    
+ 
+        
+    

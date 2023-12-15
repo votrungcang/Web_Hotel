@@ -1,0 +1,50 @@
+.contact_us {
+  padding: 60px 0;
+}
+.contact_us .container {
+  max-width: 1300px;
+  margin: auto;
+  padding: 0 15px;
+}
+.contact_us .container .row .col-lg-4 .title {
+  margin-bottom: 30px;
+  color: #000;
+  font-size: 50px;
+  font-weight: 700;
+  font-family: "EB Garamond", serif;
+  text-transform: capitalize;
+}
+.contact_us .container .row .col-lg-4 .text {
+  font-size: 16px;
+}
+.contact_us .container .row .col-lg-8 .inner {
+  border: 2px solid var(--border);
+}
+.contact_us .container .row .col-lg-8 .inner .row .col-md-4 .item {
+  position: relative;
+  padding: 25px;
+}
+.contact_us .container .row .col-lg-8 .inner .row .col-md-4 .item .icon {
+  color: #000;
+  font-size: 31px;
+  margin-bottom: 10px;
+}
+.contact_us .container .row .col-lg-8 .inner .row .col-md-4 .item .sub-title {
+  margin-bottom: 10px;
+  font-size: 14px;
+  letter-spacing: 4px;
+  color: #000;
+  text-transform: uppercase;
+}
+.contact_us .container .row .col-lg-8 .inner .row .col-md-4 .item .box {
+  font-size: 14px;
+}
+.contact_us .container .row .col-lg-8 .inner .row .col-md-4 .item::before {
+  content: "";
+  position: absolute;
+  top: 31px;
+  right: 0;
+  width: 1px;
+  height: 100px;
+  background-color: var(--border);
+}
