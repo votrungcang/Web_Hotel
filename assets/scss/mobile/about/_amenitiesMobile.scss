@@ -1,0 +1,57 @@
+@media (max-width: 1025px){
+    .amenities{
+        padding: 0 0 30px;
+    }
+}
+@media (max-width: 993px){
+    .amenities{
+        .container{
+            .section-title{
+                margin-bottom: 15px;
+                .name-title{
+                    font-size: 25px;
+                }
+            }
+            .swiper{
+                padding-bottom: 35px;
+                .swiper-wrapper{
+                    .swiper-slide {
+                        .inner_1{
+                            padding: 30px 20px;
+                            background-color: #fff;
+                            .box-title{
+                                font-size: 20px;
+
+                            }
+                            .box-text{
+                                font-size: 14px;
+                            }
+                            &:hover{
+                                transform: translateY(0);
+                                
+                            }
+                        }
+                        .inner_2{
+                            padding: 30px 20px;
+                            .box-title{
+                                font-size: 20px;
+
+                            }
+                            .box-text{
+                                font-size: 14px;
+                            }
+                            &:hover{
+                                transform: translateY(0);
+                                
+                            }
+                        }
+                    }
+                }
+                .swiper-pagination-bullet {
+                    background-color: #e4a853;
+                }
+                
+            }
+        }
+    }
+}

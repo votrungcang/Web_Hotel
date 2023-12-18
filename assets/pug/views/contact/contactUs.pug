@@ -25,28 +25,30 @@
                                     +render_icon('email')
                                 .sub-title email
                                 .box info@webhotel.com.vn
-        .row 
-            .col-md-5 
-                .name-title Feedback Form
-                .text If you have any question. Please don’t hesitate to send us a message
-                .row 
-                    .col-lg-12 
-                        select(name="on")
-                            option(value="Mr") Mr
-                            option(value="Mrs") Mrs
-                    .col-lg-12 
-                        input(type="text" placeholder="Your Name")
-                    .col-lg-12 
-                        input(type="text" placeholder="Your Email")
-                    .col-lg-12 
-                        .col-md-6 
-                            input(type="text" placeholder="Phone Number")
-                        .col-md-6 
-                            input(type="text" placeholder="Subject(Opitional)")
-                    .col-lg-12 
-                        textarea(name="on", cols="30", rows="10", placeholder="here goes your message")  
-                    .col-lg-12 
-                        .btn_1 send message
-            .col-md-7
-                .map 
-                    iframe(src="https://www.google.com/maps/place/Tr%C6%B0%E1%BB%9Dng+Cao+%C4%91%E1%BA%B3ng+K%E1%BB%B9+Thu%E1%BA%ADt+C%C3%B4ng+Ngh%E1%BB%87+Nha+Trang/@12.2005269,109.1657932,14z/data=!4m14!1m7!3m6!1s0x3170674637000ac9:0x51fd8a017075f390!2zVHLGsOG7nW5nIENhbyDEkeG6s25nIEvhu7kgVGh14bqtdCBDw7RuZyBOZ2jhu4cgTmhhIFRyYW5n!8m2!3d12.2012715!4d109.1731425!16s%2Fg%2F1tp0b4t1!3m5!1s0x3170674637000ac9:0x51fd8a017075f390!8m2!3d12.2012715!4d109.1731425!16s%2Fg%2F1tp0b4t1?hl=vi-VN&entry=ttu", frameborder="0", width="600px", height="450px") 
+        .section
+            .row 
+                .col-md-5
+                    .inner_1 
+                        .name-title Feedback Form
+                        .text If you have any question. Please don’t hesitate to send us a message
+                        .row 
+                            .col-lg-12 
+                                select.select(name="on")
+                                    option(value="Mr") Mr
+                                    option(value="Mrs") Mrs
+                            .col-lg-12 
+                                input(type="text" placeholder="Your Name")
+                            .col-lg-12 
+                                input(type="text" placeholder="Your Email")
+                            .col-lg-12
+                                input(type="text" placeholder="Phone Number")
+                            .col-lg-12 
+                                    input(type="text" placeholder="Subject(Opitional)")
+                            .col-lg-12 
+                                textarea.text(name="on", cols="40", rows="3", placeholder="here goes your message")  
+                            .col-lg-12 
+                                .btn_1 send message
+                .col-md-7
+                    .map 
+                        iframe.size(src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3723.8088515190775!2d105.774463!3d21.040333!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313454c563dba4eb%3A0xc3161d468d77f9aa!2zSUlUIFRFQ0hDT00gLSBDw7RuZyB0eSBUTkhIIEPDtG5nIG5naOG7hyB2w6AgdHJ1eeG7gW4gdGjDtG5nIElJVA!5e0!3m2!1svi!2sus!4v1702915537962!5m2!1svi!2sus"  style="border:0;"   allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade") 
+                        

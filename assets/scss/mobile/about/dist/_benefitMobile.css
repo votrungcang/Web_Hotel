@@ -1,0 +1,26 @@
+@media (max-width: 993px) {
+  .benefit .container .row .col-md-4 .section-title {
+    padding: 20px;
+  }
+  .benefit .container .row .col-md-4 .section-title .sub-title {
+    letter-spacing: 3px;
+  }
+  .benefit .container .row .col-md-4 .section-title .name-title {
+    font-size: 25px;
+  }
+  .benefit .container .row .col-md-8 .swiper {
+    padding-bottom: 35px;
+  }
+  .benefit .container .row .col-md-8 .swiper .swiper-wrapper .swiper-slide .image {
+    height: 355px;
+  }
+  .benefit .container .row .col-md-8 .swiper .swiper-wrapper .swiper-slide .content {
+    padding: 20px;
+  }
+  .benefit .container .row .col-md-8 .swiper .swiper-wrapper .swiper-slide .content .name {
+    font-size: 20px;
+  }
+  .benefit .container .row .col-md-8 .swiper .swiper-wrapper .swiper-slide .content .text {
+    font-size: 14px;
+  }
+}

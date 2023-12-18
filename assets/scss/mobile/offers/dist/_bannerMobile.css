@@ -1,0 +1,8 @@
+@media (max-width: 993px) {
+  .banner-offers .image {
+    padding-top: 200px;
+  }
+  .banner-offers .content .name-title {
+    font-size: 30px;
+  }
+}

@@ -1,4 +1,5 @@
 .offers_us{
+    overflow: hidden;
     padding: 60px 0;
     .container{
         max-width: 1300px;
@@ -16,6 +17,7 @@
         .list{
             margin-top: 30px;
             .item{
+                overflow: hidden;
                 margin-top: 30px;
                 img{
                     width: 100%;
@@ -94,3 +96,5 @@
         }
     }
 }
+
+@import '../mobile/offers/offersMobile';

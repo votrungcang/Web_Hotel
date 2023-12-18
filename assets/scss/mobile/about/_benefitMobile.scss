@@ -1,0 +1,40 @@
+@media (max-width: 993px){
+    .benefit{
+        .container{
+            .row{
+                .col-md-4{
+                    .section-title{
+                        padding: 20px;
+                        .sub-title{
+                            letter-spacing: 3px;
+                        }
+                        .name-title{
+                            font-size: 25px;
+                        }
+                    }
+                }
+                .col-md-8{
+                    .swiper{
+                        padding-bottom: 35px;
+                        .swiper-wrapper{
+                            .swiper-slide{
+                                .image{
+                                    height: 355px;
+                                }
+                                .content{
+                                    padding: 20px;
+                                    .name{
+                                        font-size: 20px;
+                                    }
+                                    .text{
+                                        font-size: 14px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

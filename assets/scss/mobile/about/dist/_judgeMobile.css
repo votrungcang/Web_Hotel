@@ -1,0 +1,19 @@
+@media (max-width: 1025px) {
+  .judge {
+    padding: 0 0 30px;
+  }
+}
+@media (max-width: 993px) {
+  .judge .swiper .swiper-wrapper .swiper-slide .inner {
+    padding: 15px;
+  }
+  .judge .swiper .swiper-wrapper .swiper-slide .inner .content-text {
+    font-size: 14px;
+  }
+  .judge .swiper .swiper-wrapper .swiper-slide .inner .meta .item .text .name {
+    font-size: 14px;
+  }
+  .judge .swiper .swiper-wrapper .swiper-slide .inner .meta .item .text .job {
+    font-size: 12px;
+  }
+}

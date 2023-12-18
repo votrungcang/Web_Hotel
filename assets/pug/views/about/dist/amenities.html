@@ -1,0 +1,63 @@
+
+<div class="amenities"> 
+  <div class="container">
+    <div class="section-title wow zoomIn">
+      <h1 class="name-title">Hotel Amenities</h1>
+    </div>
+    <div class="swiper amenities-Swiper"> 
+      <div class="swiper-wrapper"> 
+        <div class="swiper-slide wow fadeInDown"> 
+          <div class="inner_1"><img class="box-icon" src="./images/home/services/icon.png" alt=""/>
+            <h3 class="box-title">Pick Up & Drop </h3>
+            <div class="box-text">We’ll pick up from airport while you comfy on your ride.</div>
+          </div>
+        </div>
+        <div class="swiper-slide wow fadeInDown">
+          <div class="inner_2"><img class="box-icon" src="./images/home/services/icon.png" alt=""/>
+            <h3 class="box-title">Pick Up & Drop </h3>
+            <div class="box-text">We’ll pick up from airport while you comfy on your ride.</div>
+          </div>
+        </div>
+        <div class="swiper-slide wow fadeInDown">
+          <div class="inner_1"><img class="box-icon" src="./images/home/services/icon.png" alt=""/>
+            <h3 class="box-title">Pick Up & Drop </h3>
+            <div class="box-text">We’ll pick up from airport while you comfy on your ride.</div>
+          </div>
+        </div>
+        <div class="swiper-slide wow fadeInDown">
+          <div class="inner_2"><img class="box-icon" src="./images/home/services/icon.png" alt=""/>
+            <h3 class="box-title">Pick Up & Drop </h3>
+            <div class="box-text">We’ll pick up from airport while you comfy on your ride.  </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+  <script src="./js/swiper.js"></script>
+  <script>
+    var swiper = new Swiper(".amenities-Swiper", {
+        slidesPerView: 1,
+        loop: true,
+        grabCursor: true,
+        pagination: {
+        el: ".swiper-pagination",
+        dynamicBullets: true,
+        clickable: true,
+        },
+        breakpoints: {
+            640: {
+            slidesPerView: 1,
+            
+            },
+            768: {
+            slidesPerView: 2,
+            
+            },
+            1024: {
+            slidesPerView: 4,
+            },
+        },
+    });
+  </script>
+</div>

@@ -1,0 +1,28 @@
+@media (max-width: 1025px) {
+  .event {
+    padding: 30px 0;
+  }
+}
+@media (max-width: 993px) {
+  .event .container .row .col-md-6 {
+    padding-top: 20px;
+  }
+  .event .container .row .col-md-6 .image {
+    padding-bottom: 10px;
+  }
+  .event .container .row .col-md-6 .image img {
+    height: 250px;
+  }
+  .event .container .row .col-md-6 .sub-title {
+    letter-spacing: 3px;
+  }
+  .event .container .row .col-md-6 .name-title {
+    font-size: 25px;
+  }
+  .event .container .row .col-md-6 .text {
+    font-size: 14px;
+  }
+  .event .container .row .col-md-6 .infor {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,8 @@
+@media (max-width: 993px) {
+  .banner-gallery .image {
+    padding-top: 200px;
+  }
+  .banner-gallery .content .name-title {
+    font-size: 30px;
+  }
+}

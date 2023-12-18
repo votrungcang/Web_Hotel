@@ -34,3 +34,12 @@
   font-weight: 700;
   text-transform: capitalize;
 }
+
+@media (max-width: 993px) {
+  .banner-blogs .image {
+    padding-top: 200px;
+  }
+  .banner-blogs .content .name-title {
+    font-size: 30px;
+  }
+}

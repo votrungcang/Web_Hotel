@@ -1,0 +1,145 @@
+.booking_us
+    .container 
+        .row 
+            .col-lg-4 
+                .inner
+                    .row 
+                        .col-md-6 
+                            .item
+                                .sub-title check in 
+                                .day 12/18/2023
+                        .col-md-6 
+                            .item
+                                .sub-title check in 
+                                .day 12/18/2023
+                        .col-md-6
+                            .item
+                                .sub-title adults
+                                select.select(name="adults") 
+                                    option(value="1" selected) 1
+                                    option(value="2") 2  
+                                    option(value="3") 3
+                                    option(value="4") 4 
+                                    option(value="5") 5
+                                    option(value="6") 6
+                                    option(value="7") 7
+                                    option(value="8") 8
+                                    option(value="9") 9
+                                    option(value="10") 10
+                        .col-md-6
+                            .item
+                                .sub-title child
+                                select.select(name="child") 
+                                    option(value="1" selected) 1
+                                    option(value="2") 2  
+                                    option(value="3") 3
+                                    option(value="4") 4 
+                                    option(value="5") 5
+                                    option(value="6") 6
+                                    option(value="7") 7
+                                    option(value="8") 8
+                                    option(value="9") 9
+                                    option(value="10") 10
+            .col-lg-8
+                .inner
+                    .col-md-12
+                        .row 
+                            table.table-us 
+                                tr 
+                                    th.name-title Name Room
+                                    th.name-title Price
+                                    th.name-title MaxPeple
+                                    th.name-title Sale Off
+                                    th.name-title Number of Basic
+                                tr  
+                                    td.sub-title Double Room
+                                    td.sub-price 120 USD
+                                    td.sub-max 2 
+                                    td.sub-sale 0% 
+                                    td.sub-number 
+                                        select(name="number") 
+                                            option(value="1" selected) 1
+                                            option(value="2") 2  
+                                            option(value="3") 3
+                                            option(value="4") 4 
+                                            option(value="5") 5
+                                            option(value="6") 6
+                                            option(value="7") 7
+                                            option(value="8") 8
+                                            option(value="9") 9
+                                            option(value="10") 10
+                                tr  
+                                    td.sub-title Luxury Room
+                                    td.sub-price 150 USD
+                                    td.sub-max 2 
+                                    td.sub-sale 0% 
+                                    td.sub-number 
+                                        select(name="number") 
+                                            option(value="1" selected) 1
+                                            option(value="2") 2  
+                                            option(value="3") 3
+                                            option(value="4") 4 
+                                            option(value="5") 5
+                                            option(value="6") 6
+                                            option(value="7") 7
+                                            option(value="8") 8
+                                            option(value="9") 9
+                                            option(value="10") 10
+                                tr  
+                                    td.sub-title Premium Room
+                                    td.sub-price 170 USD
+                                    td.sub-max 3 
+                                    td.sub-sale 10% 
+                                    td.sub-number 
+                                        select(name="number") 
+                                            option(value="1" selected) 1
+                                            option(value="2") 2   
+                                            option(value="3") 3
+                                            option(value="4") 4 
+                                            option(value="5") 5
+                                            option(value="6") 6
+                                            option(value="7") 7
+                                            option(value="8") 8
+                                            option(value="9") 9
+                                            option(value="10") 10
+                    .row  
+                        .col-md-6 
+                            .item
+                                label(for="Gender") Gender
+                                span * 
+                            select.select(name="mr")
+                                option(value="Mr" selected) Mr  
+                                option(value="Mrs") Mrs 
+                        .col-md-6 
+                            .item
+                                label(for="Full Name") Full Name 
+                                span * 
+                            input(type="text" name="Full Name")
+                    .row 
+                        .col-md-6
+                            .item 
+                                label(for="Phone ") Phone 
+                                span *
+                            input(type="text" name="Phone ")
+                        .col-md-6 
+                            .item
+                                label(for="Country ") country 
+                                span *
+                            input(type="text" name="Country ")
+                    .col-md-12 
+                        .item
+                            label(for="Email ") Email 
+                            span * 
+                        input.input_1(type="email" name="email ")
+                    .col-md-12 
+                        .item
+                            label(for="messeger ") Messeger 
+                            span *
+                        textarea.text(name="Messeger", cols="40", rows="5") 
+                    .col-md-12 
+                        input(type="checkbox" name="agree")
+                        span.text-box I read and agree with the terms & conditions of the Erios
+                    .col-md-12 
+                        input.btn(type="submit" value="Send")
+                
+

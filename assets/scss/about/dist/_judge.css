@@ -57,3 +57,18 @@
 .judge .swiper .swiper-pagination-bullet {
   background-color: #e4a853;
 }
+
+@media (max-width: 993px) {
+  .judge .swiper .swiper-wrapper .swiper-slide .inner {
+    padding: 15px;
+  }
+  .judge .swiper .swiper-wrapper .swiper-slide .inner .content-text {
+    font-size: 14px;
+  }
+  .judge .swiper .swiper-wrapper .swiper-slide .inner .meta .item .text .name {
+    font-size: 14px;
+  }
+  .judge .swiper .swiper-wrapper .swiper-slide .inner .meta .item .text .job {
+    font-size: 12px;
+  }
+}

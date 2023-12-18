@@ -1,0 +1,35 @@
+@media (max-width: 1025px){
+    .judge{
+        padding: 0 0 30px
+    }
+}
+
+@media (max-width: 993px){
+    .judge{
+        .swiper{
+            .swiper-wrapper{
+                .swiper-slide{
+                    .inner {
+                        padding: 15px;
+                        
+                        .content-text{
+                            font-size: 14px;
+                        }
+                        .meta{
+                            .item{
+                                .text{
+                                    .name{
+                                        font-size: 14px;
+                                    }
+                                    .job{
+                                        font-size: 12px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

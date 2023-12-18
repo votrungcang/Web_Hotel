@@ -1,0 +1,8 @@
+@media (max-width: 993px) {
+  .banner-booking .image {
+    padding-top: 200px;
+  }
+  .banner-booking .content .name-title {
+    font-size: 30px;
+  }
+}

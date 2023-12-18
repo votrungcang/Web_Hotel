@@ -34,3 +34,9 @@
   font-weight: 700;
   text-transform: capitalize;
 }
+
+@media (max-width: 993px) {
+  .banner-rooms .content .name-title {
+    font-size: 30px;
+  }
+}

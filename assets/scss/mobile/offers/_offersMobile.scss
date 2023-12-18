@@ -1,0 +1,42 @@
+@media (max-width: 1025px){
+    .offers_us{
+        padding: 30px 0;
+    }
+}
+
+@media (max-width: 993px){
+    .offers_us{
+        .container{
+            .title{
+                font-size: 25px;
+            }
+            .list{
+                .item{
+                    img{
+                        height: 200px;
+                    }
+                    .row{
+                        .col-md-6{
+                            padding: 10px 20px;
+                            .sub-title{
+                                font-size: 20px;
+                            }
+                            .text{
+                                font-size: 14px;
+                            }
+                            .btn_1{
+                                padding: 5px 10px;
+                                font-size: 12px;
+                            }
+                            .inner{
+                                .box{
+                                    font-size: 14px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -49,3 +49,22 @@
   transition: all 0.6s linear;
   z-index: 10;
 }
+
+@media (max-width: 1025px) {
+  .gallery_us {
+    padding: 30px 0;
+  }
+}
+@media (max-width: 993px) {
+  .gallery_us .container .row .col-md-4 .inner {
+    position: relative;
+    padding-top: 100%;
+  }
+  .gallery_us .container .row .col-md-4 .inner .thumd {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+}

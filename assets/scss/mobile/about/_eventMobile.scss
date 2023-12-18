@@ -1,0 +1,36 @@
+@media (max-width: 1025px){
+    .event{
+        padding: 30px 0;
+    }
+}
+
+@media (max-width: 993px){
+    .event{
+        .container{
+            .row{
+                .col-md-6{
+                    padding-top: 20px;
+                    .image{
+                        padding-bottom: 10px;
+                        img{
+                            height: 250px;
+                        }
+                    }
+                    .sub-title{
+                        letter-spacing: 3px;
+                    }
+                    .name-title{
+                        font-size: 25px;
+                    }
+                    .text{
+                        font-size: 14px;
+                    }
+                    .infor{
+                        font-size: 12px;
+
+                    }
+                }
+            }
+        }
+    }
+}

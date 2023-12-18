@@ -1,0 +1,17 @@
+@media (max-width: 1025px) {
+  .top {
+    padding: 30px 0;
+  }
+}
+@media (max-width: 993px) {
+  .top .container .title {
+    margin-bottom: 15px;
+  }
+  .top .container .title .name-title {
+    font-size: 25px;
+    margin-bottom: 0;
+  }
+  .top .container .text-content {
+    font-size: 14px;
+  }
+}
