@@ -27,6 +27,8 @@
                             .item{
                                 position: relative;
                                 padding: 25px;
+                                height: 100%;
+                                text-align: center;
                                 .icon{
                                     color: #000;
                                     font-size: 31px;
@@ -42,15 +44,37 @@
                                 .box{
                                     font-size: 14px;
                                 }
+                                
                                 &::before{
                                     content: "";
                                     position: absolute;
-                                    top: 31px;
+                                    top: 0;
                                     right: 0;
                                     width: 1px;
-                                    height: 100px;
+                                    height: 100%;
                                     background-color: var(--border);
                                 }
+                            }
+                            .item_us{
+                                padding: 25px;
+                                height: 100%;
+                                text-align: center;
+                                .icon{
+                                    color: #000;
+                                    font-size: 31px;
+                                    margin-bottom: 10px;
+                                }
+                                .sub-title{
+                                    margin-bottom: 10px;
+                                    font-size: 14px;
+                                    letter-spacing: 4px;
+                                    color: #000;
+                                    text-transform: uppercase;
+                                }
+                                .box{
+                                    font-size: 14px;
+                                }
+                                
                             }
                         }
                     }
@@ -64,7 +88,7 @@
                 .col-md-5{
                     .inner_1{
                         background-color: #fff;
-                        padding: 65px 75px;
+                        padding: 65px 65px;
                         .name-title{
                             font-family: 'EB Garamond', serif;
                             font-size: 30px;
@@ -83,35 +107,58 @@
                                 .select{
                                     width: 100%;
                                     border-radius: 5px;
-                                    padding: 6px 12px;
+                                    padding: 12px 12px;
                                     font-size: 14px;
                                     color: #495057;
                                     line-height: 1.5;
-                                    border: 1px solid #ced4da;
+                                    border: 1px solid var(--border);
                                 }
-                                input{
-                                    width: 100%;
-                                    border-radius: 5px;
+                                .box_1{
+                                    display: flex;
+                                    align-items: center;
                                     padding: 6px 12px;
-                                    font-size: 14px;
-                                    color: #495057;
-                                    line-height: 1.5;
-                                    background-color: rgba(0, 0, 0, 0);
-                                    border-style: solid;
-                                    border-width: 0 0 1px;
+                                    border-radius: 10px;
+                                    border: 1px solid var(--border) ;
+                                    .icon_1{
+                                        color: #e4a853;
+                                    }
+                                    input{
+                                        width: 100%;
+                                        border-radius: 5px;
+                                        padding: 6px 12px;
+                                        font-size: 14px;
+                                        color: #495057;
+                                        line-height: 1.5;
+                                        border: none;
+                                        
+                                        &:focus{
+                                            border: none;
+                                        }
+                                        &:target{
+                                            border: none;
+                                        }
+                                        &:hover{
+                                            border: none;
+                                        }
+                                        &current{
+                                            border: none;
+                                        }
+                                        &corner-present{
+                                            border: none
+                                        }
+
+
+                                    }
                                 }
                                 .text{
+                                    padding: 10px;
                                     width: 100%;
-                                    border-radius: 5px;
+                                    border-radius: 10px;
                                     font-size: 14px;
                                     color: #495057;
                                     line-height: 1.5;
-                                    background-color: rgba(0, 0, 0, 0);
-                                    border-style: solid;
-                                    border-width: 0 0 1px;
-                                    &:focus-visible{
-                                        border:  1px solid red;
-                                    }
+                                    border: 1px solid var(--border);
+                                    
                                 }
                                 .btn_1{
                                     display: inline-block;
@@ -156,9 +203,10 @@
                 }
                 .col-md-7{
                     .map{
+                        height: 100%;
                         .size{
                             width: 100%;
-                            height: 100vh;
+                            height: 100%;
                         }
                     }
                 }

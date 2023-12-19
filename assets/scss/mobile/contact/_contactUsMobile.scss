@@ -21,6 +21,16 @@
                             .item{
                                 padding: 15px;
                                 text-align: center;
+                                &::before{
+                                    content: "";
+                                    position: absolute;
+                                    top: 0;
+                                    right: 0;
+                                    width: 0;
+                                    height: 0;
+                                    visibility: hidden;
+                                    background-color: var(--border);
+                                }
                             }
                         }
                     }
@@ -30,7 +40,9 @@
                 .row{
                     .col-md-5{
                         .inner_1{
-                            padding: 30px;
+                            
+                            margin-bottom: 20px;
+                            padding: 30px ;
                             .name-title{
                                 font-size: 25px;
                             }
@@ -52,7 +64,6 @@
                         .map{
                             
                             .size{
-                                height: 50vh;
                             }
                         }
                     }

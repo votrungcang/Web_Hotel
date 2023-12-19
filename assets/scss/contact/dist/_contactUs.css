@@ -23,6 +23,8 @@
 .contact_us .container .row .col-lg-8 .inner .row .col-md-4 .item {
   position: relative;
   padding: 25px;
+  height: 100%;
+  text-align: center;
 }
 .contact_us .container .row .col-lg-8 .inner .row .col-md-4 .item .icon {
   color: #000;
@@ -42,18 +44,38 @@
 .contact_us .container .row .col-lg-8 .inner .row .col-md-4 .item::before {
   content: "";
   position: absolute;
-  top: 31px;
+  top: 0;
   right: 0;
   width: 1px;
-  height: 100px;
+  height: 100%;
   background-color: var(--border);
+}
+.contact_us .container .row .col-lg-8 .inner .row .col-md-4 .item_us {
+  padding: 25px;
+  height: 100%;
+  text-align: center;
+}
+.contact_us .container .row .col-lg-8 .inner .row .col-md-4 .item_us .icon {
+  color: #000;
+  font-size: 31px;
+  margin-bottom: 10px;
+}
+.contact_us .container .row .col-lg-8 .inner .row .col-md-4 .item_us .sub-title {
+  margin-bottom: 10px;
+  font-size: 14px;
+  letter-spacing: 4px;
+  color: #000;
+  text-transform: uppercase;
+}
+.contact_us .container .row .col-lg-8 .inner .row .col-md-4 .item_us .box {
+  font-size: 14px;
 }
 .contact_us .container .section {
   padding-top: 60px;
 }
 .contact_us .container .section .row .col-md-5 .inner_1 {
   background-color: #fff;
-  padding: 65px 75px;
+  padding: 65px 65px;
 }
 .contact_us .container .section .row .col-md-5 .inner_1 .name-title {
   font-family: "EB Garamond", serif;
@@ -73,35 +95,54 @@
 .contact_us .container .section .row .col-md-5 .inner_1 .row .col-lg-12 .select {
   width: 100%;
   border-radius: 5px;
-  padding: 6px 12px;
+  padding: 12px 12px;
   font-size: 14px;
   color: #495057;
   line-height: 1.5;
-  border: 1px solid #ced4da;
+  border: 1px solid var(--border);
 }
-.contact_us .container .section .row .col-md-5 .inner_1 .row .col-lg-12 input {
+.contact_us .container .section .row .col-md-5 .inner_1 .row .col-lg-12 .box_1 {
+  display: flex;
+  align-items: center;
+  padding: 6px 12px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+}
+.contact_us .container .section .row .col-md-5 .inner_1 .row .col-lg-12 .box_1 .icon_1 {
+  color: #e4a853;
+}
+.contact_us .container .section .row .col-md-5 .inner_1 .row .col-lg-12 .box_1 input {
   width: 100%;
   border-radius: 5px;
   padding: 6px 12px;
   font-size: 14px;
   color: #495057;
   line-height: 1.5;
-  background-color: rgba(0, 0, 0, 0);
-  border-style: solid;
-  border-width: 0 0 1px;
+  border: none;
+}
+.contact_us .container .section .row .col-md-5 .inner_1 .row .col-lg-12 .box_1 input:focus {
+  border: none;
+}
+.contact_us .container .section .row .col-md-5 .inner_1 .row .col-lg-12 .box_1 input:target {
+  border: none;
+}
+.contact_us .container .section .row .col-md-5 .inner_1 .row .col-lg-12 .box_1 input:hover {
+  border: none;
+}
+.contact_us .container .section .row .col-md-5 .inner_1 .row .col-lg-12 .box_1 inputcurrent {
+  border: none;
+}
+.contact_us .container .section .row .col-md-5 .inner_1 .row .col-lg-12 .box_1 inputcorner-present {
+  border: none;
 }
 .contact_us .container .section .row .col-md-5 .inner_1 .row .col-lg-12 .text {
+  padding: 10px;
   width: 100%;
-  border-radius: 5px;
+  border-radius: 10px;
   font-size: 14px;
   color: #495057;
   line-height: 1.5;
-  background-color: rgba(0, 0, 0, 0);
-  border-style: solid;
-  border-width: 0 0 1px;
-}
-.contact_us .container .section .row .col-md-5 .inner_1 .row .col-lg-12 .text:focus-visible {
-  border: 1px solid red;
+  border: 1px solid var(--border);
 }
 .contact_us .container .section .row .col-md-5 .inner_1 .row .col-lg-12 .btn_1 {
   display: inline-block;
@@ -139,9 +180,12 @@
   z-index: -1;
   transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
+.contact_us .container .section .row .col-md-7 .map {
+  height: 100%;
+}
 .contact_us .container .section .row .col-md-7 .map .size {
   width: 100%;
-  height: 100vh;
+  height: 100%;
 }
 
 @media (max-width: 993px) {
@@ -162,7 +206,18 @@
     padding: 15px;
     text-align: center;
   }
+  .contact_us .container .row .col-lg-8 .inner .col-md-4 .item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    visibility: hidden;
+    background-color: var(--border);
+  }
   .contact_us .container .section .row .col-md-5 .inner_1 {
+    margin-bottom: 20px;
     padding: 30px;
   }
   .contact_us .container .section .row .col-md-5 .inner_1 .name-title {
@@ -177,8 +232,5 @@
   }
   .contact_us .container .section .row .col-md-7 {
     overflow: hidden;
-  }
-  .contact_us .container .section .row .col-md-7 .map .size {
-    height: 50vh;
   }
 }

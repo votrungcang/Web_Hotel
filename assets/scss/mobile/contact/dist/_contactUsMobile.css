@@ -16,7 +16,18 @@
     padding: 15px;
     text-align: center;
   }
+  .contact_us .container .row .col-lg-8 .inner .col-md-4 .item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    visibility: hidden;
+    background-color: var(--border);
+  }
   .contact_us .container .section .row .col-md-5 .inner_1 {
+    margin-bottom: 20px;
     padding: 30px;
   }
   .contact_us .container .section .row .col-md-5 .inner_1 .name-title {
@@ -31,8 +42,5 @@
   }
   .contact_us .container .section .row .col-md-7 {
     overflow: hidden;
-  }
-  .contact_us .container .section .row .col-md-7 .map .size {
-    height: 50vh;
   }
 }
