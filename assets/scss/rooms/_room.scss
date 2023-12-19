@@ -1,5 +1,5 @@
 .room{
-    padding: 60px 0;
+    padding: 60px 0 30px ;
     background-color: #edebe5;
     .container{
         max-width: 1300px;
@@ -21,6 +21,7 @@
                         
                     }
                     .content{
+                        margin-bottom: 30px;
                         padding: 25px 40px;
                         background-color: #ffffff;
                         .content-title{
@@ -83,7 +84,26 @@
                 }
             }
         }
-        
+        .button{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            .link{
+                text-decoration: none;
+                padding: 5px 10px ;
+                color: #000;
+                font-size: 14px;
+                font-weight: 500;
+                background-color: #fff;
+                transition: all 0.3s linear;
+                &:hover{
+                    background-color: #e4a853;
+                    color: #fff;
+                    transition: all 0.3s linear;
+                }
+            }
+        }
     }
 }
 
