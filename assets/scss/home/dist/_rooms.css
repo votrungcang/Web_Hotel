@@ -1,0 +1,131 @@
+.rooms {
+  padding: 60px 0;
+  background-color: #edebe5;
+}
+.rooms .container {
+  max-width: 1300px;
+  padding: 0 15px;
+  margin: auto;
+}
+.rooms .container .section-title {
+  text-align: center;
+  margin-bottom: 45px;
+}
+.rooms .container .section-title img {
+  height: 20px;
+  margin-bottom: 5px;
+}
+.rooms .container .section-title .title {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+  color: black;
+}
+.rooms .container .section-title .title-name {
+  font-family: "EB Garamond", serif;
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: -1.2px;
+  color: black;
+  line-height: 60px;
+}
+.rooms .container .swiper .swiper-wrapper .swiper-slide {
+  margin-right: 0;
+}
+.rooms .container .swiper .swiper-wrapper .swiper-slide .inner {
+  margin: 0 15px 30px;
+  overflow: hidden;
+}
+.rooms .container .swiper .swiper-wrapper .swiper-slide .inner .image {
+  position: relative;
+  overflow: hidden;
+}
+.rooms .container .swiper .swiper-wrapper .swiper-slide .inner .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all ease-in-out 0.5s;
+}
+.rooms .container .swiper .swiper-wrapper .swiper-slide .inner .content {
+  padding: 25px 40px;
+  background-color: #ffffff;
+}
+.rooms .container .swiper .swiper-wrapper .swiper-slide .inner .content .content-title {
+  font-family: "EB Garamond", serif;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 28.8px;
+  color: black;
+}
+.rooms .container .swiper .swiper-wrapper .swiper-slide .inner .content .acreage {
+  margin-top: 5px;
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+}
+.rooms .container .swiper .swiper-wrapper .swiper-slide .inner .content .acreage .width {
+  color: gray;
+}
+.rooms .container .swiper .swiper-wrapper .swiper-slide .inner .content .acreage .room-types {
+  color: #888888;
+  font-size: 15px;
+}
+.rooms .container .swiper .swiper-wrapper .swiper-slide .inner .content .price {
+  display: flex;
+  align-items: flex-end;
+}
+.rooms .container .swiper .swiper-wrapper .swiper-slide .inner .content .price .price-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: black;
+}
+.rooms .container .swiper .swiper-wrapper .swiper-slide .inner .content .price .price-value {
+  margin-left: 10px;
+  color: #e4a853;
+  font-size: 14px;
+}
+.rooms .container .swiper .swiper-wrapper .swiper-slide .inner .content .price .price-value span {
+  color: #888888;
+  font-size: 12px;
+  margin-right: 10px;
+}
+.rooms .container .swiper .swiper-wrapper .swiper-slide .inner:hover .image img {
+  transform: scale(1.1);
+  transition: all ease-in-out 0.5s;
+}
+.rooms .container .swiper .swiper-pagination-bullet {
+  background-color: #fff;
+  margin-top: 20px;
+}
+
+@media (max-width: 1025px) {
+  .rooms {
+    padding: 30px 0;
+  }
+  .rooms .container .swiper .swiper-pagination-bullet {
+    background-color: #e4a853;
+  }
+}
+@media (max-width: 993px) {
+  .rooms .container {
+    padding: 0;
+  }
+  .rooms .container .section-title {
+    margin-bottom: 25px;
+  }
+  .rooms .container .section-title .title {
+    letter-spacing: 3px;
+  }
+  .rooms .container .section-title .title-name {
+    font-size: 25px;
+    letter-spacing: -1px;
+    line-height: 25px;
+  }
+  .rooms .container .swiper {
+    padding-bottom: 15px;
+  }
+  .rooms .container .swiper .swiper-wrapper .swiper-slide .inner .content {
+    padding: 15px;
+  }
+}

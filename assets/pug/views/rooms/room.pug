@@ -1,7 +1,7 @@
 .room 
-    .swiper.room-Swiper 
-        .swiper-wrapper.wow.fadeInUp
-            .swiper-slide
+    .container 
+        .row.wow.fadeInUp
+            .col-lg-4
                 .inner
                     .image
                         img(src="./images/home/rooms/room_1.jpg", alt="room")
@@ -12,11 +12,11 @@
                                 +render_icon('acreage')
                             .room-types 20 M 
                                 sup 2
-                            .price 
-                                .price-title From 
-                                .price-value $120
-                                    span /Night
-            .swiper-slide 
+                        .price 
+                            .price-title From 
+                            .price-value $120
+                                span /Night
+            .col-lg-4  
                 .inner
                     .image
                         img(src="./images/home/rooms/room_2.jpg", alt="room")
@@ -27,11 +27,11 @@
                                 +render_icon('acreage')
                             .room-types 20 M
                                 sup 2
-                            .price 
-                                .price-title From 
-                                .price-value $150
-                                    span /Night
-            .swiper-slide
+                        .price 
+                            .price-title From 
+                            .price-value $150
+                                span /Night
+            .col-lg-4
                 .inner
                     .image
                         img(src="./images/home/rooms/room_3.jpg", alt="room")
@@ -42,32 +42,55 @@
                                 +render_icon('acreage')
                             .room-types 20 M
                                 sup 2
-                            .price 
-                                .price-title From 
-                                .price-value $170 (-10%)
-                                    span /Night
-        .swiper-pagination 
+                        .price 
+                            .price-title From 
+                            .price-value $170 (-10%)
+                                span /Night
+            .col-lg-4
+                .inner
+                    .image
+                        img(src="./images/home/rooms/room_1.jpg", alt="room")
+                    .content
+                        .content-title Double Room
+                        .acreage
+                            .width  
+                                +render_icon('acreage')
+                            .room-types 20 M 
+                                sup 2
+                        .price 
+                            .price-title From 
+                            .price-value $120
+                                span /Night
+            .col-lg-4  
+                .inner
+                    .image
+                        img(src="./images/home/rooms/room_2.jpg", alt="room")
+                    .content
+                        .content-title Luxury Room
+                        .acreage
+                            .width  
+                                +render_icon('acreage')
+                            .room-types 20 M
+                                sup 2
+                        .price 
+                            .price-title From 
+                            .price-value $150
+                                span /Night
+            .col-lg-4
+                .inner
+                    .image
+                        img(src="./images/home/rooms/room_3.jpg", alt="room")
+                    .content
+                        .content-title Premium Room
+                        .acreage
+                            .width  
+                                +render_icon('acreage')
+                            .room-types 20 M
+                                sup 2
+                        .price 
+                            .price-title From 
+                            .price-value $170 (-10%)
+                                span /Night
+       
 
-    script(src="./js/swiper.js") 
-    script.
-        var swiper = new Swiper(".room-Swiper", {
-            slidesPerView: 1,
-            loop: true,
-            grabCursor: true,
-            pagination: {
-            el: ".swiper-pagination",
-            dynamicBullets: true,
-            clickable: true,
-            },
-            breakpoints: {
-                640: {
-                slidesPerView: 1,
-                },
-                768: {
-                slidesPerView: 2,
-                },
-                1024: {
-                slidesPerView: 3,
-                },
-            },
-        });
+    

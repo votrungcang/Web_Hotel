@@ -1,15 +1,13 @@
 .room{
     padding: 60px 0;
     background-color: #edebe5;
-    .swiper{
+    .container{
         max-width: 1300px;
         padding: 0 15px;
         margin: auto; 
-        .swiper-wrapper{
-            .swiper-slide{
-                margin-right: 0;
+        .row{
+            .col-lg-4{
                 .inner{
-                    margin: 0 15px 30px;
                     overflow: hidden;
                     .image{
                         position: relative;
@@ -42,25 +40,26 @@
                             }
                             .room-types{
                                 color: #888888;
-                                font-size: 15px;
+                                font-size: 14px;
                             }
-                            .price{
-                                display: flex;
-                                align-items: flex-end;
-                                .price-title{
-                                    font-size: 16px;
-                                    font-weight: 700;
-                                    color: black;
-                                }
-                                .price-value{
-                                    margin-left: 10px;
-                                    color: #e4a853;
-                                    font-size: 14px;
-                                    span{
-                                        color: #888888;
-                                        font-size: 12px;
-                                        margin-right: 10px;
-                                    }
+                            
+                        }
+                        .price{
+                            display: flex;
+                            align-items: flex-end;
+                            .price-title{
+                                font-size: 16px;
+                                font-weight: 700;
+                                color: black;
+                            }
+                            .price-value{
+                                margin-left: 10px;
+                                color: #e4a853;
+                                font-size: 14px;
+                                span{
+                                    color: #888888;
+                                    font-size: 12px;
+                                    margin-right: 10px;
                                 }
                             }
                         }
@@ -84,10 +83,7 @@
                 }
             }
         }
-        .swiper-pagination-bullet{
-            background-color: #fff;
-            margin-top: 20px;
-           }
+        
     }
 }
 

@@ -1,22 +1,31 @@
 @media (max-width: 1025px){
     .room{
         padding: 30px 0;
-            .swiper{
-                .swiper-pagination-bullet {
-                    background-color: #e4a853;
-                }
-            }
-        
+            
     } 
 }
 @media (max-width: 993px){
     .room{
-        .swiper{
-            padding: 0 0 15px;
-            .swiper-wrapper{
-                .swiper-slide{
+        .container{
+            .row{
+                .col-lg-4{
+                    width: 50%;
                     .inner{
                         .content{
+                            margin-bottom: 10px;
+                            padding: 10px;
+                            .content-title{
+                                font-size: 20px;
+                            }
+                            .acreage{
+                                padding-top: 0;
+                            }
+                            .price{
+
+                                .price-value{
+                                    font-size: 12px;
+                                }
+                            }
                         }
                     }
                 }

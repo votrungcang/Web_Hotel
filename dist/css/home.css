@@ -18159,92 +18159,94 @@ body {
   padding: 60px 0;
   background-color: #edebe5;
 }
-.room .swiper {
+.room .container {
   max-width: 1300px;
   padding: 0 15px;
   margin: auto;
 }
-.room .swiper .swiper-wrapper .swiper-slide {
-  margin-right: 0;
-}
-.room .swiper .swiper-wrapper .swiper-slide .inner {
-  margin: 0 15px 30px;
+.room .container .row .col-lg-4 .inner {
   overflow: hidden;
 }
-.room .swiper .swiper-wrapper .swiper-slide .inner .image {
+.room .container .row .col-lg-4 .inner .image {
   position: relative;
   overflow: hidden;
 }
-.room .swiper .swiper-wrapper .swiper-slide .inner .image img {
+.room .container .row .col-lg-4 .inner .image img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   transition: all ease-in-out 0.5s;
 }
-.room .swiper .swiper-wrapper .swiper-slide .inner .content {
+.room .container .row .col-lg-4 .inner .content {
   padding: 25px 40px;
   background-color: #ffffff;
 }
-.room .swiper .swiper-wrapper .swiper-slide .inner .content .content-title {
+.room .container .row .col-lg-4 .inner .content .content-title {
   font-family: "EB Garamond", serif;
   font-size: 23px;
   font-weight: 700;
   line-height: 28.8px;
   color: black;
 }
-.room .swiper .swiper-wrapper .swiper-slide .inner .content .acreage {
+.room .container .row .col-lg-4 .inner .content .acreage {
   margin-top: 5px;
   display: flex;
   align-items: flex-end;
   gap: 10px;
 }
-.room .swiper .swiper-wrapper .swiper-slide .inner .content .acreage .width {
+.room .container .row .col-lg-4 .inner .content .acreage .width {
   color: gray;
 }
-.room .swiper .swiper-wrapper .swiper-slide .inner .content .acreage .room-types {
+.room .container .row .col-lg-4 .inner .content .acreage .room-types {
   color: #888888;
-  font-size: 15px;
+  font-size: 14px;
 }
-.room .swiper .swiper-wrapper .swiper-slide .inner .content .acreage .price {
+.room .container .row .col-lg-4 .inner .content .price {
   display: flex;
   align-items: flex-end;
 }
-.room .swiper .swiper-wrapper .swiper-slide .inner .content .acreage .price .price-title {
+.room .container .row .col-lg-4 .inner .content .price .price-title {
   font-size: 16px;
   font-weight: 700;
   color: black;
 }
-.room .swiper .swiper-wrapper .swiper-slide .inner .content .acreage .price .price-value {
+.room .container .row .col-lg-4 .inner .content .price .price-value {
   margin-left: 10px;
   color: #e4a853;
   font-size: 14px;
 }
-.room .swiper .swiper-wrapper .swiper-slide .inner .content .acreage .price .price-value span {
+.room .container .row .col-lg-4 .inner .content .price .price-value span {
   color: #888888;
   font-size: 12px;
   margin-right: 10px;
 }
-.room .swiper .swiper-wrapper .swiper-slide .inner:hover .image img {
+.room .container .row .col-lg-4 .inner:hover .image img {
   transform: scale(1.1);
   transition: all ease-in-out 0.5s;
-}
-.room .swiper .swiper-pagination-bullet {
-  background-color: #fff;
-  margin-top: 20px;
 }
 
 @media (max-width: 1025px) {
   .room {
     padding: 30px 0;
   }
-  .room .swiper .swiper-pagination-bullet {
-    background-color: #e4a853;
-  }
 }
 @media (max-width: 993px) {
-  .room .swiper {
-    padding: 0 0 15px;
+  .room .container .row .col-lg-4 {
+    width: 50%;
+  }
+  .room .container .row .col-lg-4 .inner .content {
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  .room .container .row .col-lg-4 .inner .content .content-title {
+    font-size: 20px;
+  }
+  .room .container .row .col-lg-4 .inner .content .acreage {
+    padding-top: 0;
+  }
+  .room .container .row .col-lg-4 .inner .content .price .price-value {
+    font-size: 12px;
   }
 }
 .banner-service {
@@ -20092,21 +20094,21 @@ body {
   color: #888888;
   font-size: 15px;
 }
-.rooms .container .swiper .swiper-wrapper .swiper-slide .inner .content .acreage .price {
+.rooms .container .swiper .swiper-wrapper .swiper-slide .inner .content .price {
   display: flex;
   align-items: flex-end;
 }
-.rooms .container .swiper .swiper-wrapper .swiper-slide .inner .content .acreage .price .price-title {
+.rooms .container .swiper .swiper-wrapper .swiper-slide .inner .content .price .price-title {
   font-size: 16px;
   font-weight: 700;
   color: black;
 }
-.rooms .container .swiper .swiper-wrapper .swiper-slide .inner .content .acreage .price .price-value {
+.rooms .container .swiper .swiper-wrapper .swiper-slide .inner .content .price .price-value {
   margin-left: 10px;
   color: #e4a853;
   font-size: 14px;
 }
-.rooms .container .swiper .swiper-wrapper .swiper-slide .inner .content .acreage .price .price-value span {
+.rooms .container .swiper .swiper-wrapper .swiper-slide .inner .content .price .price-value span {
   color: #888888;
   font-size: 12px;
   margin-right: 10px;
