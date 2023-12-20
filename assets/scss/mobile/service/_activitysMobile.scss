@@ -47,15 +47,15 @@
     }
 }
 @media (max-width: 569px){
-    .activity{
+    .activitys{
         .container{
-                .row{
-                    // &:nth-child(even){
-                    //     .left{
-                    //         order: 0;
-                    //     }
-                    // }
-             }
-        }
+            .row{
+                &:nth-child(even){
+                        .left{
+                            order: 0;
+                        }
+                }
+            }
+        }   
     }
 }

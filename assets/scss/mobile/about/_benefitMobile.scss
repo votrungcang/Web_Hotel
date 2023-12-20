@@ -22,12 +22,16 @@
                                     height: 355px;
                                 }
                                 .content{
+                                    height: 150px;
                                     padding: 20px;
                                     .name{
+                                        overflow: hidden;
                                         font-size: 20px;
+                                        
                                     }
                                     .text{
                                         font-size: 14px;
+                                        -webkit-line-clamp: 3;
                                     }
                                 }
                             }

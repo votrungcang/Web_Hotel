@@ -10,6 +10,7 @@
 }
 .activitys .container .row {
   margin: 0;
+  align-items: center;
 }
 .activitys .container .row .col-md-6 {
   padding: 0;
@@ -23,6 +24,8 @@
 .activitys .container .row .col-md-6 .inner-content {
   padding: 50px 100px;
   width: 100%;
+  height: 100%;
+  text-align: center;
 }
 .activitys .container .row .col-md-6 .inner-content .title {
   font-family: "EB Garamond", serif;
@@ -72,8 +75,14 @@
   z-index: -1;
   transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
+.activitys .container .row:nth-child(even) .left {
+  order: 2;
+}
 
 @media (max-width: 1025px) {
+  .activitys {
+    padding-bottom: 30px;
+  }
   .activitys .container .row .col-md-6 .inner-content {
     padding: 39px;
   }
@@ -99,5 +108,10 @@
   .activitys .container .row .col-md-6 .inner-content .btn .link {
     font-size: 12px;
     padding: 5px 15px;
+  }
+}
+@media (max-width: 569px) {
+  .activity .container .row:nth-child(even) .left {
+    order: 0;
   }
 }

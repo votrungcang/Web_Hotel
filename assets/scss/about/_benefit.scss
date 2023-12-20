@@ -48,7 +48,8 @@
                             bottom: 0;
                             background-color: white;
                             max-width: 550px;
-                            padding: 50px;
+                            height: 230px;
+                            padding: 30px;
                             border-color: #686868;
                             .name{
                                 font-family: 'EB Garamond', serif;
@@ -57,10 +58,19 @@
                                 font-weight: 700;
                                 line-height: 1.2;
                                 color: #000;
+                                display: -webkit-box;
+                                -webkit-line-clamp: 1;
+                                -webkit-box-orient: vertical;
+                                text-overflow: ellipsis;
                             }
                             .text{
+                                overflow: hidden;
                                 color: rgb(104, 104, 104);
                                 font-size: 16px;
+                                display: -webkit-box;
+                                -webkit-line-clamp: 4;
+                                -webkit-box-orient: vertical;
+                                text-overflow: ellipsis;
                             }
                         }
                     }

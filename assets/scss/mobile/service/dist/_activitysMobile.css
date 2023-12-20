@@ -29,3 +29,8 @@
     padding: 5px 15px;
   }
 }
+@media (max-width: 569px) {
+  .activitys .container .row:nth-child(even) .left {
+    order: 0;
+  }
+}

@@ -48,7 +48,8 @@
   bottom: 0;
   background-color: white;
   max-width: 550px;
-  padding: 50px;
+  height: 230px;
+  padding: 30px;
   border-color: #686868;
 }
 .benefit .container .row .swiper .swiper-wrapper .swiper-slide .content .name {
@@ -58,10 +59,19 @@
   font-weight: 700;
   line-height: 1.2;
   color: #000;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
 }
 .benefit .container .row .swiper .swiper-wrapper .swiper-slide .content .text {
+  overflow: hidden;
   color: #686868;
   font-size: 16px;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
 }
 .benefit .container .row .swiper .swiper-pagination-bullet {
   background-color: #e4a853;
@@ -77,10 +87,26 @@
   .benefit .container .row .col-md-4 .section-title .name-title {
     font-size: 25px;
   }
+  .benefit .container .row .col-md-8 .swiper {
+    padding-bottom: 35px;
+  }
+  .benefit .container .row .col-md-8 .swiper .swiper-wrapper .swiper-slide .image {
+    height: 355px;
+  }
+  .benefit .container .row .col-md-8 .swiper .swiper-wrapper .swiper-slide .content {
+    height: 150px;
+    padding: 20px;
+  }
   .benefit .container .row .col-md-8 .swiper .swiper-wrapper .swiper-slide .content .name {
+    overflow: hidden;
     font-size: 20px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
   }
   .benefit .container .row .col-md-8 .swiper .swiper-wrapper .swiper-slide .content .text {
     font-size: 14px;
+    -webkit-line-clamp: 3;
   }
 }
