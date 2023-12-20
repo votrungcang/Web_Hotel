@@ -108,6 +108,10 @@
   color: #fff;
   transition: all 0.3s linear;
 }
+.room .container .button .active {
+  background-color: #e4a853;
+  color: #fff;
+}
 
 @media (max-width: 1025px) {
   .room {

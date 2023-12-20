@@ -106,7 +106,7 @@
                     transition: all 0.3s linear;
                 }
             }
-            .link{
+            .link{ 
                 text-align: center;
                 padding: 7px;
                 font-size: 14px;
@@ -123,6 +123,11 @@
                     transition: all 0.3s linear;
                 }
             }
+            .active{
+                background-color: #e4a853;
+                color: #fff;
+            }
+            
         }
     }
 }

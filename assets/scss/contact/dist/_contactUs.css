@@ -18,7 +18,7 @@
   font-size: 16px;
 }
 .contact_us .container .row .col-lg-8 .inner {
-  border: 2px solid var(--border);
+  border: 1px solid var(--border);
 }
 .contact_us .container .row .col-lg-8 .inner .row .col-md-4 .item {
   position: relative;
@@ -94,11 +94,12 @@
 }
 .contact_us .container .section .row .col-md-5 .inner_1 .row .col-lg-12 .select {
   width: 100%;
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 12px 12px;
   font-size: 14px;
   color: #495057;
   line-height: 1.5;
+  outline: none;
   border: 1px solid var(--border);
 }
 .contact_us .container .section .row .col-md-5 .inner_1 .row .col-lg-12 .box_1 {
@@ -119,23 +120,10 @@
   color: #495057;
   line-height: 1.5;
   border: none;
-}
-.contact_us .container .section .row .col-md-5 .inner_1 .row .col-lg-12 .box_1 input:focus {
-  border: none;
-}
-.contact_us .container .section .row .col-md-5 .inner_1 .row .col-lg-12 .box_1 input:target {
-  border: none;
-}
-.contact_us .container .section .row .col-md-5 .inner_1 .row .col-lg-12 .box_1 input:hover {
-  border: none;
-}
-.contact_us .container .section .row .col-md-5 .inner_1 .row .col-lg-12 .box_1 inputcurrent {
-  border: none;
-}
-.contact_us .container .section .row .col-md-5 .inner_1 .row .col-lg-12 .box_1 inputcorner-present {
-  border: none;
+  outline: none;
 }
 .contact_us .container .section .row .col-md-5 .inner_1 .row .col-lg-12 .text {
+  outline: none;
   padding: 10px;
   width: 100%;
   border-radius: 10px;

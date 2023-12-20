@@ -1,7 +1,7 @@
 .booking_us
     .container 
         .row 
-            .col-lg-4 
+            .col-lg-4  
                 .inner
                     .row 
                         .col-md-6 
@@ -48,7 +48,7 @@
                                 tr 
                                     th.name-title Name Room
                                     th.name-title Price
-                                    th.name-title MaxPeple
+                                    th.name-title Max Peple
                                     th.name-title Sale Off
                                     th.name-title Number of Basic
                                 tr  
@@ -136,10 +136,11 @@
                             label(for="messeger ") Messeger 
                             span *
                         textarea.text(name="Messeger", cols="40", rows="5") 
+                    .col-md-12
+                        .sub-box 
+                            input(type="checkbox" name="agree")
+                            .text-box I read and agree with the terms & conditions of the Erios
                     .col-md-12 
-                        input(type="checkbox" name="agree")
-                        span.text-box I read and agree with the terms & conditions of the Erios
-                    .col-md-12 
-                        input.btn(type="submit" value="Send")
+                        a.btn_1(href="#") send 
                 
 

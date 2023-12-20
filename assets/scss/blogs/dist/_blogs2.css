@@ -172,13 +172,12 @@
 }
 .blogs-2 .row .col-lg-4 .search .inner input {
   width: 100%;
+  border-radius: 10px;
   border: 1px solid #d7d7d7;
   background-color: #fff;
   padding: 15px;
   font-size: 16px;
-}
-.blogs-2 .row .col-lg-4 .search .inner input:focus-visible {
-  border: 1px solid var(--border);
+  outline: none;
 }
 .blogs-2 .row .col-lg-4 .search .inner .btn_1 {
   background-color: #fff;
@@ -278,9 +277,6 @@
   .blogs-2 {
     padding: 30px 0;
   }
-  .blogs-2 .row .col-lg-8 .inner .thumd {
-    padding-top: 169%;
-  }
 }
 @media (max-width: 993) {
   .blogs-2 .row .col-lg-8 .inner .thumd {
@@ -306,6 +302,6 @@
 }
 @media (max-width: 569px) {
   .blogs-2 .row .col-lg-8 .inner .thumd {
-    padding-top: 103%;
+    padding-top: 115%;
   }
 }

@@ -1,0 +1,27 @@
+@media (max-width: 993px) {
+  .booking_us {
+    padding: 30px 0;
+  }
+  .booking_us .container .row .col-lg-4 .inner {
+    margin-bottom: 20px;
+  }
+  .booking_us .container .row .col-lg-8 .inner {
+    padding: 0;
+  }
+  .booking_us .container .row .col-lg-8 .inner .col-md-12 .row .table-us tr .name-title {
+    font-size: 15px;
+  }
+  .booking_us .container .row .col-lg-8 .inner .col-md-12 .row .table-us tr .sub-title,
+.booking_us .container .row .col-lg-8 .inner .col-md-12 .row .table-us tr .sub-price,
+.booking_us .container .row .col-lg-8 .inner .col-md-12 .row .table-us tr .sub-max,
+.booking_us .container .row .col-lg-8 .inner .col-md-12 .row .table-us tr .sub-sale {
+    font-size: 14px;
+  }
+  .booking_us .container .row .col-lg-8 .inner .col-md-12 .row .table-us tr .sub-number {
+    font-size: 14px;
+  }
+  .booking_us .container .row .col-lg-8 .inner .col-md-12 .btn_1 {
+    font-size: 12px;
+    padding: 5px 10px;
+  }
+}
