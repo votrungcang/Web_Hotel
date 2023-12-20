@@ -9,7 +9,7 @@
 .gallery_us .container .row .col-md-4 .inner {
   overflow: hidden;
   position: relative;
-  margin-top: 30px;
+  margin-top: 24px;
   transition: all 0.6s linear;
 }
 .gallery_us .container .row .col-md-4 .inner img {
@@ -56,6 +56,9 @@
   }
 }
 @media (max-width: 993px) {
+  .gallery_us .container .row .col-md-4 {
+    width: 50%;
+  }
   .gallery_us .container .row .col-md-4 .inner {
     position: relative;
     padding-top: 100%;

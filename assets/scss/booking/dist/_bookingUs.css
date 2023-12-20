@@ -8,8 +8,11 @@
 }
 .booking_us .container .row .col-lg-4 .inner {
   border-radius: 5px;
-  padding: 30px 30px 15px;
+  padding: 30px 30px 10px;
   background-color: #14404a;
+}
+.booking_us .container .row .col-lg-4 .inner .row .col-md-6 {
+  padding: 0 10px;
 }
 .booking_us .container .row .col-lg-4 .inner .row .col-md-6 .item {
   text-align: center;
@@ -17,7 +20,7 @@
   color: #fff;
   border-radius: 5px;
   padding: 15px 0px;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 .booking_us .container .row .col-lg-4 .inner .row .col-md-6 .item .sub-title {
   margin-bottom: 5px;
@@ -177,6 +180,9 @@
 @media (max-width: 993px) {
   .booking_us {
     padding: 30px 0;
+  }
+  .booking_us .container .row .col-lg-4 .inner {
+    margin-bottom: 20px;
   }
   .booking_us .container .row .col-lg-8 .inner {
     padding: 0;
