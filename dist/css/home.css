@@ -19433,7 +19433,6 @@ body {
     background-color: var(--border);
   }
   .contact_us .container .section .row .col-md-5 .inner_1 {
-    margin-bottom: 20px;
     padding: 30px;
   }
   .contact_us .container .section .row .col-md-5 .inner_1 .name-title {
@@ -19448,6 +19447,14 @@ body {
   }
   .contact_us .container .section .row .col-md-7 {
     overflow: hidden;
+  }
+}
+@media (max-width: 593px) {
+  .contact_us .container .section .row .col-md-5 .inner_1 {
+    margin-bottom: 20px;
+  }
+  .contact_us .container .section .row .col-md-7 .map {
+    height: 230px;
   }
 }
 .banner-booking {
@@ -21206,7 +21213,7 @@ body {
     padding: 10px 10px;
   }
   .footer .container .footer-top .row .col-md-4 .email {
-    margin-bottom: 20px;
+    margin-bottom: 16px;
     padding: 10px 10px;
   }
   .footer .container .footer-top .row .col-md-4 .link {

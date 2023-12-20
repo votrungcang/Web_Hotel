@@ -27,7 +27,6 @@
     background-color: var(--border);
   }
   .contact_us .container .section .row .col-md-5 .inner_1 {
-    margin-bottom: 20px;
     padding: 30px;
   }
   .contact_us .container .section .row .col-md-5 .inner_1 .name-title {
@@ -42,5 +41,13 @@
   }
   .contact_us .container .section .row .col-md-7 {
     overflow: hidden;
+  }
+}
+@media (max-width: 593px) {
+  .contact_us .container .section .row .col-md-5 .inner_1 {
+    margin-bottom: 20px;
+  }
+  .contact_us .container .section .row .col-md-7 .map {
+    height: 230px;
   }
 }
