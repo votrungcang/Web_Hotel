@@ -21019,6 +21019,7 @@ body {
   border: 1px solid #d7d7d7;
   color: #686868;
   border-radius: 2em;
+  outline: none;
 }
 .footer .container .footer-top .row .col-md-4 .email {
   margin-bottom: 1rem;
@@ -21031,6 +21032,7 @@ body {
   border: 1px solid #d7d7d7;
   color: #686868;
   border-radius: 2em;
+  outline: none;
 }
 .footer .container .footer-top .row .col-md-4 .link {
   margin-bottom: 1rem;
@@ -21091,7 +21093,7 @@ body {
   letter-spacing: 5px;
 }
 .footer .container .row .list .item .footer-content {
-  font-size: 12x;
+  font-size: 13px;
   text-decoration: none;
   margin-right: 50px;
   color: #bdbdbd;
