@@ -1,5 +1,5 @@
 .room{
-    padding: 60px 0 30px ;
+    padding: 36px 0 60px ;
     background-color: #edebe5;
     .container{
         max-width: 1300px;
@@ -8,6 +8,7 @@
         .row{
             .col-lg-4{
                 .inner{
+                    margin-top: 24px;
                     overflow: hidden;
                     .image{
                         position: relative;
@@ -21,7 +22,6 @@
                         
                     }
                     .content{
-                        margin-bottom: 24px;
                         padding: 25px 40px;
                         background-color: #ffffff;
                         .content-title{
@@ -85,6 +85,7 @@
             }
         }
         .button{
+            margin-top: 20px;
             display: flex;
             justify-content: center;
             align-items: center;

@@ -26,6 +26,9 @@
     visibility: hidden;
     background-color: var(--border);
   }
+  .contact_us .container .section {
+    padding-top: 30px;
+  }
   .contact_us .container .section .row .col-md-5 .inner_1 {
     padding: 30px;
   }

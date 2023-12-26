@@ -2,10 +2,13 @@
   .event {
     padding: 30px 0;
   }
+  .event .container {
+    padding: 0 18px;
+  }
 }
 @media (max-width: 993px) {
   .event .container .row .col-md-6 {
-    padding-top: 20px;
+    padding: 20px 7.5px 0;
   }
   .event .container .row .col-md-6 .image {
     padding-bottom: 10px;

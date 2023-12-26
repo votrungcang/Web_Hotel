@@ -5,10 +5,10 @@
 .activitys .container {
   max-width: 1300px;
   margin: auto;
-  padding: 0;
-  background-color: #fff;
+  padding: 0 15px;
 }
 .activitys .container .row {
+  background-color: #fff;
   margin: 0;
   align-items: center;
 }
@@ -111,7 +111,7 @@
   }
 }
 @media (max-width: 569px) {
-  .activity .container .row:nth-child(even) .left {
+  .activitys .container .row:nth-child(even) .left {
     order: 0;
   }
 }

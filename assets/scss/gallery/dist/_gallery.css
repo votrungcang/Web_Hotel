@@ -1,5 +1,5 @@
 .gallery_us {
-  padding: 60px 0;
+  padding: 36px 0 60px;
 }
 .gallery_us .container {
   max-width: 1300px;
@@ -98,14 +98,19 @@
 
 @media (max-width: 1025px) {
   .gallery_us {
-    padding: 30px 0;
+    padding: 6px 0 30px;
+  }
+  .gallery_us .container {
+    padding: 0 18px;
   }
 }
 @media (max-width: 993px) {
   .gallery_us .container .row .col-md-4 {
+    padding: 0 7.5px;
     width: 50%;
   }
   .gallery_us .container .row .col-md-4 .inner {
+    margin-top: 15px;
     position: relative;
     padding-top: 100%;
   }

@@ -35,15 +35,25 @@
     letter-spacing: 3;
   }
   .special .container .row .inner .text-content .special-title {
+    overflow: hidden;
     font-size: 20px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
   }
   .special .container .row .inner .text-content .btn1 {
+    overflow: hidden;
     margin-bottom: 15px !important;
     margin-top: 15px;
     visibility: visible;
     opacity: 1;
     font-size: 12px;
     padding: 5px 15px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
   }
   .special .container .row .inner .list-content {
     padding: 0 15px;

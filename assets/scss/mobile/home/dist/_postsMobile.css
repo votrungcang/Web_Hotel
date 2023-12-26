@@ -1,0 +1,49 @@
+@media (max-width: 1025px) {
+  .posts {
+    padding: 0 0 30px;
+  }
+  .posts .container .row .col-md-4 .inner .thumd {
+    padding-top: 169%;
+  }
+}
+@media (max-width: 993px) {
+  .posts .container .section-title {
+    margin-bottom: 5px;
+  }
+  .posts .container .section-title .sub-title {
+    letter-spacing: 3px;
+  }
+  .posts .container .section-title .title-name {
+    font-size: 25px;
+    letter-spacing: 1px;
+    line-height: 30px;
+  }
+  .posts .container .row .col-md-4 .inner {
+    margin-top: 15px;
+  }
+  .posts .container .row .col-md-4 .inner .thumd {
+    padding-top: 155%;
+  }
+  .posts .container .row .col-md-4 .inner .item {
+    padding: 15px 30px;
+  }
+  .posts .container .row .col-md-4 .inner .item .entry .entry-item .entry-title {
+    font-size: 15px;
+  }
+  .posts .container .row .col-md-4 .inner .item .entry .entry-content {
+    margin: 0;
+  }
+  .posts .container .row .col-md-4 .inner .item .entry .entry-content .entry-text {
+    font-size: 14px;
+  }
+  .posts .container .row .col-md-4 .inner .item .entry .entry-content .entry-link .link {
+    margin: 0px;
+    font-size: 12px;
+    padding: 5px 15px;
+  }
+}
+@media (max-width: 569px) {
+  .posts .container .row .col-md-4 .inner .thumd {
+    padding-top: 103%;
+  }
+}
