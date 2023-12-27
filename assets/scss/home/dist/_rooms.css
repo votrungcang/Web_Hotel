@@ -96,7 +96,6 @@
 }
 .rooms .container .swiper .swiper-pagination-bullet {
   background-color: #fff;
-  margin-top: 20px;
 }
 
 @media (max-width: 1025px) {

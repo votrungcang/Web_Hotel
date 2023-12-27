@@ -1,0 +1,89 @@
+@media (max-width: 1200px) {
+  .header {
+    display: block;
+  }
+  .header .container .nav {
+    gap: 15px;
+  }
+}
+@media (max-width: 1025px) {
+  .header {
+    position: static;
+    height: 60px;
+    padding: 10px;
+    background: fixed;
+    background-color: black;
+    transition: all 0.3s linear;
+  }
+  .header .fixed_top {
+    height: 60px;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background-color: black;
+  }
+  .header .fixed_top .container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .header .fixed_top .container .image {
+    height: 40px;
+  }
+  .header .fixed_top .container .nav {
+    display: none;
+    gap: 0;
+  }
+  .header .fixed_top .container .link-btn {
+    display: none;
+  }
+  .header .fixed_top .container .bar {
+    background-color: black;
+    border: 1px solid black;
+    display: block;
+    color: white;
+    font-weight: 500;
+  }
+  .header .fixed_top .container .offcanvas {
+    background-color: #000;
+  }
+  .header .fixed_top .container .offcanvas .offcanvas-header {
+    border-bottom: 1px solid #333333;
+  }
+  .header .fixed_top .container .offcanvas .offcanvas-header .name-title {
+    margin: 0;
+    font-weight: 600;
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    font-family: DM Sans;
+  }
+  .header .fixed_top .container .offcanvas .offcanvas-header .btn-close {
+    background-color: #fff;
+  }
+  .header .fixed_top .container .offcanvas .offcanvas-body {
+    padding: 0;
+  }
+  .header .fixed_top .container .offcanvas .offcanvas-body .menu .list {
+    transition: all 0.3s linear;
+    padding: 10px 15px;
+    border-bottom: 1px solid #333333;
+  }
+  .header .fixed_top .container .offcanvas .offcanvas-body .menu .list .link {
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-decoration: none;
+  }
+  .header .fixed_top .container .offcanvas .offcanvas-body .menu .list:hover {
+    transition: all 0.3s linear;
+    background-color: #fff;
+  }
+  .header .fixed_top .container .offcanvas .offcanvas-body .menu .list:hover .link {
+    color: #000;
+  }
+}

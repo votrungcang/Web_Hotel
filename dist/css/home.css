@@ -17584,7 +17584,7 @@ body {
     background-color: #000;
   }
   .header .fixed_top .container .offcanvas .offcanvas-header {
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid #333333;
   }
   .header .fixed_top .container .offcanvas .offcanvas-header .name-title {
     margin: 0;
@@ -17598,15 +17598,15 @@ body {
     background-color: #fff;
   }
   .header .fixed_top .container .offcanvas .offcanvas-body {
-    padding: 0 20px;
+    padding: 0;
   }
   .header .fixed_top .container .offcanvas .offcanvas-body .menu .list {
     transition: all 0.3s linear;
-    padding: 10px;
-    border-bottom: 1px solid gray;
+    padding: 10px 15px;
+    border-bottom: 1px solid #333333;
   }
   .header .fixed_top .container .offcanvas .offcanvas-body .menu .list .link {
-    padding: 20px 0;
+    padding: 0;
     color: white;
     font-size: 16px;
     font-weight: 600;
@@ -20394,7 +20394,6 @@ body {
 }
 .rooms .container .swiper .swiper-pagination-bullet {
   background-color: #fff;
-  margin-top: 20px;
 }
 
 @media (max-width: 1025px) {
@@ -21253,9 +21252,10 @@ body {
 
 @media (max-width: 1025px) {
   .footer {
-    padding: 30px 0;
+    padding: 30px 0 0;
   }
   .footer .container .footer-top .title-name {
+    margin-bottom: 10px;
     font-size: 25px;
     line-height: 30px;
     letter-spacing: 1px;
@@ -21267,7 +21267,7 @@ body {
     margin-bottom: 65px;
   }
   .footer .container .row {
-    padding: 15px 30px 0;
+    padding: 30px 30px 0;
     justify-content: center;
   }
   .footer .container .row .list-img {
@@ -21294,6 +21294,9 @@ body {
   }
 }
 @media (max-width: 993px) {
+  .footer .container .footer-top .row {
+    padding: 0;
+  }
   .footer .container .footer-top .row .col-md-4 .name {
     padding: 10px 10px;
   }
