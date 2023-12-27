@@ -1,0 +1,30 @@
+@media (max-width: 1025px) {
+  .rooms {
+    padding: 30px 0;
+  }
+  .rooms .container .swiper .swiper-pagination-bullet {
+    background-color: #e4a853;
+  }
+}
+@media (max-width: 993px) {
+  .rooms .container {
+    padding: 0;
+  }
+  .rooms .container .section-title {
+    margin-bottom: 25px;
+  }
+  .rooms .container .section-title .title {
+    letter-spacing: 3px;
+  }
+  .rooms .container .section-title .title-name {
+    font-size: 25px;
+    letter-spacing: -1px;
+    line-height: 25px;
+  }
+  .rooms .container .swiper {
+    padding-bottom: 5px;
+  }
+  .rooms .container .swiper .swiper-wrapper .swiper-slide .inner .content {
+    padding: 15px;
+  }
+}
