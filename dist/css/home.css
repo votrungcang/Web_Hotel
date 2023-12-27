@@ -21260,6 +21260,9 @@ body {
     line-height: 30px;
     letter-spacing: 1px;
   }
+  .footer .container .footer-top .row .col-md-4 {
+    padding: 0;
+  }
   .footer .container .footer-top .row .col-md-4 .email {
     margin-bottom: 30px;
   }
