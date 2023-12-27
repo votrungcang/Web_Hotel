@@ -503,6 +503,7 @@
 			],
 			"js": [
 				"lib",
+				"common",
 				"home"
 			],
 			"slide_main": [

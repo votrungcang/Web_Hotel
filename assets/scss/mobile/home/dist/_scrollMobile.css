@@ -1,0 +1,10 @@
+@media (max-width: 993px) {
+  .scrollTop {
+    bottom: 135px;
+    right: 22px;
+  }
+  .scrollTop .linkItem {
+    width: 38px;
+    height: 35px;
+  }
+}

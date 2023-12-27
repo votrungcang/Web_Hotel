@@ -1,0 +1,43 @@
+.scrollTop{
+    position: fixed;
+    z-index: 9000;
+    right: 20px;
+    bottom: 120px;
+    display: none;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    .linkItem{
+        background-color: #e4a853;
+        text-align: center;
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+        cursor: pointer;
+        width: 46px;
+        height: 46px;
+        color: white;
+        right: 15px;
+        transition: 0.5s;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid #e4a853;
+        transition: all 0.3 linear;
+        &:hover{
+            background-color: #fff;
+            transition: all 0.3 linear;
+            color: #e4a853;
+        }
+    }
+} 
+
+@import '../mobile/home/scrollMobile';
